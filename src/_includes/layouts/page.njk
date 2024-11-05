@@ -1,0 +1,23 @@
+---
+layout: base.njk
+---
+
+	<div class="content-canvas content-canvas--list">
+		
+		<div class="site-content{% if pageClass %} {{ pageClass }} {% else %} site-content--surface-teal site-content--surface-dark{% endif %} content-canvas--inner">
+
+			{% if showTitle != false %}
+			{% include "layouts/components/title-bar.njk" %}
+			{% endif %}
+				
+				{{ content | safe }}
+			
+
+		</div>
+
+
+	</div>
+
+{% if pageLinks %}
+  {% include "layouts/components/page-pagelinks.njk" %}
+{% endif %}

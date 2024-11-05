@@ -1,0 +1,53 @@
+<footer class="footer-main content-canvas">
+  <footer class="footer-main__inner content-canvas-item-wide">
+    <div class="footer-main__logo">
+      {% if page.url !== '/' %}<a href="{{ '/' | url }}" class="site-logo">
+          <div class="h2-style hide-text">{{ metadata.title }}
+          {% if metadata.subtitle %}{{ metadata.subtitle }}{% endif %}
+          </div>
+        </a>
+      {% else %}
+      <span class="site-logo">
+        <div class="h2-style hide-text">{{ metadata.title }}
+        {% if metadata.subtitle %}{{ metadata.subtitle }}{% endif %}</div>
+      </span>
+      {% endif %}
+      <span itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress" class="footer-main--site-address">
+        <span itemprop="streetAddress">
+        {{ metadata.company.address.street }}</span><br />
+        <span itemprop="addressRegion">{{ metadata.company.address.city }}</span><br />
+        <span itemprop="postalCode">{{ metadata.company.address.postcode }}</span><br />
+        <div itemprop="telephone" class="padding-block-start-small smaller"><a href="tel:{{ metadata.company.phone.num }}">{{ metadata.company.phone.display }}</a></div>
+      </span>
+    </div>
+
+    <div class="footer-main__disclaimers smaller">
+      <div class="footer-main__disclaimers--copyright">
+        <p class="text-inherit">&copy; {{ metadata.company.name }}. 
+        {{ metadata.company.rights | safe }}</p>
+      </div>
+      <div class="footer-main__disclaimers--policies">
+        {% for pol in metadata.policies %}
+        <p class="policy text-inherit">
+          <a href="{{ pol.url }}" target="_blank" rel="policy noopener noreferrer">{{ pol.label }}</a>
+        </p>
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="footer-main__links footer__nav">
+      {% if metadata.footer_links.length %}
+      <ul class="footer-main__links--list">
+        {% for link in metadata.footer_links %}
+        <li class="footer-main__links--list-item"><a href="{{ link.url }}" target="_blank" rel="noreferrer">{{ link.label }}</li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+      <ul class="footer-main__links--list footer-main--social-sites">
+        {% for item in metadata.social_site %}
+        <li class="footer-main__links--list-item"><a href="{{ item.url }}" class="social-sites--item" target="_blank" rel="noreferrer noopener">{{ item.name }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</footer>
