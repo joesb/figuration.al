@@ -1,0 +1,31 @@
+@use "../tools/px-to-rem" as ptr;
+
+.site-logo {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: none;
+  }
+
+  &::before {
+    display: inline-block;
+    width: ptr.px-to-rem(480px);
+    height: ptr.px-to-rem(175px);
+    content: " ";
+    background-image: url("/public/images/fig-logo.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: center;
+  }
+
+  h1, h2 {
+    color: var(--text-white-1);
+  }
+}
+
+.header-main__logo {
+  flex: 0 0 100%;
+}

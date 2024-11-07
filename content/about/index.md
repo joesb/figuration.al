@@ -1,11 +1,12 @@
 ---
-title: Home
+title: About Figurational
 layout: page.njk
-primary: true
 eleventyNavigation:
-  key: Home
+  key: About
+  parent: Home
 ---
 
 Some text here.
 
 Some more there.
+

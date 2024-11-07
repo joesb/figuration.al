@@ -2,12 +2,11 @@
     <main id="content" class="main">
 			{% if not primary %}
 			<div class="page{% if page.classes %} {{ page.classes | join(" ") }}{% endif %}">
-				{# {% include "layouts/components/title-bar.njk" %} #}
-				{{ layoutContent | safe }}
+				{{ content | safe }}
 			</div>
 			{% else %}
 
-				{{ layoutContent | safe }}
+				{{ content | safe }}
 
 			{% endif %}
 		</main>

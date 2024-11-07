@@ -1,0 +1,32 @@
+{
+  "title": "Figurational",
+  "alt_title": "Narrative figuration after Ricoeur",
+  "url": "https://www.figuration.al/",
+  "language": "en",
+  "author": {
+    "name": "Joe Baker",
+    "url": "https://www.jsbaker.co.uk/about/"
+  },
+  "page_count": 6,
+  "social_site": [
+    {
+      "name": "Bluesky",
+      "machine_name": "bluesky",
+      "no_icon": true,
+      "url": "https://bsky.app/profile/jsbaker.co.uk",
+      "alias": "@jsbaker.co.uk"
+    },
+    {
+      "name": "Instagram",
+      "machine_name": "instagram",
+      "url": "https://instagram.com/joesb",
+      "alias": "@joesb"
+    },
+    {
+      "name": "Medium",
+      "machine_name": "medium",
+      "url": "https://joesb.medium.com/",
+      "alias": "@joesb"
+    }
+  ]
+}

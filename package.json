@@ -9,20 +9,21 @@
   },
   "license": "MIT",
   "engines": {
-		"node": ">=18"
-	},
+    "node": ">=18"
+  },
   "scripts": {
     "build": "(npm run sass:build) && npx @11ty/eleventy",
     "build:dryrun": "(npm run sass:build) && npx @11ty/eleventy --dryrun",
+    "clean": "npx rimraf -v _site/*",
     "watch": "npx eleventy --watch",
-    "serve": "(yarn sass:build) && (npx eleventy --dryrun) && npx @11ty/eleventy --serve & sass --watch src/sass/:_includes/assets/css/",
+    "serve": "(yarn clean) && (yarn sass:build) && (npx eleventy --dryrun) && npx @11ty/eleventy --serve & sass --watch --style=expanded src/sass/:src/_includes/assets/css/",
     "up": "yarn serve",
     "debug": "DEBUG=* npx eleventy",
     "wdebug": "set DEBUG=Eleventy* & eleventy",
-    "sass:build": "sass --style=compressed src/sass/:src/_includes/assets/css/  & npx postcss src/_includes/assets/css/*.css --use autoprefixer -d src/_includes/assets/css",
+    "sass:build": "sass --style=expanded src/sass/:src/_includes/assets/css/ & npx postcss src/_includes/assets/css/*.css --use autoprefixer -d src/_includes/assets/css",
     "sass:dev": "sass --watch --update --style=expanded src/sass/:src/_includes/assets/css/",
     "lint:scss": "stylelint \"src/sass/**/*.scss\"",
-    "npf": "npx postcss _includes/assets/css/styles.css --use autoprefixer -d _includes/assets/css/build"
+    "npf": "npx postcss src/_includes/assets/css/styles.css --use autoprefixer -d src/_includes/assets/css/build"
   },
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0",
@@ -42,6 +43,7 @@
     "markdown-it-small": "^1.0.0",
     "postcss": "^8.4.47",
     "postcss-cli": "^11.0.0",
+    "rimraf": "^6.0.1",
     "sass": "^1.80.6",
     "sass-autoprefixer": "^1.0.1",
     "stylelint": "^16.10.0",

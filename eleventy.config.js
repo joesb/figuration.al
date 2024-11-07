@@ -5,7 +5,6 @@
 // const UglifyJS = require('uglify-es');
 // const htmlmin = require('html-minifier');
 // const pluginRss = require('@11ty/eleventy-plugin-rss');
-// const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 // const Image = require("@11ty/eleventy-img");
 // const markdownIt = require("markdown-it");
 // const markdownItAnchor = require("markdown-it-anchor");
@@ -13,12 +12,13 @@
 // const markdownItSmall = require('markdown-it-small');
 // const markdownIt11tyImage = require('markdown-it-eleventy-img');
 // const inspect = require("util").inspect;
-// const timeToRead = require('eleventy-plugin-time-to-read');
 // const embedEverything = require("eleventy-plugin-embed-everything");
 import { IdAttributePlugin, InputPathToUrlTransformPlugin, HtmlBasePlugin } from "@11ty/eleventy";
 import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 import pluginNavigation from "@11ty/eleventy-navigation";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
+import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
+import timeToRead  from "eleventy-plugin-time-to-read";
 
 import CleanCSS from "clean-css";
 import postCSS from "postcss";
@@ -30,24 +30,24 @@ import UglifyJS from "uglify-js"
 export default async function(eleventyConfig) {
 
   // eleventyConfig.addPlugin(pluginRss);
-  // eleventyConfig.addPlugin(eleventyNavigationPlugin);
-  // eleventyConfig.addPlugin(timeToRead, {
-  //   speed: '850 characters per minute',
-  //   style: "short"
-  // });
+  eleventyConfig.addPlugin(eleventyNavigationPlugin);
+  eleventyConfig.addPlugin(timeToRead, {
+    speed: '850 characters per minute',
+    style: "short"
+  });
   // eleventyConfig.addPlugin(embedEverything);
-  // eleventyConfig.addFilter("debug", (content) => `<pre>${inspect(content)}</pre>`);
+  eleventyConfig.addFilter("debug", (content) => `<pre>${inspect(content)}</pre>`);
 
   // // Return active path attributes
-  // eleventyConfig.addShortcode('activepath', function (itemUrl, currentUrl) {
-  //   if (itemUrl == '/' && itemUrl !== currentUrl) {
-  //     return '';
-  //   }
-  //   if (currentUrl && currentUrl.includes(itemUrl)) {
-  //     return ' data-current="current item" class="current"';
-  //   }
-  //   return '';
-  // });
+  eleventyConfig.addShortcode('activepath', function (itemUrl, currentUrl, currentClass = "current", prefix = '') {
+    if (itemUrl == '/' && itemUrl !== currentUrl) {
+      return '';
+    }
+    if (currentUrl && currentUrl.startsWith(itemUrl)) {
+      return prefix + currentClass;
+    }
+    return '';
+  });
 
   // Minify CSS
   eleventyConfig.addFilter('cssmin', function (code) {
@@ -85,9 +85,9 @@ export default async function(eleventyConfig) {
   //   return markdownLibrary.render(content);
   // });
 
-  // eleventyConfig.addPassthroughCopy('static/');
-  // eleventyConfig.addPassthroughCopy('CNAME');
-  // eleventyConfig.addWatchTarget('./src/sass/');
+  eleventyConfig.addPassthroughCopy('public/');
+  eleventyConfig.addPassthroughCopy('CNAME');
+  eleventyConfig.addWatchTarget('./src/sass/');
 };
 
 export const config = {

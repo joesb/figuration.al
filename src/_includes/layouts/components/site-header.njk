@@ -2,18 +2,20 @@
       <div class="header-main__inner content-canvas-item-wide">
         <div class="header-main__logo">
           {% if page.url !== '/' %}<a href="{{ '/' | url }}" class="site-logo">
-            <h1 class="h2-style">{{ metadata.org }}<br />{{ metadata.title }}
-            {% if metadata.subtitle %}
-            <div class="h2-style not-bold">{{ metadata.subtitle }}</div>
-            {% endif %}
+            <h1 class="h2-style visually-hidden">
+              {{ metadata.title }}
+              {% if metadata.subtitle %}
+              <div class="h2-style not-bold">{{ metadata.subtitle }}</div>
+              {% endif %}
             </h1>
           </a>
           {% else %}
           <span class="site-logo">
-            <h1 class="h2-style">{{ metadata.org }}<br />{{ metadata.title }}
-            {% if metadata.subtitle %}
-            <div class="h2-style not-bold">{{ metadata.subtitle }}</div>
-            {% endif %}
+            <h1 class="h2-style visually-hidden">
+              {{ metadata.title }}
+              {% if metadata.subtitle %}
+              <div class="h2-style not-bold">{{ metadata.subtitle }}</div>
+              {% endif %}
             </h1>
           </span>
           {% endif %}

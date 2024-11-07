@@ -1,0 +1,52 @@
+@use "../common/variables" as var;
+
+html {
+  // General colours
+  --color-light-blue-steel: #{var.$light-blue-steel-hsl};
+  --color-blue-yonder: #{var.$blue-yonder-hsl};
+  --color-white: #{var.$white};
+  --color-grey: #{var.$grey};
+  --color-grey-dark: #{var.$grey-dark};
+  --color-cool-grey: #{var.$cool-gray-hsl};
+  --color-raisin-black: #{var.$raisin-black-hsl};
+  --color-platinum: #{var.$platinum-hsl};
+
+  --color-brand-primary: var(--color-blue-yonder);
+  --color-brand-secondary: var(--color-light-blue-steel);
+  --color-brand-tertiary: var(--color-cool-grey);
+  --color-brand-text: var(--color-raisin-black);
+  --color-brand-white: var(--color-white);
+  --color-brand-black: var(--color-raisin-black);
+  --color-brand-grey: var(--color-grey);
+
+
+  // Text colours
+  --color-text-black: var(--color-brand-text);
+  --color-text-white: var(--color-white);
+
+  // Border colours
+
+  --border-color: var(--color-grey-dark);
+  --border-top-color: var(--border-color);
+  --border-bottom-color: var(--border-color);
+
+  // Fonts
+  --font-primary: #{var.$primary-font};
+  --font-secondary: #{var.$secondary-font};
+  --font-headings: #{var.$headings-font};
+  --font-headings-weight: #{var.$headings-font-weight};
+  --font-weight-light: #{var.$base-font-weight-light};
+  --font-weight-medium: #{var.$base-font-weight-medium};
+  --font-weight-regular: #{var.$base-font-weight-regular};
+  --font-weight-bold: #{var.$base-font-weight-bold};
+
+  --font-size-fluid-00: clamp(.67rem, 1.25vw, 0.8rem);
+}
+
+:where(p,ul,ol,dl,h6) {
+  font-size: var(--font-size-1);
+}
+
+:where(hr) {
+  margin-block: var(--size-fluid-4);
+}
