@@ -19,6 +19,7 @@ import pluginNavigation from "@11ty/eleventy-navigation";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
 import timeToRead  from "eleventy-plugin-time-to-read";
+import { DateTime } from "luxon";
 
 import CleanCSS from "clean-css";
 import postCSS from "postcss";
@@ -64,6 +65,24 @@ export default async function(eleventyConfig) {
     }
     return minified.code;
   });
+
+  eleventyConfig.addFilter("readableDate", (dateObj, format, zone) => {
+		// Formatting tokens for Luxon: https://moment.github.io/luxon/#/formatting?id=table-of-tokens
+		return DateTime.fromJSDate(dateObj, { zone: zone || "utc" }).toFormat(format || "dd LLLL yyyy");
+	});
+
+  eleventyConfig.addCollection('promotedContent', (collection) => {
+    var items = collection.getAll().filter(item => item.data.promoted == true);
+    return sortByOrder(items);
+  });
+
+  function sortByOrder(collection) {
+    return collection.sort((a, b) => {
+      if (a.data.order < b.data.order) return -1;
+      else if (a.data.order > b.data.order) return 1;
+      else return 0;
+    });
+  }
 
   //  // Customize Markdown library and settings:
   //  let markdownLibrary = markdownIt({

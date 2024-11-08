@@ -12,8 +12,8 @@
 
   &::before {
     display: inline-block;
-    width: ptr.px-to-rem(480px);
-    height: ptr.px-to-rem(175px);
+    width: clamp(ptr.px-to-rem(288px), 75vw, ptr.px-to-rem(486px));
+    height: clamp(ptr.px-to-rem(108px), 30vh, ptr.px-to-rem(144px));
     content: " ";
     background-image: url("/public/images/fig-logo.svg");
     background-repeat: no-repeat;

@@ -1,23 +1,25 @@
 @use "../common/variables";
-@use "../tools/px-to-rem";
+@use "../tools/px-to-rem" as ptr;
 @use "../tools/respond-to";
 @use "../tools/mixins";
 
 .header-main__menu {
-  height: 100%;
+  height: ptr.px-to-rem(48px);
   cursor: pointer;
   display: inline-block;
   text-align: right;
-  position: relative;
-  right: 0;
-  top: 0;
+  position: absolute;
+  right: ptr.px-to-rem(18px);
+  top: ptr.px-to-rem(36px);
   z-index: 12;
-  padding-right: px-to-rem.px-to-rem(20px);
   box-shadow: unset;
+  border-width: 0;
+  background-color: transparent;
+  padding: ptr.px-to-rem(9px);
 
   .header-main__menu__text {
     display: none;
-    font-size: px-to-rem.px-to-rem(15px);
+    font-size: ptr.px-to-rem(15px);
   }
 
   .open-text {
@@ -27,19 +29,17 @@
 }
 
 .header-main__menu__burger {
-  width: px-to-rem.px-to-rem(18px);
+  width: ptr.px-to-rem(18px);
   display: inline-block;
   vertical-align: middle;
-  margin-left: px-to-rem.px-to-rem(8px);
-  margin-right: px-to-rem.px-to-rem(24px);
 
   div {
     width: 100%;
-    height: px-to-rem.px-to-rem(3px);
+    height: ptr.px-to-rem(3px);
     transition: 0.3s ease-in-out;
-    border-radius: px-to-rem.px-to-rem(2px);
-    background-color: var(--text-white-1);
-    margin-bottom: px-to-rem.px-to-rem(4px);
+    border-radius: ptr.px-to-rem(2px);
+    background-color: var(--color-brand-tertiary);
+    margin-bottom: ptr.px-to-rem(4px);
   }
 }
 
@@ -47,7 +47,7 @@
   .js-closed {
     .header-main__menu__burger {
       div {
-        background-color: var(--text-white-1);
+        background-color: var(--color-brand-tertiary);
       }
       div:nth-child(1) {
         transition: 0.3s ease-in-out;
@@ -56,7 +56,7 @@
       div:nth-child(2) {
         transition: 0.3s ease-in-out;
         transform: rotate(45deg);
-        margin-bottom: px-to-rem.px-to-rem(-3px);
+        margin-bottom: ptr.px-to-rem(-3px);
       }
       div:nth-child(3) {
         transition: 0.3s ease-in-out;

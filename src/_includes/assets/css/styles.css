@@ -356,6 +356,46 @@ h6,
 /*--------------------------------------------------------------
 # Layout
 --------------------------------------------------------------*/
+/* ==========================================================================
+LAYOUT
+========================================================================== */
+body {
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-areas: "head head head head head" "main main main main main" "foot foot foot foot foot";
+  grid-template-columns: 2fr 1fr minmax(30ch, 64rem) 1fr 2fr;
+  grid-template-rows: minmax(5.5555555556rem, auto) auto auto;
+}
+
+header {
+  grid-area: head;
+}
+
+main {
+  grid-area: main;
+  min-height: 100vh;
+  flex-grow: 1;
+}
+
+footer {
+  grid-area: foot;
+  display: grid;
+  grid-auto-flow: row;
+  gap: 1.5em;
+  padding: 3em 1.5em;
+}
+@media only screen and (min-width: 48rem) {
+  footer {
+    padding: 3em 6em;
+  }
+}
+
+@media only screen and (min-width: 48rem) {
+  footer {
+    gap: 3em;
+    grid-auto-flow: column;
+  }
+}
 /*--------------------------------------------------------------
 # Components
 --------------------------------------------------------------*/
@@ -373,8 +413,8 @@ COMPONENTS
 }
 .site-logo::before {
   display: inline-block;
-  width: 26.6666666667rem;
-  height: 9.7222222222rem;
+  width: clamp(16rem, 75vw, 27rem);
+  height: clamp(6rem, 30vh, 8rem);
   content: " ";
   background-image: url("/public/images/fig-logo.svg");
   background-repeat: no-repeat;
@@ -390,9 +430,7 @@ COMPONENTS
 }
 
 .header-main {
-  background-color: var(--surface-dark-1);
-  color: var(--text-white-1);
-  --client-color: var(--color-white);
+  position: relative;
 }
 
 .header-main__inner {
@@ -402,8 +440,12 @@ COMPONENTS
   justify-content: space-between;
   align-items: center;
   min-block-size: 100%;
-  min-height: 11.1111111111rem;
-  height: 40vh;
+}
+
+.header-main__logo {
+  padding-block: 2rem;
+  position: relative;
+  z-index: 10;
 }
 
 .main-nav {
@@ -417,7 +459,7 @@ COMPONENTS
   width: 100%;
   display: flex;
   flex-flow: row wrap;
-  justify-content: flex-end;
+  justify-content: flex-start;
   gap: 0.25rem;
 }
 
@@ -732,16 +774,18 @@ COMPONENTS
 # Navigation
 --------------------------------------------------------------*/
 .header-main__menu {
-  height: 100%;
+  height: 2.6666666667rem;
   cursor: pointer;
   display: inline-block;
   text-align: right;
-  position: relative;
-  right: 0;
-  top: 0;
+  position: absolute;
+  right: 1rem;
+  top: 2rem;
   z-index: 12;
-  padding-right: 1.1111111111rem;
   box-shadow: unset;
+  border-width: 0;
+  background-color: transparent;
+  padding: 0.5rem;
 }
 .header-main__menu .header-main__menu__text {
   display: none;
@@ -756,20 +800,18 @@ COMPONENTS
   width: 1rem;
   display: inline-block;
   vertical-align: middle;
-  margin-left: 0.4444444444rem;
-  margin-right: 1.3333333333rem;
 }
 .header-main__menu__burger div {
   width: 100%;
   height: 0.1666666667rem;
   transition: 0.3s ease-in-out;
   border-radius: 0.1111111111rem;
-  background-color: var(--text-white-1);
+  background-color: var(--color-brand-tertiary);
   margin-bottom: 0.2222222222rem;
 }
 
 .open-mobile .js-closed .header-main__menu__burger div {
-  background-color: var(--text-white-1);
+  background-color: var(--color-brand-tertiary);
 }
 .open-mobile .js-closed .header-main__menu__burger div:nth-child(1) {
   transition: 0.3s ease-in-out;
@@ -797,7 +839,7 @@ COMPONENTS
   display: grid;
   grid-template-areas: ". ." "main-nav nav-contact" ". .";
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: minmax(8.8888888889rem, auto) auto minmax(8.8888888889rem, auto);
+  grid-template-rows: minmax(8.8888888889rem, 12rem) auto minmax(8.8888888889rem, auto);
   overflow: scroll;
   width: 100vw;
   align-items: center;
@@ -813,9 +855,14 @@ COMPONENTS
   top: 0;
   left: 0;
   z-index: 2;
+  background-color: var(--color-platinum);
 }
 .header-main__nav nav {
   grid-area: main-nav;
+}
+
+.main-nav {
+  margin-inline-start: 2rem;
 }
 
 .main-nav,
@@ -831,6 +878,7 @@ COMPONENTS
   list-style: none;
   padding: 0;
   width: 100%;
+  flex-flow: column wrap;
 }
 .main-nav ul li,
 .nav-contact ul li,
@@ -844,7 +892,7 @@ COMPONENTS
 .footer-main__nav a,
 .footer__nav a {
   text-decoration: none;
-  display: block;
+  display: inline-block;
   color: var(--color-brand-tertiary);
   font-weight: var(--font-weight-light);
 }
@@ -860,10 +908,6 @@ COMPONENTS
 .footer__nav a.current {
   color: var(--color-brand-primary);
   font-weight: var(--font-weight-medium);
-}
-
-.main-nav {
-  padding-inline-start: 1rem;
 }
 
 .nav-contact {
@@ -884,16 +928,21 @@ COMPONENTS
     visibility: visible;
     position: relative;
     height: unset;
-    padding: 0.8888888889rem;
+    padding-block: 0.8888888889rem;
+    background-color: transparent;
   }
   .nav-contact {
     visibility: hidden;
     display: none;
   }
+  .main-nav {
+    margin-inline-start: 0;
+  }
   .main-nav ul {
     display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
+    column-gap: 1.3333333333rem;
+    flex-flow: row wrap;
+    justify-content: flex-start;
   }
   .main-nav li {
     padding: 0;

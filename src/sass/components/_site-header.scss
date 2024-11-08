@@ -3,9 +3,10 @@
 @use "../tools/px-to-rem" as ptr;
 
 .header-main {
-  background-color: var(--surface-dark-1);
-  color: var(--text-white-1);
-  --client-color: var(--color-white);
+  // background-color: var(--surface-dark-1);
+  // color: var(--text-white-1);
+  // --client-color: var(--color-white);
+  position: relative;
 }
 
 .header-main__inner {
@@ -15,6 +16,10 @@
   justify-content: space-between;
   align-items: center;
   min-block-size: 100%;
-  min-height: ptr.px-to-rem(200px);
-  height: 40vh;
+}
+
+.header-main__logo {
+  padding-block: 2rem;
+  position: relative;
+  z-index: 10;
 }
