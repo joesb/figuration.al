@@ -1,22 +1,32 @@
 ---
 layout: base.njk
+page:
+  titleClasses:
+    - "page-title"
 ---
-
-	<div class="content-canvas content-canvas--list">
-		
-		<div class="site-content{% if pageClass %} {{ pageClass }} {% else %} site-content--surface-teal site-content--surface-dark{% endif %} content-canvas--inner">
 
 			{% if showTitle != false and primary != true %}
 			{% include "layouts/components/title-bar.njk" %}
 			{% endif %}
+
+
+      {% if subtitle %}
+      <div class="content-canvas-item-full content-canvas page-subtitle">
+        <h2 class="page-subtitle--subtitle content-canvas-item-wide-left{% if subtitleStyle %} {{ subtitleStyle }}{% endif %}">{{ subtitle | safe }}</h2>
+      </div>
+      {% endif %}
+
+      {% if image.path %}
+			<figure class="{{ image.page.figureClass }}">
+			{% image image.path, image.alt, image.class, image.widths %}
+			{% if image.caption %}
+			<figcaption>{{ image.caption | safe }}{% if image.credit %} {{ image.credit | safe }}{% endif %}</figcaption>
+			{% endif %}
+			</figure>
+		  {% endif %}
 				
-				{{ content | safe }}
-			
-
-		</div>
-
-
-	</div>
+   
+      {{ content | safe }}
 
 {% if pageLinks %}
   {% include "layouts/components/page-pagelinks.njk" %}

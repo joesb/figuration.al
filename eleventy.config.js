@@ -20,11 +20,16 @@ import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
 import timeToRead  from "eleventy-plugin-time-to-read";
 import { DateTime } from "luxon";
-
+import markdownIt from "markdown-it";
+import markdownItAnchor from "markdown-it-anchor";
+import markdownItAttrs from "markdown-it-attrs";
+import markdownItSmall from "markdown-it-small";
+import markdownIt11tyImage from "markdown-it-eleventy-img";
 import CleanCSS from "clean-css";
 import postCSS from "postcss";
 import autoprefixer from "autoprefixer";
-import UglifyJS from "uglify-js"
+import UglifyJS from "uglify-js";
+import Image from "@11ty/eleventy-img";
 
 
 /** @param {import("@11ty/eleventy").UserConfig} eleventyConfig */
@@ -66,11 +71,15 @@ export default async function(eleventyConfig) {
     return minified.code;
   });
 
+  // Readable Date filter
   eleventyConfig.addFilter("readableDate", (dateObj, format, zone) => {
 		// Formatting tokens for Luxon: https://moment.github.io/luxon/#/formatting?id=table-of-tokens
 		return DateTime.fromJSDate(dateObj, { zone: zone || "utc" }).toFormat(format || "dd LLLL yyyy");
 	});
 
+  /* COLLECTIONS */
+
+  // Promoted Content collection
   eleventyConfig.addCollection('promotedContent', (collection) => {
     var items = collection.getAll().filter(item => item.data.promoted == true);
     return sortByOrder(items);
@@ -84,27 +93,48 @@ export default async function(eleventyConfig) {
     });
   }
 
-  //  // Customize Markdown library and settings:
-  //  let markdownLibrary = markdownIt({
-  //   html: true,
-  //   breaks: true,
-  //   linkify: true
-  // }).use(markdownItAnchor, {
-  //   permalink: markdownItAnchor.permalink.ariaHidden({
-  //     placement: "after",
-  //     class: "direct-link visually-hidden",
-  //     symbol: "#",
-  //     level: [1,2,3,4],
-  //   }),
-  //   slugify: eleventyConfig.getFilter("slug")
-  // }).use(markdownItAttrs).use(markdownItSmall).use(markdownIt11tyImage);
-  // eleventyConfig.setLibrary("md", markdownLibrary);
+  // Images
+  eleventyConfig.addShortcode("image", async function (src, alt, cls, widths = [300, 600], sizes = "100vh") {
+		let metadata = await Image(src, {
+			widths,
+			formats: ["webp", "jpeg"],
+      urlPath: "/public/img/",
+      outputDir: "./content/public/img/"
+		});
 
-  // eleventyConfig.addFilter("markdown", (content) => {
-  //   return markdownLibrary.render(content);
-  // });
+		let imageAttributes = {
+      class: cls,
+			alt,
+			sizes,
+			loading: "lazy",
+			decoding: "async",
+		};
 
-  eleventyConfig.addPassthroughCopy('public/');
+		// You bet we throw an error on a missing alt (alt="" works okay)
+		return Image.generateHTML(metadata, imageAttributes);
+	});
+
+  // Customize Markdown library and settings:
+  let markdownLibrary = markdownIt({
+    html: true,
+    breaks: true,
+    linkify: true
+  }).use(markdownItAnchor, {
+    permalink: markdownItAnchor.permalink.ariaHidden({
+      placement: "after",
+      class: "direct-link visually-hidden",
+      symbol: "#",
+      level: [1,2,3,4],
+    }),
+    slugify: eleventyConfig.getFilter("slug")
+  }).use(markdownItAttrs).use(markdownItSmall).use(markdownIt11tyImage);
+  eleventyConfig.setLibrary("md", markdownLibrary);
+
+  eleventyConfig.addFilter("markdown", (content) => {
+    return markdownLibrary.render(content);
+  });
+
+  eleventyConfig.addPassthroughCopy('content/public/');
   eleventyConfig.addPassthroughCopy('CNAME');
   eleventyConfig.addWatchTarget('./src/sass/');
 };

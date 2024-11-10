@@ -1,3 +1,5 @@
+@use "../tools/respond-to" as rt;
+
 .main-nav {
   margin-block: var(--size-2);
 }

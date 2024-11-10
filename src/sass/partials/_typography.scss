@@ -10,7 +10,7 @@ p,
 .body-style {
   width: 100%;
   font-family: var(--font-primary);
-  font-size: var(--font-size-fluid-0);
+  font-size: var(--font-size-fluid-01);
   font-weight: var(--font-weight-regular);
   line-height: var(--font-lineheight-3);
   font-style: normal;
@@ -86,7 +86,7 @@ h6,
 
 h1,
 .h1-style {
-  font-size: var(--font-size-fluid-3);
+  font-size: var(--font-size-fluid-4);
   font-weight: variables.$headings-font-weight;
   margin-block: 0.75rem 2rem;
 }
