@@ -25,6 +25,7 @@ import markdownItAnchor from "markdown-it-anchor";
 import markdownItAttrs from "markdown-it-attrs";
 import markdownItSmall from "markdown-it-small";
 import markdownIt11tyImage from "markdown-it-eleventy-img";
+import markdownItSup from "markdown-it-sup";
 import CleanCSS from "clean-css";
 import postCSS from "postcss";
 import autoprefixer from "autoprefixer";
@@ -114,6 +115,13 @@ export default async function(eleventyConfig) {
 		return Image.generateHTML(metadata, imageAttributes);
 	});
 
+  // Figure markup, as a paired shortcode
+  eleventyConfig.addPairedShortcode("figure", function(content, caption, classes) {
+    if (caption) {
+      caption = '<figcaption>' + caption + '</figcaption>';
+    }
+    return '<figure class="' + classes +'">' + content + caption +'</figure>'});
+
   // Customize Markdown library and settings:
   let markdownLibrary = markdownIt({
     html: true,
@@ -127,7 +135,7 @@ export default async function(eleventyConfig) {
       level: [1,2,3,4],
     }),
     slugify: eleventyConfig.getFilter("slug")
-  }).use(markdownItAttrs).use(markdownItSmall).use(markdownIt11tyImage);
+  }).use(markdownItAttrs).use(markdownItSmall).use(markdownIt11tyImage).use(markdownItSup);
   eleventyConfig.setLibrary("md", markdownLibrary);
 
   eleventyConfig.addFilter("markdown", (content) => {

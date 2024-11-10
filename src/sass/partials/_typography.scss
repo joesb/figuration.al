@@ -246,3 +246,8 @@ h6,
   justify-content: center;
   align-items: center;
 }
+
+:where(sup) {
+  font-size: var(--font-size-0);
+  padding-inline: var(--size-1);
+}

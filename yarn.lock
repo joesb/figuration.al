@@ -1833,6 +1833,11 @@ markdown-it-small@^1.0.0:
   resolved "https://registry.yarnpkg.com/markdown-it-small/-/markdown-it-small-1.0.0.tgz#8d3e4d5d2b1157df63fe6dad099e7272a3663193"
   integrity sha512-tL9yr4h/ZEjyMJsSicrQorlZhaqHgxSE8kNkMxRh2lUEjtijE4sz37w0nS7NzuRI4+lhQy0ZVlEbvs8ni47FWA==
 
+markdown-it-sup@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/markdown-it-sup/-/markdown-it-sup-2.0.0.tgz#683b9390929f3024fcd5291799c466ce3d367f44"
+  integrity sha512-5VgmdKlkBd8sgXuoDoxMpiU+BiEt3I49GItBzzw7Mxq9CxvnhE/k09HFli09zgfFDRixDQDfDxi0mgBCXtaTvA==
+
 markdown-it@^14.1.0:
   version "14.1.0"
   resolved "https://registry.yarnpkg.com/markdown-it/-/markdown-it-14.1.0.tgz#3c3c5992883c633db4714ccb4d7b5935d98b7d45"
