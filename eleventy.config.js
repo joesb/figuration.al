@@ -18,6 +18,7 @@ import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 import pluginNavigation from "@11ty/eleventy-navigation";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
+import embedEverything from "eleventy-plugin-embed-everything";
 import timeToRead  from "eleventy-plugin-time-to-read";
 import { DateTime } from "luxon";
 import markdownIt from "markdown-it";
@@ -44,6 +45,7 @@ export default async function(eleventyConfig) {
   });
   // eleventyConfig.addPlugin(embedEverything);
   eleventyConfig.addFilter("debug", (content) => `<pre>${inspect(content)}</pre>`);
+  eleventyConfig.addPlugin(embedEverything);
 
   // // Return active path attributes
   eleventyConfig.addShortcode('activepath', function (itemUrl, currentUrl, currentClass = "current", prefix = '') {
@@ -78,6 +80,11 @@ export default async function(eleventyConfig) {
 		return DateTime.fromJSDate(dateObj, { zone: zone || "utc" }).toFormat(format || "dd LLLL yyyy");
 	});
 
+  // Check a string starts with a character.
+  eleventyConfig.addFilter('starts_with', function(str, prefix, not = false) {
+    return str.startsWith(prefix) !== not;
+  });
+
   /* COLLECTIONS */
 
   // Promoted Content collection
@@ -86,10 +93,36 @@ export default async function(eleventyConfig) {
     return sortByOrder(items);
   });
 
+  // Prefiguration content
+   eleventyConfig.addCollection('prefiguration', (collection) => {
+    var nav = collection.getFilteredByTag('prefiguration');
+    return sortByDate(nav).reverse();
+  });
+
+  // Refiguration content
+   eleventyConfig.addCollection('refiguration', (collection) => {
+    var nav = collection.getFilteredByTag('refiguration');
+    return sortByDate(nav).reverse();
+  });
+
+  // Configuration content
+   eleventyConfig.addCollection('configuration', (collection) => {
+    var nav = collection.getFilteredByTag('configuration');
+    return sortByDate(nav).reverse();
+  });
+
   function sortByOrder(collection) {
     return collection.sort((a, b) => {
       if (a.data.order < b.data.order) return -1;
       else if (a.data.order > b.data.order) return 1;
+      else return 0;
+    });
+  }
+
+  function sortByDate(collection) {
+    return collection.sort((a, b) => {
+      if (a.data.date < b.data.date) return -1;
+      else if (a.data.date > b.data.date) return 1;
       else return 0;
     });
   }
@@ -121,6 +154,27 @@ export default async function(eleventyConfig) {
       caption = '<figcaption>' + caption + '</figcaption>';
     }
     return '<figure class="' + classes +'">' + content + caption +'</figure>'});
+
+  eleventyConfig.addShortcode("socialCard", async function(url, title, description, captionUrl, image) {
+    return `<div class="social-card"><a
+  href="${ url }"
+  rel="noopener ugc nofollow" target="_blank">
+  <div class="social-card--inner">
+    <div class="social-card-caption">
+      <h2 class="social-card-caption-title h5-style text-black">${ title }</h2>
+      <div class="social-card-caption-description">
+        <h3 class="h6-style not-bold primary-font text-grey-dark social-card-caption-description--description">${ description }</h3>
+      </div>
+      <div class="social-card-caption-url">
+        <p class="h6-style not-bold primary-font text-grey-dark social-card-caption-url--url">${ captionUrl }</p>
+      </div>
+    </div>
+    <div class="social-card-image">
+      <img src="${ image }" class="social-card-image--image image-obj-cover" />
+    </div>
+  </div>
+</a></div>`;
+  });
 
   // Customize Markdown library and settings:
   let markdownLibrary = markdownIt({

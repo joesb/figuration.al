@@ -102,13 +102,13 @@
       [full-start]
         minmax(2vw, auto)
       [wide-start]
-        minmax(15vw, 20ch)
+        minmax(10vw, 15ch)
       [main-start]
         minmax(calc(#{variables.$break-very-small} - 3rem), calc((#{variables.$break-small} - 3rem) * 3 / 5))
       [main-mid]
         minmax(15ch, calc((#{variables.$break-small} - 3rem) * 2 / 5))
       [main-end]
-        minmax(15vw, 20ch)
+        minmax(10vw, 15ch)
       [wide-end]
         minmax(2vw, auto)
       [full-end];

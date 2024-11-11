@@ -34,6 +34,10 @@
       margin-inline: auto;
     }
   }
+
+  .page-subtitle--subtitle {
+    margin-block: 1.5rem;
+  }
 }
 
 .page-subtitle {
@@ -49,7 +53,6 @@
   color: var(--color-brand-text-lighter);
   font-weight: var(--font-weight-regular);
   letter-spacing: 1px;
-  margin-block: 1.5rem;
   line-height: var(--font-lineheight-3);
 }
 

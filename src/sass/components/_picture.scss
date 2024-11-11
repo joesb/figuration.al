@@ -1,6 +1,8 @@
 @use "sass:color";
 @use "images";
-@use "../common/variables";
+@use "../common/variables" as vars;
+
+$white: #{vars.$white};
 
 :where(figcaption) {
   font-size: var(--font-size-0);
@@ -44,6 +46,6 @@
     right: 0;
     z-index: 1;
     padding: var(--size-1) var(--size-2);
-    background-color: rgba(var(--surface-2-rgb), 66%);
+    background-color: var(--color-white-transparent);
   }
 }

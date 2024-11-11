@@ -159,6 +159,11 @@ h6,
 // }
 
 // Helpers - Additions to help with reuseable code approach. Add classes to achieve styles rather than nesting.
+.primary-font {
+  font-family: var(--font-primary);
+  font-optical-sizing: auto;
+}
+
 .secondary-font {
   font-family: var(--font-secondary);
   font-optical-sizing: auto;
@@ -232,8 +237,20 @@ h6,
 
 // Coloured text
 
+.text-black {
+  color: var(--color-brand-black);
+}
+
 .text-white {
-  color: var(--color-white);
+  color: var(--color-brand-white);
+}
+
+.text-grey {
+  color: var(--color-brand-grey);
+}
+
+.text-grey-dark {
+  color: var(--color-grey-dark);
 }
 
 // Center things

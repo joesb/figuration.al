@@ -19,7 +19,9 @@ $cool-gray-hsl: hsla(234, 19%, 59%, 1);
 $raisin-black-hsl: hsla(0, 4%, 15%, 1);
 $platinum-hsl: hsla(210, 3%, 88%, 1);
 
-$white: rgba(255, 255, 255, 100%);
+$white: rgb(255, 255, 255);
+$white-transparent: rgba(255, 255, 255, 0.66);
+// $white: #ffffffff;
 $grey: $cool-gray-hsl;
 
 $grey-darkish: color.adjust($grey, $lightness: -5%);
