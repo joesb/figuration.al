@@ -6,6 +6,7 @@ $white: #{vars.$white};
 
 :where(figcaption) {
   font-size: var(--font-size-0);
+  max-inline-size: var(--size-content-3);
 }
 
 .picture--block,
@@ -27,6 +28,7 @@ $white: #{vars.$white};
   z-index: 0;
   height: 60vh;
   overflow: hidden;
+  background-color: var(--color-brand-black);
 
   // img {
   //   block-size: 100%;

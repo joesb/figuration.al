@@ -32,7 +32,7 @@ $grey-lightish: color.adjust($grey, $lightness: 2%);
 $grey-lighter: color.adjust($grey, $lightness: 10%);
 $grey-light: color.adjust($grey, $lightness: 20%);
 
-$raisin-black-lighter: color.adjust($raisin-black-hsl, $lightness: 5%);
+$raisin-black-lighter: color.adjust($raisin-black-hsl, $lightness: 25%);
 
 // Custom media queries
 $break-very-small: 26rem; // >= 416px @ 16px

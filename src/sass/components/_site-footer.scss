@@ -11,7 +11,7 @@
 
   a {
     font-size: smaller;
-    color: inherit;
+    color: var(--color-brand-white);
 
     &:hover {
       color: var(--color-brand-grey);

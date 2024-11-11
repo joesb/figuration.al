@@ -48,7 +48,7 @@ html {
   --color-cool-grey: hsl(234, 19%, 59%);
   --color-raisin-black: hsl(0, 4%, 15%);
   --color-platinum: hsl(210, 3%, 88%);
-  --color-raising-black-lighter: hsl(0, 4%, 20%);
+  --color-raising-black-lighter: hsl(0, 4%, 40%);
   --color-white-transparent: rgba(255, 255, 255, 0.66);
   --color-brand-primary: var(--color-blue-yonder);
   --color-brand-secondary: var(--color-light-blue-steel);
@@ -63,6 +63,7 @@ html {
   --border-color: var(--color-grey-dark);
   --border-top-color: var(--border-color);
   --border-bottom-color: var(--border-color);
+  --border-color-pale: var(--color-cool-grey);
   --font-primary: Montserrat, var(--font-sans);
   --font-secondary: Bodoni Moda, var(--font-serif);
   --font-headings: Bodoni Moda, var(--font-serif);
@@ -518,7 +519,7 @@ COMPONENTS
 }
 .footer-main a {
   font-size: smaller;
-  color: inherit;
+  color: var(--color-brand-white);
 }
 .footer-main a:hover {
   color: var(--color-brand-grey);
@@ -905,6 +906,7 @@ COMPONENTS
 
 :where(figcaption) {
   font-size: var(--font-size-0);
+  max-inline-size: var(--size-content-3);
 }
 
 .picture--block,
@@ -926,6 +928,7 @@ COMPONENTS
   z-index: 0;
   height: 60vh;
   overflow: hidden;
+  background-color: var(--color-brand-black);
 }
 .picture--hero picture,
 .figure--hero picture {
@@ -1041,6 +1044,40 @@ COMPONENTS
 }
 :where(blockquote).bq-alt em {
   font-style: italic;
+}
+
+.metadata,
+.item-meta {
+  font-size: var(--font-size-fluid-00);
+  color: var(--color-brand-text-lighter);
+  border-bottom-width: 1px;
+  border-color: var(--color-platinum);
+  border-style: solid;
+  padding-block-end: var(--size-3);
+  margin-block-end: var(--size-7);
+}
+
+.metadata__info,
+.item-meta,
+.metadata__tags {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.5555555556rem;
+}
+
+.metadata__divider,
+.divider {
+  height: 5px;
+  width: 5px;
+  background-color: var(--text-2);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.metadata__tags {
+  margin-block: 0.5rem;
+  font-size: var(--font-size-fluid-000);
 }
 
 .social-card {
@@ -1306,6 +1343,10 @@ COMPONENTS
 .footer__nav a.current {
   color: var(--color-brand-primary);
   font-weight: var(--font-weight-medium);
+}
+
+.footer__nav a {
+  color: var(--color-brand-white);
 }
 
 .nav-contact {

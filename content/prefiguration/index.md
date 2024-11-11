@@ -5,6 +5,7 @@ section: prefiguration
 eleventyNavigation:
   key: Prefiguration
   parent: Home
+  order: 10
 pagination:
   data: collections.prefiguration
   size: 11
