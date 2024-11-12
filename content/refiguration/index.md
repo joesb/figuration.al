@@ -1,5 +1,5 @@
 ---
-title: Refiguration
+title: "Refiguration: Restored to the Real World"
 excerpt: ""
 layout: section.njk
 eleventyNavigation:
@@ -13,7 +13,4 @@ pagination:
 showTags: false
 ---
 
-Some text here.
-
-Some more there.
-
+Refiguration is the third movement of narrative, the stage in which a story is restored to the real world of action and suffering. It is in the reader that the story reaches its conclusion.

@@ -13,6 +13,4 @@ image:
   social: ./content/public/images/fig-social-card.jpg
 ---
 
-Some text here.
-
-Some more there.
+Narrative figuration and how stories affect who we are.
