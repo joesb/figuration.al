@@ -28,9 +28,6 @@ jobs:
         run: |
           yarn install --frozen-lockfile
 
-      - name: Build static CSS files
-        run: yarn sass:build:static:all
-
       - name: Build site (dry run)
         run: yarn build:dryrun
       
