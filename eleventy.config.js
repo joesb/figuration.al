@@ -185,7 +185,7 @@ export default async function(eleventyConfig) {
 
   eleventyConfig.addAsyncShortcode("imageData", async function(src) {
     var picture = await getPictureData(src, [800]);
-    return picture.jpeg[0].outputPath;
+    return picture.jpeg[0].url;
   });
 
   async function getPictureData(src, widths = [300, 600, 1000, 1980]) {
