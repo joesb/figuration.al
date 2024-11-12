@@ -192,8 +192,8 @@ export default async function(eleventyConfig) {
     let metadata = await Image(src, {
       widths: widths,
       formats: ['jpeg'],
-      urlPath: "/static/img/",
-      outputDir: "./static/img/"
+      urlPath: "/public/img/",
+      outputDir: "./content/public/img/"
     });
     return metadata;
   };
