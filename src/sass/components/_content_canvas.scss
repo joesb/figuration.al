@@ -152,6 +152,10 @@
   }
 }
 
+.content-canvas-item-wide-left-more {
+  grid-column: wide-start/main-end;
+}
+
 .content-canvas-item-out-left {
   grid-column: wide-start/main-mid;
 }

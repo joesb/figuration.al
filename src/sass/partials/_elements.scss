@@ -53,11 +53,14 @@ html {
   --font-size-fluid-21: clamp(#{var.$h2-font-size-mobile}, 2.5vw, #{var.$h2-font-size});
   --font-size-fluid-3: clamp(#{var.$h1-font-size-mobile}, 4vw, #{var.$h1-font-size});
   --font-size-fluid-4: clamp(#{var.$h1-lg-font-size-mobile}, 6vw, #{var.$h1-lg-font-size});
+
+  --size-header-4: 45ch;
+  --size-header-5: 55ch;
 }
 
-:where(p,ul,ol,dl,h6) {
-  font-size: var(--font-size-1);
-}
+// :where(p,ul,ol,dl,h6) {
+//   font-size: var(--font-size-1);
+// }
 
 :where(hr) {
   margin-block: var(--size-fluid-4);
@@ -69,4 +72,10 @@ html {
 
 :where(a):where(:not(:hover)) {
   text-decoration: inherit;
+}
+
+:where(li) {
+  &:not(:last-of-type) {
+    margin-block: var(--size-2);
+  }
 }

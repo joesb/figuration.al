@@ -3,6 +3,7 @@ title: Configuration and Narrative Emplotment
 excerpt: "Configuration is the second moment of mimetic narrative, all about emplotment — about characters, events and the point of a story as a whole, about following the rules and transgressing them too."
 layout: page.njk
 promoted: true
+order: 30
 date: 2017-10-23
 page:
   classes:
@@ -45,6 +46,8 @@ footnotes:
   - "Ricoeur, *Time* 1, 69."
   - "Ricoeur, *Time* 1, 70."
   - "Ricoeur, *Time* 1, 70."
+redirect_from:
+  - /configuration-and-narrative-emplotment-649c1500f317
 ---
 
 The second stage of mimesis, mimesis2, but which Ricoeur rather more floridly calls **configuration**, corresponds to narrative in its most commonly-understood sense: that act of telling or receiving a story, the actual configuration of a given plot — the story as told, or as read.

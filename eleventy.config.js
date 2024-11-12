@@ -81,6 +81,11 @@ export default async function(eleventyConfig) {
     return minified.code;
   });
 
+  // Check if a thing is a string
+  eleventyConfig.addFilter('is_string', function(obj) {
+    return typeof obj == 'string'
+  });
+
   // Readable Date filter
   eleventyConfig.addFilter("readableDate", (dateObj, format, zone) => {
 		// Formatting tokens for Luxon: https://moment.github.io/luxon/#/formatting?id=table-of-tokens
@@ -197,6 +202,9 @@ export default async function(eleventyConfig) {
     });
     return metadata;
   };
+
+  eleventyConfig.addPairedShortcode("QuickGrid", (content, classes = []) => 
+    '<div class="page--content-grid' + (classes.length ? ' ' + classes.join(" ") : '') + '">' + content + '</div>');
 
   // Customize Markdown library and settings:
   let markdownLibrary = markdownIt({

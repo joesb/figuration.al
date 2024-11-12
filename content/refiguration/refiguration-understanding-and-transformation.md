@@ -3,6 +3,7 @@ title: "Refiguration, Understanding and Transformation"
 excerpt: "Refiguration is the third movement of narrative, the stage in which a story is restored to the real world of action and suffering. It is in the reader that the story reaches its conclusion."
 layout: page.njk
 promoted: true
+order: 20
 date: 2017-10-28
 eleventyNavigation:
   parent: Refiguration
@@ -67,6 +68,8 @@ footnotes:
   - "Ricoeur, *Time* 1, 85."
   - "Ricoeur, *Time* 1, 86."
   - "Ricoeur, *Time* 1, 86–87. See also Vanhoozer, *Biblical Narrative*, 32, 191."
+redirect_from:
+  - /refiguration-understanding-and-transformation-2492d2b40212
 ---
 
 Mimesis2, emplotment, or configuration, is the most common concern for discussion on narrative but Ricoeur is insistent that in order for mimesis2 to become intelligible there is a requirement for a third stage to complete the cycle of mimesis.^1^

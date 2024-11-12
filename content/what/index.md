@@ -6,6 +6,8 @@ eleventyNavigation:
   key: What is figuration?
   parent: Home
   order: 0
+promoted: true
+order: 50
 page:
   classes:
     - "page--with-hero"
@@ -27,6 +29,8 @@ footnotes:
   - "Paul Ricoeur, ‘The Bible and the Imagination’ in Paul Ricoeur, *Figuring the Sacred: Religion, Narrative, and Imagination* (ed. Mark I Wallace; trans. David Pellauer; Minneapolis: Fortress, 1995), 148 (144–66), referring specifically to intertextuality as an instance of literary criticism."
   - "Paul Ricoeur, *Time and Narrative* (trans. of Temps et Recit; 3 vols.; Paris: Editions du Seuil, 1983–85; trans. Kathleen McLaughlin and David Pellauer; 3 vols.; Chicago and London: University of Chicago Press, 1984–88)."
   - "Cf. S H Clark, *Paul Ricoeur* (London: Routledge, 1990), 167–79; Boyd Blundell, *Paul Ricoeur Between Philosophy and Theology: Detour and Return* (Bloomington: Indiana University Press, 2010), 2, 8; Karl Simms, *Paul Ricoeur* (Routledge Critical Thinkers. London: Routledge, 2003), 83–86."
+redirect_from: 
+  - /what-is-figuration-c6ede08dfe21
 ---
 
 Although the study of narrative began in earnest in the middle of the Twentieth Century, the last three or four decades has seen a significant surge in academic interest in narrative. Much of the work on narrative in recent years has seen exciting interdisciplinary cross-fertilisation and the vocabulary of narrative criticism is of such common currency for scholars across the spectrum today in a way that would have been almost unthinkable just a couple of decades ago.

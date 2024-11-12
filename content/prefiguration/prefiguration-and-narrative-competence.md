@@ -3,6 +3,7 @@ title: Prefiguration and Narrative Competence
 excerpt: "Paul Ricoeur’s mimetic narratology sees three moments in narratives. Mimesis1, prefiguration, is the first moment, all about our pre-existing experience and our expectations."
 layout: page.njk
 promoted: true
+order: 40
 date: 2017-10-21
 eleventyNavigation:
   key: Prefiguration and Narrative Competence
@@ -52,7 +53,8 @@ footnotes:
   - "Ricoeur, *Time* 1, 62."
   - "However, for an account of the development of narrative competence analysed through developments in cognitive science see Herman, ‘Scripts,’ 1053–57 and future posts."
   - "Ricoeur, *Time* 1, 64."
-
+redirect_from:
+  - /prefiguration-and-narrative-competence-e8d324278357
 ---
 
 How can a story-teller start to tell a story?
