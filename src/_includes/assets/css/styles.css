@@ -1430,6 +1430,7 @@ COMPONENTS
   padding: 0;
   width: 100%;
   flex-flow: column wrap;
+  font-size: var(--font-size-fluid-0);
 }
 .main-nav ul li,
 .nav-contact ul li,
