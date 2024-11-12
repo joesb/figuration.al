@@ -1,10 +1,11 @@
 ---
 layout: base.njk
+primary: true
 ---
 		
-		<div class="site-content{% if pageClass %} {{ pageClass }} {% else %} site-content--surface-teal site-content--surface-dark{% endif %} content-canvas--inner">
+		<div class="site-content{% if pageClass %} {{ pageClass }} {% else %} site-content--surface-teal site-content--surface-dark{% endif %} content-canvas">
 
-			{% if showTitle != false and primary != true %}
+			{% if showTitle != false %}
 			{% include "layouts/components/title-bar.njk" %}
 			{% endif %}
 				
@@ -14,10 +15,10 @@ layout: base.njk
 		</div>
 
 		
-		<div class="site-content content-canvas-item-wide">
-
-    {% include "layouts/components/index-list.njk" %}
-
+		<div class="site-content content-canvas">
+			<div class="content-canvas-item-wide">
+    	{% include "layouts/components/index-list.njk" %}
+			</div>
   	</div>
 
 {% if pageLinks %}

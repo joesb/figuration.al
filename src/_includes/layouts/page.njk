@@ -10,9 +10,9 @@ page:
 			{% endif %}
 
 
-      {% if subtitle %}
-      <div class="content-canvas-item-full content-canvas page-subtitle">
-        <h2 class="page-subtitle--subtitle content-canvas-item-wide-left{% if subtitleStyle %} {{ subtitleStyle }}{% endif %}">{{ subtitle | safe }}</h2>
+      {% if excerpt %}
+      <div class="page-subtitle{% if page.classes.length and 'page--with-hero' in page.classes %} content-canvas-item-full content-canvas {% else %} content-canvas-item-wide-left{% endif %}">
+        <h2 class="page-subtitle--subtitle{% if page.classes.length and 'page--with-hero' in page.classes %} content-canvas-item-wide-left{% endif %}{% if subtitleStyle %} {{ subtitleStyle }}{% endif %}">{{ excerpt | safe }}</h2>
       </div>
       {% endif %}
 
@@ -38,6 +38,10 @@ page:
    
       {{ content | safe }}
 
-{% if pageLinks %}
-  {% include "layouts/components/page-pagelinks.njk" %}
-{% endif %}
+  {% if footnotes.length %}
+    {% include "layouts/components/page-footnotes.njk" %}
+  {% endif %}
+
+  {% if pageLinks %}
+    {% include "layouts/components/page-pagelinks.njk" %}
+  {% endif %}

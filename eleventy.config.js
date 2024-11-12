@@ -37,7 +37,14 @@ import Image from "@11ty/eleventy-img";
 /** @param {import("@11ty/eleventy").UserConfig} eleventyConfig */
 export default async function(eleventyConfig) {
 
-  // eleventyConfig.addPlugin(pluginRss);
+  eleventyConfig.addPlugin(feedPlugin, {
+    type: "json", // or "rss", "atom"
+		outputPath: "/feed.xml",
+		collection: {
+			name: "posts", // iterate over `collections.posts`
+			limit: 10,     // 0 means no limit
+		}
+  });
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
   eleventyConfig.addPlugin(timeToRead, {
     speed: '850 characters per minute',
@@ -155,7 +162,7 @@ export default async function(eleventyConfig) {
     }
     return '<figure class="' + classes +'">' + content + caption +'</figure>'});
 
-  eleventyConfig.addShortcode("socialCard", async function(url, title, description, captionUrl, image) {
+  eleventyConfig.addShortcode("socialCard", async function(url, title, description, captionUrl, image, imageAlt) {
     return `<div class="social-card"><a
   href="${ url }"
   rel="noopener ugc nofollow" target="_blank">
@@ -170,11 +177,26 @@ export default async function(eleventyConfig) {
       </div>
     </div>
     <div class="social-card-image">
-      <img src="${ image }" class="social-card-image--image image-obj-cover" />
+      <img src="${ image }" class="social-card-image--image image-obj-cover" alt="${ imageAlt }" />
     </div>
   </div>
 </a></div>`;
   });
+
+  eleventyConfig.addAsyncShortcode("imageData", async function(src) {
+    var picture = await getPictureData(src, [800]);
+    return picture.jpeg[0].outputPath;
+  });
+
+  async function getPictureData(src, widths = [300, 600, 1000, 1980]) {
+    let metadata = await Image(src, {
+      widths: widths,
+      formats: ['jpeg'],
+      urlPath: "/static/img/",
+      outputDir: "./static/img/"
+    });
+    return metadata;
+  };
 
   // Customize Markdown library and settings:
   let markdownLibrary = markdownIt({
@@ -184,7 +206,7 @@ export default async function(eleventyConfig) {
   }).use(markdownItAnchor, {
     permalink: markdownItAnchor.permalink.ariaHidden({
       placement: "after",
-      class: "direct-link visually-hidden",
+      class: "direct-link do-not-display",
       symbol: "#",
       level: [1,2,3,4],
     }),

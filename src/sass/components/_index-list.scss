@@ -9,7 +9,7 @@
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   list-style: none;
   padding: 0;
-  margin: 0;
+  margin-block: var(--size-9);
   gap: 1rem;
   // row-gap: 1.5rem;
 
@@ -81,6 +81,11 @@
     //   block-size: 100%;
     // }
   }
+
+  .metadata,
+  .item-meta {
+    color: var(--color-brand-black);
+  }
 }
 
 .index-list__item--picture {
@@ -91,15 +96,20 @@
   min-height: px-to-rem.px-to-rem(144px);
 
   a {
-    color: var(--surface-2);
+    color: var(--color-brand-white);
 
     &:visited {
-      color: var(--surface-2);
+      color: var(--color-brand-white);
     }
   }
 
   .divider {
-    background-color: var(--surface-2);
+    background-color: var(--color-brand-white );
+  }
+
+  .metadata,
+  .item-meta {
+    color: var(--color-brand-white);
   }
 }
 

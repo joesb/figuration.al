@@ -11,7 +11,7 @@
   position: absolute;
   right: ptr.px-to-rem(18px);
   top: ptr.px-to-rem(36px);
-  z-index: 12;
+  z-index: 112;
   box-shadow: unset;
   border-width: 0;
   background-color: transparent;
@@ -44,6 +44,8 @@
 }
 
 .open-mobile {
+  overflow: hidden;
+
   .js-closed {
     .header-main__menu__burger {
       div {

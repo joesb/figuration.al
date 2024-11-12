@@ -1,6 +1,6 @@
 ---
 title: Configuration and Narrative Emplotment
-subtitle: "Configuration is the second moment of mimetic narrative, all about emplotment — about characters, events and the point of a story as a whole, about following the rules and transgressing them too."
+excerpt: "Configuration is the second moment of mimetic narrative, all about emplotment — about characters, events and the point of a story as a whole, about following the rules and transgressing them too."
 layout: page.njk
 promoted: true
 date: 2017-10-23
@@ -12,6 +12,8 @@ page:
 eleventyNavigation:
   key: Configuration and Narrative Emplotment
   parent: Configuration
+tags:
+  - configuration
 image:
   path: "https://images.unsplash.com/photo-1461359618866-5a5bff23c9bd?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   alt: "lug nut lot"
@@ -21,6 +23,28 @@ image:
   page:
     hero: true
     figureClass: "content-canvas-item-full figure--hero"
+footnotes:
+  - "Paul Ricoeur, *Time and Narrative*, vol 1., (Chicago and London: University of Chicago Press, 1984), 65."
+  - "Ricoeur, *Time* 1, 65."
+  - "S H Clark, **Paul Ricoeur** (London: Routledge, 1990), 170."
+  - "Ricoeur, *Time* 1, 65."
+  - "Ricoeur, *Time* 1, 66."
+  - "Ricoeur, *Time* 1, 66."
+  - "Ricoeur, *Time* 1, 66."
+  - Ricoeur, *Time* 1, 66."
+  - "Ricoeur, *Time* 1, 66."
+  - "Ricoeur, *Time* 1, 66–67."
+  - "Ricoeur, *Time* 1, 67."
+  - "Ricoeur, *Time* 1, 68."
+  - "Ricoeur, *Time* 1, 68."
+  - "Ricoeur, *Time* 1, 68."
+  - "Ricoeur, *Time* 1, 68."
+  - "Ricoeur, *Time* 1, 69."
+  - "Clark, *Paul Ricoeur*, 171."
+  - "Ricoeur, *Time* 1, 69."
+  - "Ricoeur, *Time* 1, 69."
+  - "Ricoeur, *Time* 1, 70."
+  - "Ricoeur, *Time* 1, 70."
 ---
 
 The second stage of mimesis, mimesis2, but which Ricoeur rather more floridly calls **configuration**, corresponds to narrative in its most commonly-understood sense: that act of telling or receiving a story, the actual configuration of a given plot — the story as told, or as read.

@@ -8,6 +8,7 @@ pagination:
   data: collections.promotedContent
   size: 11
   alias: items
+showTags: false
 ---
 
 Some text here.

@@ -1,6 +1,6 @@
 ---
 title: Prefiguration and Narrative Competence
-subtitle: "Paul Ricoeur’s mimetic narratology sees three moments in narratives. Mimesis1, prefiguration, is the first moment, all about our pre-existing experience and our expectations."
+excerpt: "Paul Ricoeur’s mimetic narratology sees three moments in narratives. Mimesis1, prefiguration, is the first moment, all about our pre-existing experience and our expectations."
 layout: page.njk
 promoted: true
 date: 2017-10-21
@@ -23,6 +23,36 @@ image:
   page:
     hero: true
     figureClass: "content-canvas-item-full figure--hero"
+footnotes:
+  - "Paul Ricoeur, *Time and Narrative*, vol 1., (Chicago and London: University of Chicago Press, 1984), 54."
+  - "Ricoeur, *Time* 1, 54, emphasis mine."
+  - "Ricoeur, *Time* 1, 54, emphasis mine."
+  - "Ricoeur, *Time* 1, 54."
+  - "Cf. David Herman, ‘Scripts, Sequences, and Stories: Elements of a Postclassical Narratology,’ *PMLA* 112.5 (1997): 1053–57 (1046–59)."
+  - "Ricoeur, *Time* 1, 55."
+  - "Ricoeur, *Time* 1, 55."
+  - "Ricoeur, *Time* 1, 55–56."
+  - "Ricoeur, *Time* 1, 57."
+  - "Ricoeur, *Time* 1, 57."
+  - "Ricoeur, *Time* 1, 57."
+  - "Ricoeur, *Time* 1, 58."
+  - "Ricoeur, *Time* 1, 58."
+  - "Ricoeur’s understanding of the ‘rules’ of narrative here are substantially and importantly different from the rules defined by structuralist narratology preferred by the likes of Vladmir Propp, Tzvetan Todorov, Roland Barthes, Algirdas Greimas and more recent proponents, like Joseph Campbell, Christopher Vogler and followers of writing systems like Story Grid. Ricoeur’s ‘rules’ of narrative are fundamentally different in that they are evolutionary, culturally-defined and culturally-bound rules, rather than the quasi-scientific rules of semiotic and structuralist theories of narrative."
+  - "Ricoeur, *Time* 1, 58."
+  - "Ricoeur, *Time* 1, 59."
+  - "Ricoeur, *Time* 1, 59–64."
+  - "Ricoeur, *Time* 1, 60."
+  - "See a future post for a critical examination of Ricoeur’s understanding of Heidegger’s understanding of time."
+  - "Ricoeur, *Time* 1, 61. ‘Being-within-time’ is the beginning of Ricoeur’s narrative-shaped riposte to Heidegger’s notion of ‘being-towards-death.’ Cf. Ricoeur, *Time* 3, 272."
+  - "Ricoeur, *Time* 1, 61."
+  - "Ricoeur, *Time* 1, 61."
+  - "Cf. Clark, *Paul Ricoeur*, 169–70."
+  - "It should be noted, of course, that Heidegger’s notion of being and time and Ricoeur’s own are importantly different (see the future post indicated at n.19 above). The central place of Heidegger’s notion of being-towards-death gives his position an overtly future-oriented attitude, which Ricoeur refuses to follow. Nonetheless, Heidegger’s progress on the question of time is a virtuous detour for Ricoeur to pursue at this stage. For his more thorough analysis of Heidegger’s *Being and Time*, see Ricoeur, *Time* 3, 60–96."
+  - "Ricoeur, *Time* 1, 62."
+  - "Ricoeur, *Time* 1, 62."
+  - "However, for an account of the development of narrative competence analysed through developments in cognitive science see Herman, ‘Scripts,’ 1053–57 and future posts."
+  - "Ricoeur, *Time* 1, 64."
+
 ---
 
 How can a story-teller start to tell a story?
@@ -155,63 +185,3 @@ We cannot avoid it.
 [Sebastián Villegas](https://unsplash.com/photos/_PcK3ilO4LU) on [Unsplash](https://unsplash.com/)
 [Dora Reis](https://unsplash.com/photos/nsvba88g24M) on [Unsplash](https://unsplash.com/)
 [Curtis MacNewton](https://unsplash.com/photos/vVIwtmqsIuk) on [Unsplash](https://unsplash.com/)
-
----
-
-## Footnotes
-
-^1^ Paul Ricoeur, *Time and Narrative*, vol 1., (Chicago and London: University of Chicago Press, 1984), 54.
-
-^2^ Ricoeur, *Time* 1, 54, emphasis mine.
-
-^3^ Ricoeur, *Time* 1, 54, emphasis mine.
-
-^4^ Ricoeur, *Time* 1, 54.
-
-^5^ Cf. David Herman, ‘Scripts, Sequences, and Stories: Elements of a Postclassical Narratology,’ *PMLA* 112.5 (1997): 1053–57 (1046–59).
-
-^6^ Ricoeur, *Time* 1, 55.
-
-^7^ Ricoeur, *Time* 1, 55.
-
-^8^ Ricoeur, *Time* 1, 55–56.
-
-^9^ Ricoeur, *Time* 1, 57.
-
-^10^ Ricoeur, *Time* 1, 57.
-
-^11^ Ricoeur, *Time* 1, 57.
-
-^12^ Ricoeur, *Time* 1, 58.
-
-^13^ Ricoeur, *Time* 1, 58.
-
-^14^ Ricoeur’s understanding of the ‘rules’ of narrative here are substantially and importantly different from the rules defined by structuralist narratology preferred by the likes of Vladmir Propp, Tzvetan Todorov, Roland Barthes, Algirdas Greimas and more recent proponents, like Joseph Campbell, Christopher Vogler and followers of writing systems like Story Grid. Ricoeur’s ‘rules’ of narrative are fundamentally different in that they are evolutionary, culturally-defined and culturally-bound rules, rather than the quasi-scientific rules of semiotic and structuralist theories of narrative.
-
-^15^ Ricoeur, *Time* 1, 58.
-
-^16^ Ricoeur, *Time* 1, 59.
-
-^17^ Ricoeur, *Time* 1, 59–64.
-
-^18^ Ricoeur, *Time* 1, 60.
-
-^19^ See a future post for a critical examination of Ricoeur’s understanding of Heidegger’s understanding of time.
-
-^20^ Ricoeur, *Time* 1, 61. ‘Being-within-time’ is the beginning of Ricoeur’s narrative-shaped riposte to Heidegger’s notion of ‘being-towards-death.’ Cf. Ricoeur, *Time* 3, 272.
-
-^21^ Ricoeur, *Time* 1, 61.
-
-^22^ Ricoeur, *Time* 1, 61.
-
-^23^ Cf. Clark, *Paul Ricoeur*, 169–70.
-
-^24^ It should be noted, of course, that Heidegger’s notion of being and time and Ricoeur’s own are importantly different (see the future post indicated at n.19 above). The central place of Heidegger’s notion of being-towards-death gives his position an overtly future-oriented attitude, which Ricoeur refuses to follow. Nonetheless, Heidegger’s progress on the question of time is a virtuous detour for Ricoeur to pursue at this stage. For his more thorough analysis of Heidegger’s *Being and Time*, see Ricoeur, *Time* 3, 60–96.
-
-^25^ Ricoeur, *Time* 1, 62.
-
-^26^ Ricoeur, *Time* 1, 62.
-
-^27^ However, for an account of the development of narrative competence analysed through developments in cognitive science see Herman, ‘Scripts,’ 1053–57 and future posts.
-
-^28^ Ricoeur, *Time* 1, 64.

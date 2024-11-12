@@ -40,16 +40,20 @@ h6,
   margin: 0;
   mix-blend-mode: normal;
   margin-block: 1.5rem 0.75rem;
+  position: relative;
 
 
   // heading direct link hover
-  :not(.hide-permalink) {
+  &:not(.hide-permalink) {
     &:hover {
       .direct-link {
-        font-size: var(--font-size-fluid-0);
+        font-size: var(--font-size-fluid-1);
 
         &.do-not-display {
-          color: var(--color-athens-grey-dark);
+          position: absolute;
+          top: -1.5rem;
+          right: 0;
+          color: var(--color-brand-primary);
           display: inline;
         }
       }  

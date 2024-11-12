@@ -4,24 +4,23 @@
 
 @use "burger-menu";
 
-.header-main {
-  &.open-mobile {
-    .header-main__nav {
-      transition: visibility 0.2s, opacity 0.2s ease-in-out;
-      opacity: 1;
-      visibility: visible;
-      display: grid;
-      grid-template-areas:
-        ". ."
-        "main-nav nav-contact"
-        ". ."
-      ;
-      grid-template-columns: 1fr 1fr;
-      grid-template-rows: minmax(ptr.px-to-rem(160px), ptr.px-to-rem(216px)) auto minmax(ptr.px-to-rem(160px), auto);
-      overflow: scroll;
-      width: 100vw;
-      align-items: center;
-    }
+
+.open-mobile {
+  .header-main__nav {
+    transition: visibility 0.2s, opacity 0.2s ease-in-out;
+    opacity: 1;
+    visibility: visible;
+    display: grid;
+    grid-template-areas:
+      ". ."
+      "main-nav nav-contact"
+      ". ."
+    ;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: minmax(ptr.px-to-rem(160px), ptr.px-to-rem(216px)) auto minmax(ptr.px-to-rem(160px), auto);
+    overflow: scroll;
+    width: 100vw;
+    align-items: center;
   }
 }
 
@@ -35,7 +34,7 @@
   width: 100%;
   top: 0;
   left: 0;
-  z-index: 2;
+  z-index: 100;
   // padding: ptr.px-to-rem(185px) ptr.px-to-rem(25px) ptr.px-to-rem(25px) ptr.px-to-rem(25px);
   background-color: var(--color-platinum);
 
@@ -89,6 +88,11 @@
 .footer__nav {
   a {
     color: var(--color-brand-white);
+
+    &:hover {
+      color: var( --color-brand-white);
+      text-decoration: underline;
+    }
   }
 }
 

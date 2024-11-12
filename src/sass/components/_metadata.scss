@@ -3,19 +3,13 @@
 .metadata,
 .item-meta {
   font-size: var(--font-size-fluid-00);
-  color: var(--color-brand-text-lighter);
-  border-bottom-width: 1px;
-  border-color: var(--color-platinum);
-  border-style: solid;
-  padding-block-end: var(--size-3);
-  margin-block-end: var(--size-7);
 }
 
 .metadata__info,
 .item-meta,
 .metadata__tags {
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
   align-items: center;
   gap: px-to-rem.px-to-rem(10px);
 }

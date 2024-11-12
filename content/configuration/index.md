@@ -1,10 +1,14 @@
 ---
 title: Configuration
-layout: page.njk
+layout: section.njk
 eleventyNavigation:
   key: Configuration
   parent: Home
   order: 20
+pagination:
+  data: collections.configuration
+  size: 11
+  alias: items
 ---
 
 Some text here.

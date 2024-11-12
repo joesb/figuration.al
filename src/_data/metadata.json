@@ -1,6 +1,8 @@
 {
   "title": "Figurational",
   "alt_title": "Narrative figuration after Ricoeur",
+  "summary": "Narrative figuration after Ricoeur",
+  "twitter": "@joesb",
   "url": "https://www.figuration.al/",
   "language": "en",
   "author": {
@@ -9,6 +11,12 @@
   },
   "page_count": 6,
   "social_site": [
+    {
+      "name": "jsbaker.co.uk",
+      "machine_name": "website",
+      "no_icon": true,
+      "url": "https://www.jsbaker.co.uk/"
+    },
     {
       "name": "Bluesky",
       "machine_name": "bluesky",
