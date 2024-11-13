@@ -23,8 +23,8 @@
           <div class="metadata__tags tags">
           {%- for tag in itemTags %}
             <span class="metadata__tags__tag">{{ tag }}</span>
-						{% if loop.last !== true %}
-					  <span class="metadata__divider divider"></span>
+            {% if loop.last !== true %}
+            <span class="metadata__divider divider"></span>
             {% endif %}
           {% endfor %}
           </div>
@@ -42,7 +42,12 @@
         </div>
         <a href="{{ item.url | url }}"{% activepath item.url, page.url %} class="faux-block-link"><span class="hide-text" aria-hidden="true">{{ item.data.title }}</span></a>
         {% if item.data.image.path %}
-          {% image item.data.image.path, item.data.image.alt, item.data.image.class, item.data.image.widths %}
+          {% if image.widths %}
+            {% set imageWidths = image.widths %}
+          {% else %}
+            {% set imageWidths = item.data.image.widths %}
+          {% endif %}
+          {% image item.data.image.path, item.data.image.alt, item.data.image.class, imageWidths %}
         {% endif %}
       </li>
     {% endfor %}

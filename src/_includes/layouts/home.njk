@@ -1,25 +1,27 @@
 ---
 layout: base.njk
+image:
+  widths: [300, 600, 1200]
 ---
 
-		
-		<div class="site-content{% if pageClass %} {{ pageClass }} {% else %} site-content--surface-teal site-content--surface-dark{% endif %} content-canvas">
+    
+    <div class="site-content{% if pageClass %} {{ pageClass }} {% else %} site-content--surface-teal site-content--surface-dark{% endif %} content-canvas">
 
-			{% if showTitle != false and primary != true %}
-			{% include "layouts/components/title-bar.njk" %}
-			{% endif %}
-				
-				{{ content | safe }}
-			
+      {% if showTitle != false and primary != true %}
+      {% include "layouts/components/title-bar.njk" %}
+      {% endif %}
+        
+        {{ content | safe }}
+      
 
-		</div>
+    </div>
 
-		
-		<div class="site-content content-canvas">
-			<div class="content-canvas-item-wide">
-    	{% include "layouts/components/index-list.njk" %}
-			</div>
-  	</div>
+    
+    <div class="site-content content-canvas">
+      <div class="content-canvas-item-wide">
+      {% include "layouts/components/index-list.njk" %}
+      </div>
+    </div>
 
 
 {% if pageLinks %}
