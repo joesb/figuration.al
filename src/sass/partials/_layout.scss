@@ -30,20 +30,4 @@ main {
 
 footer {
   grid-area: foot;
-  display: grid;
-  grid-auto-flow: row;
-  gap: 1.5em;
-  padding: 3em 1.5em;
-  grid-template-columns: 3fr 1fr;
-
-  @include respond-to.respond-to('medium') {
-    padding: 3em 6em;
-  }
-}
-
-@include respond-to.respond-to('medium') {
-  footer {
-    gap: 3em;
-    grid-auto-flow: column;
-  }
 }

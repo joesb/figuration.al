@@ -24,12 +24,19 @@
   display: grid;
   grid-auto-flow: row;
   gap: var(--size-fluid-4);
-}
+  padding: 3em 1.5em;
+  grid-template-rows: minmax(ptr.px-to-rem(68px), ptr.px-to-rem(90px)) auto;
 
-@include rt.respond-to('medium') {
-  .footer-main__inner {
-    gap: 3em;
+  @include rt.respond-to('small') {
     grid-auto-flow: column;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @include rt.respond-to('medium') {
+    gap: 3em;
+    padding: 3em 6em;
+    grid-template-columns: 2fr 1fr;
   }
 }
 
@@ -41,7 +48,7 @@
 .footer-main__logo {
   .site-logo {
     &::before {
-      width: ptr.px-to-rem(320px);
+      width: ptr.px-to-rem(216px);
       height: ptr.px-to-rem(68px);
       filter: invert(100%) sepia(14%) saturate(0%) hue-rotate(60deg) brightness(101%) contrast(107%);
     }

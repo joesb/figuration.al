@@ -1,14 +1,14 @@
 <footer class="footer-main content-canvas">
-  <footer class="footer-main__inner content-canvas-item-wide">
+  <div class="footer-main__inner content-canvas-item-wide">
     <div class="footer-main__logo">
       {% if page.url !== '/' %}<a href="{{ '/' | url }}" class="site-logo">
-          <div class="h2-style hide-text">{{ metadata.title }}
+          <div class="h2-style visually-hidden">{{ metadata.title }}
           {% if metadata.subtitle %}{{ metadata.subtitle }}{% endif %}
           </div>
         </a>
       {% else %}
       <span class="site-logo">
-        <div class="h2-style hide-text">{{ metadata.title }}
+        <div class="h2-style visually-hidden">{{ metadata.title }}
         {% if metadata.subtitle %}{{ metadata.subtitle }}{% endif %}</div>
       </span>
       {% endif %}

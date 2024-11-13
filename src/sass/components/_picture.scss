@@ -1,6 +1,7 @@
 @use "sass:color";
 @use "images";
 @use "../common/variables" as vars;
+@use "../tools/respond-to" as rt;
 
 $white: #{vars.$white};
 
@@ -26,7 +27,7 @@ $white: #{vars.$white};
   top: 0;
   left: 0;
   z-index: 0;
-  height: 60vh;
+  height: 30vh;
   overflow: hidden;
   background-color: var(--color-brand-black);
 
@@ -49,5 +50,19 @@ $white: #{vars.$white};
     z-index: 1;
     padding: var(--size-1) var(--size-2);
     background-color: var(--color-white-transparent);
+  }
+}
+
+@include rt.respond-to('medium') {
+  .picture--hero,
+  .figure--hero {
+    height: 45vh;
+  }
+}
+
+@include rt.respond-to('large') {
+  .picture--hero,
+  .figure--hero {
+    height: 60vh;
   }
 }
