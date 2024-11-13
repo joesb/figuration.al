@@ -14,7 +14,7 @@
 // const inspect = require("util").inspect;
 // const embedEverything = require("eleventy-plugin-embed-everything");
 import { IdAttributePlugin, InputPathToUrlTransformPlugin, HtmlBasePlugin } from "@11ty/eleventy";
-import { feedPlugin } from "@11ty/eleventy-plugin-rss";
+import pluginRss from "@11ty/eleventy-plugin-rss";
 import pluginNavigation from "@11ty/eleventy-navigation";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
@@ -37,14 +37,7 @@ import Image from "@11ty/eleventy-img";
 /** @param {import("@11ty/eleventy").UserConfig} eleventyConfig */
 export default async function(eleventyConfig) {
 
-  eleventyConfig.addPlugin(feedPlugin, {
-    type: "json", // or "rss", "atom"
-		outputPath: "/feed.xml",
-		collection: {
-			name: "posts", // iterate over `collections.posts`
-			limit: 10,     // 0 means no limit
-		}
-  });
+  eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
   eleventyConfig.addPlugin(timeToRead, {
     speed: '850 characters per minute',
