@@ -1208,6 +1208,20 @@ COMPONENTS
   font-size: var(--font-size-fluid-000);
 }
 
+.site-content--title {
+  font-size: var(--font-size-fluid-2);
+}
+
+@media only screen and (min-width: 36rem) {
+  .site-content--title {
+    font-size: var(--font-size-fluid-3);
+  }
+}
+@media only screen and (min-width: 48rem) {
+  .site-content--title {
+    font-size: var(--font-size-fluid-4);
+  }
+}
 .footnotes-list {
   font-size: var(--font-size-fluid-0);
 }
