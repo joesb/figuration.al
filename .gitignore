@@ -18,3 +18,4 @@ _includes/assets/**/*.css.map
 content/public/img/
 
 .DS_Store
+.env
