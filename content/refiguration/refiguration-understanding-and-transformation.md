@@ -4,6 +4,7 @@ excerpt: "Refiguration is the third movement of narrative, the stage in which a 
 layout: page.njk
 promoted: true
 order: 20
+sticky: true
 date: 2017-10-28
 eleventyNavigation:
   parent: Refiguration

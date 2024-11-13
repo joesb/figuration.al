@@ -4,6 +4,7 @@ excerpt: "Paul Ricoeur’s mimetic narratology sees three moments in narratives.
 layout: page.njk
 promoted: true
 order: 40
+sticky: true
 date: 2017-10-21
 eleventyNavigation:
   key: Prefiguration and Narrative Competence

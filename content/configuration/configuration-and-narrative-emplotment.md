@@ -4,6 +4,7 @@ excerpt: "Configuration is the second moment of mimetic narrative, all about emp
 layout: page.njk
 promoted: true
 order: 30
+sticky: true
 date: 2017-10-23
 page:
   classes:

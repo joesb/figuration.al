@@ -3,6 +3,8 @@ title: "How (not) to Understand a Story"
 excerpt: "When reading and writing stories, it is tempting to use a system to reduce the story to a structure. It’s beguiling, but it is fundamentally problematic. Beware!"
 layout: page.njk
 date: 2017-11-14
+promoted: true
+order: 5
 page:
   classes:
     - "page--with-hero"

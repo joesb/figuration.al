@@ -123,17 +123,19 @@ export default async function(eleventyConfig) {
     return sortByDate(nav).reverse();
   });
 
-  function sortByOrder(collection) {
+  function sortByOrder(collection, andSticky = false) {
     return collection.sort((a, b) => {
-      if (a.data.order < b.data.order) return -1;
+      if (andSticky && b.data.sticky) return 1;
+      else if (a.data.order < b.data.order) return -1;
       else if (a.data.order > b.data.order) return 1;
       else return 0;
     });
   }
 
-  function sortByDate(collection) {
+  function sortByDate(collection, andSticky = true) {
     return collection.sort((a, b) => {
-      if (a.data.date < b.data.date) return -1;
+      if (andSticky && b.data.sticky) return -1;
+      else if (a.data.date < b.data.date) return -1;
       else if (a.data.date > b.data.date) return 1;
       else return 0;
     });
