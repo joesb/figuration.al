@@ -123,7 +123,7 @@
   }
 
   &.index-list__item--picture {
-    min-height: px-to-rem.px-to-rem(450px);
+    min-height: px-to-rem.px-to-rem(320px);
   }
 }
 
@@ -134,6 +134,10 @@
 
   .index-list__item-first {
     min-height: px-to-rem.px-to-rem(270px);
+
+    &.index-list__item--picture {
+      min-height: px-to-rem.px-to-rem(380px);
+    }
   }
 
   .index-list__item-small {
@@ -153,6 +157,10 @@
 
   .index-list__item-first {
     min-height: px-to-rem.px-to-rem(396px);
+
+    &.index-list__item--picture {
+      min-height: px-to-rem.px-to-rem(450px);
+    }
   }
 }
 

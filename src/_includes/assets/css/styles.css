@@ -449,7 +449,7 @@ COMPONENTS
 .site-logo::before {
   display: inline-block;
   width: clamp(16rem, 75vw, 27rem);
-  height: clamp(6rem, 30vh, 10rem);
+  height: clamp(6rem, 30vh, 6.6666666667rem);
   content: " ";
   background-image: url("/public/images/fig-logo.svg");
   background-repeat: no-repeat;
@@ -460,9 +460,15 @@ COMPONENTS
   color: var(--text-white-1);
 }
 
+@media only screen and (min-width: 48rem) {
+  .site-logo::before {
+    width: clamp(16rem, 75vw, 27rem);
+    height: clamp(6rem, 30vh, 10rem);
+  }
+}
 .header-main__logo {
   flex: 0 0 100%;
-  padding-block: var(--size-7);
+  padding-block: var(--size-3);
   position: relative;
   z-index: 110;
 }
@@ -1321,7 +1327,7 @@ COMPONENTS
   line-height: inherit;
 }
 .index-list__item-first.index-list__item--picture {
-  min-height: 25rem;
+  min-height: 17.7777777778rem;
 }
 
 @media only screen and (min-width: 36rem) {
@@ -1330,6 +1336,9 @@ COMPONENTS
   }
   .index-list__item-first {
     min-height: 15rem;
+  }
+  .index-list__item-first.index-list__item--picture {
+    min-height: 21.1111111111rem;
   }
   .index-list__item-small {
     grid-column: span 2;
@@ -1344,6 +1353,9 @@ COMPONENTS
   }
   .index-list__item-first {
     min-height: 22rem;
+  }
+  .index-list__item-first.index-list__item--picture {
+    min-height: 25rem;
   }
 }
 /*--------------------------------------------------------------
