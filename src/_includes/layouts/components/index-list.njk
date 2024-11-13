@@ -42,7 +42,11 @@
         </div>
         {% if item.data.image.path %}
           {% if image.widths %}
-            {% set imageWidths = image.widths %}
+            {% if loop.first %}
+              {% set imageWidths = image.widths %}
+            {% else %}
+              {% set imageWidths = image.widthsSmall %}
+            {% endif %}
           {% else %}
             {% set imageWidths = item.data.image.widths %}
           {% endif %}
