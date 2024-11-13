@@ -70,7 +70,7 @@
     text-decoration: none;
     display: inline-block;
     color: var( --color-brand-tertiary);
-    font-weight: var(--font-weight-light);
+    font-weight: var(--font-weight-medium);
 
     &:hover {
       color: var( --color-brand-primary);
@@ -80,7 +80,7 @@
       // background-color: var(--surface-4);
       // color: var(--text-ocean-blue);
       color: var( --color-brand-primary);
-      font-weight: var(--font-weight-medium);
+      font-weight: var(--font-weight-regular);
     }
   }
 }

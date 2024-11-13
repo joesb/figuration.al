@@ -12,13 +12,6 @@
         {% if metadata.subtitle %}{{ metadata.subtitle }}{% endif %}</div>
       </span>
       {% endif %}
-      <span itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress" class="footer-main--site-address">
-        <span itemprop="streetAddress">
-        {{ metadata.company.address.street }}</span><br />
-        <span itemprop="addressRegion">{{ metadata.company.address.city }}</span><br />
-        <span itemprop="postalCode">{{ metadata.company.address.postcode }}</span><br />
-        <div itemprop="telephone" class="padding-block-start-small smaller"><a href="tel:{{ metadata.company.phone.num }}">{{ metadata.company.phone.display }}</a></div>
-      </span>
     </div>
 
     <div class="footer-main__links footer__nav">

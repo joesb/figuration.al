@@ -40,7 +40,6 @@
             <span class="divider"></span>
             <span class="item-reading-time">{{ item.content | timeToRead }} read</span></div>
         </div>
-        <a href="{{ item.url | url }}"{% activepath item.url, page.url %} class="faux-block-link"><span class="hide-text" aria-hidden="true">{{ item.data.title }}</span></a>
         {% if item.data.image.path %}
           {% if image.widths %}
             {% set imageWidths = image.widths %}
@@ -49,6 +48,8 @@
           {% endif %}
           {% image item.data.image.path, item.data.image.alt, item.data.image.class, imageWidths %}
         {% endif %}
+
+        <a href="{{ item.url | url }}"{% activepath item.url, page.url %} class="faux-block-link" aria-label="{{ item.data.title }}"><span class="hide-text" aria-hidden="true">{{ item.data.title }}</span></a>
       </li>
     {% endfor %}
     </ul>
