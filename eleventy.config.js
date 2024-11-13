@@ -32,6 +32,7 @@ import postCSS from "postcss";
 import autoprefixer from "autoprefixer";
 import UglifyJS from "uglify-js";
 import Image from "@11ty/eleventy-img";
+import { eleventyImageOnRequestDuringServePlugin } from "@11ty/eleventy-img";
 
 
 /** @param {import("@11ty/eleventy").UserConfig} eleventyConfig */
@@ -154,6 +155,9 @@ export default async function(eleventyConfig) {
 		// You bet we throw an error on a missing alt (alt="" works okay)
 		return Image.generateHTML(metadata, imageAttributes);
 	});
+
+  // Add the dev server middleware manually
+  eleventyConfig.addPlugin(eleventyImageOnRequestDuringServePlugin);
 
   // Figure markup, as a paired shortcode
   eleventyConfig.addPairedShortcode("figure", function(content, caption, classes) {

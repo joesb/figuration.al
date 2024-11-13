@@ -3,7 +3,12 @@
 
 	{% include "layouts/components/head.njk" %}
 
-	<body>
+	{% if page.url == "/" %}
+		{% set bodyClass = "home" %} 
+	{% else %}
+		{% set bodyClass = "not-home" %}
+	{% endif %}
+	<body class="{{ bodyClass }}">
 
 		{# Header #}
 		{% include "layouts/components/site-header.njk" %}
