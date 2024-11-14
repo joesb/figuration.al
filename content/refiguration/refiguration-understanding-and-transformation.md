@@ -31,7 +31,7 @@ footnotes:
   - "Ricoeur, *Time* 1, 71."
   - "Ricoeur, *Time* 1, 71."
   - "Ricoeur, *Time* 1, 71."
-  - "This is the position, in some sense, in the notion behind the ‘initial sequence’ and a ‘final sequence’ in structuralist narratology (which I shall critique in a future post)— the two are mirrors of each other, with the order of the initial sequence, disturbed and put in jeopardy during the topical sequence, is wholly restored yet utterly changed. The end is, to some degree, already present in the beginning. Mimesis3 in Ricoeur’s mimetic theory of narrative raises a warning flag over this very idea."
+  - "This is the position, in some sense, in the notion behind the ‘initial sequence’ and a ‘final sequence’ in structuralist narratology (which I shall critique in a future post)— the two are mirrors of each other, with the order of the initial sequence, disturbed and put in jeopardy during the topical sequence, is wholly restored yet utterly changed. The end is, to some degree, already present in the beginning. Mimesis 3 in Ricoeur’s mimetic theory of narrative raises a warning flag over this very idea."
   - "Linda Fisher, ‘Mediation, Muthos, and the Hermeneutic Circle in Ricoeur’s Narrative Theory,’ in *Paul Ricoeur and Narrative: Context and Contestation* (ed. Morny Joy; Calgary: University of Calgary Press, 1997), 213 (207–19)."
   - "Ricoeur, *Time* 1, 72. Cf. Fisher, ‘Mediation, Muthos, and the Hermeneutic Circle,’ 213–17; Boyd Blundell, *Paul Ricoeur Between Philosophy and Theology: Detour and Return* (Bloomington: Indiana University Press, 2010), 93–94."
   - "Ricoeur, *Time* 1, 72."
@@ -73,14 +73,14 @@ redirect_from:
   - /refiguration-understanding-and-transformation-2492d2b40212
 ---
 
-Mimesis2, emplotment, or configuration, is the most common concern for discussion on narrative but Ricoeur is insistent that in order for mimesis2 to become intelligible there is a requirement for a third stage to complete the cycle of mimesis.^1^
+Mimesis 2, emplotment, or configuration, is the most common concern for discussion on narrative but Ricoeur is insistent that in order for mimesis 2 to become intelligible there is a requirement for a third stage to complete the cycle of mimesis.^1^
 
 > This third movement of narrative is the stage in which a story is restored to the real world of action and suffering; it is in the hearer or reader that the mimetic arc reaches its conclusion.^2^
 > {.bq-alt}
 
 This means then,
 
-> … mimesis3 marks the intersection of the world of the text and the world of the reader; the intersection, therefore, of the world configured by the poem and the world wherein real action occurs and unfolds its specific temporality.^3^
+> … mimesis 3 marks the intersection of the world of the text and the world of the reader; the intersection, therefore, of the world configured by the poem and the world wherein real action occurs and unfolds its specific temporality.^3^
 
 **Without this third stage, the stage of refiguration, narration is not possible.**
 
@@ -146,7 +146,7 @@ The circularity of the mimetic arc is not problematic. Rather it is *immensely p
 {% image "https://images.unsplash.com/photo-1456315138460-858d1089ddba?q=80&w=4140&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "Old man reading a book", "image-obj-cover", image.widths %}
 {% endfigure %}
 
-I described previously that, for Ricoeur, [emplotment is the transition between mimesis1 and mimesis2](/configuration/configuration-and-narrative-emplotment/). In a similar way, he argues that *reading* is the transition between mimesis2 and mimesis3.
+I described previously that, for Ricoeur, [emplotment is the transition between mimesis 1 and mimesis 2](/configuration/configuration-and-narrative-emplotment/). In a similar way, he argues that *reading* is the transition between mimesis 2 and mimesis 3.
 
 > Emplotment is a collaboration between the writer and the reader.
 > {.bq-alt}
@@ -169,9 +169,9 @@ And in reading the reader ‘completes’ the work, since the text provides a �
 {% image "https://images.unsplash.com/photo-1488868783914-7948d1e61670?q=80&w=4034&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "Close-up of a hand holding a book whilst a person is reading", "image-obj-cover", image.widths %}
 {% endfigure %}
 
-The notion of reading is the beginning of a fully-fledged description of mimesis3, as far as Ricoeur is concerned. The interaction between the reader and the text demands that both have their feet under the table. A theory of reception (i.e. the ways that stories have been read throughout their history) must, however, also incorporate an understanding of reference if it is to have any merit, for ‘[i]f narrative did not have this *referential* function, its purpose would be lost, and we would not “understand” it in any deep sense.’^22^
+The notion of reading is the beginning of a fully-fledged description of mimesis 3, as far as Ricoeur is concerned. The interaction between the reader and the text demands that both have their feet under the table. A theory of reception (i.e. the ways that stories have been read throughout their history) must, however, also incorporate an understanding of reference if it is to have any merit, for ‘[i]f narrative did not have this *referential* function, its purpose would be lost, and we would not “understand” it in any deep sense.’^22^
 
-Ricoeur’s foundational definition of mimesis3, the ‘intersection of the world of the text and the world of the reader,’^23^ incorporates the starting point for his examination of reference, that the text projects a ‘world’ that constitutes its ‘horizon.’^24^
+Ricoeur’s foundational definition of mimesis 3, the ‘intersection of the world of the text and the world of the reader,’^23^ incorporates the starting point for his examination of reference, that the text projects a ‘world’ that constitutes its ‘horizon.’^24^
 
 ### An ability to communicate, the capacity to refer
 

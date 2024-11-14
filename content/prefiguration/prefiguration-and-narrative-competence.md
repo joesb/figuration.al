@@ -1,6 +1,6 @@
 ---
 title: Prefiguration and Narrative Competence
-excerpt: "Paul Ricoeur’s mimetic narratology sees three moments in narratives. Mimesis1, prefiguration, is the first moment, all about our pre-existing experience and our expectations."
+excerpt: "Paul Ricoeur’s mimetic narratology sees three moments in narratives. Mimesis 1, prefiguration, is the first moment, all about our pre-existing experience and our expectations."
 layout: page.njk
 promoted: true
 order: 40
@@ -66,7 +66,7 @@ What is happening, indeed what *has* happened, before the story is even told?
 
 Whatever else may be going on in the composition or reception of a plot, the experience of it is grounded in the real world, the world of *action*, of *structures*, of *symbols* and of *temporality*. Narratives describe something recognisable by comparison with the real world, and a story’s world-like features are described in the plot (rather than deduced).^1^
 
-Paul Ricoeur argues that, if this is true, three things must exist for mimesis1, prefiguration, to function.
+Paul Ricoeur argues that, if this is true, three things must exist for mimesis 1, prefiguration, to function.
 
 ## Narrative Competence
 
@@ -159,7 +159,7 @@ In breaking with the linear representation of time — a simple succession of no
 
 # Gaining Competence
 
-The first stage of mimesis, mimesis1, cannot be underestimated. To have the required competence with narrative, familiarity with the semantic structures, symbolism and temporality of the narrated human condition is vital. The act of emplotment is predicated on this preunderstanding, and the richer the preunderstanding the richer the encounter with the plot.
+The first stage of mimesis, mimesis 1, cannot be underestimated. To have the required competence with narrative, familiarity with the semantic structures, symbolism and temporality of the narrated human condition is vital. The act of emplotment is predicated on this preunderstanding, and the richer the preunderstanding the richer the encounter with the plot.
 
 > The sheer volume of narratives in everyday life is so vast that every person is schooled in the ability to discern and weigh stories from their first moment.
 > {.bq-alt}

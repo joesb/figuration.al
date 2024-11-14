@@ -51,20 +51,20 @@ redirect_from:
   - /configuration-and-narrative-emplotment-649c1500f317
 ---
 
-The second stage of mimesis, mimesis2, but which Ricoeur rather more floridly calls **configuration**, corresponds to narrative in its most commonly-understood sense: that act of telling or receiving a story, the actual configuration of a given plot — the story as told, or as read.
+The second stage of mimesis, mimesis 2, but which Ricoeur rather more floridly calls **configuration**, corresponds to narrative in its most commonly-understood sense: that act of telling or receiving a story, the actual configuration of a given plot — the story as told, or as read.
 
 > The ‘configuration’ stage of mimetic narrative is the stage of writing and reading a story — the story as told, or as heard.
 > {.bq-alt}
 
-However, Ricoeur’s model of emplotment emphasises the requirement that this sense of narrative is placed *between* the two other senses, mimesis1 and mimesis3: this stage of mimesis *follows* an early stage and *precedes* a later one.
+However, Ricoeur’s model of emplotment emphasises the requirement that this sense of narrative is placed *between* the two other senses, mimesis 1 and mimesis 3: this stage of mimesis *follows* an early stage and *precedes* a later one.
 
 Though that sounds obvious, it has significant implications.
 
-> Finding itself in between, mimesis2, configuration — the act of emplotment — plays a mediating role between the other two.^1^
+> Finding itself in between, mimesis 2, configuration — the act of emplotment — plays a mediating role between the other two.^1^
 
 Mediation is a significant feature of Paul Ricoeur’s approach to philosophy, and he often examines the mediating function of an idea between two opposing positions.
 
-Here, the mediating function of narrative configuration leads Ricoeur to prefer the term *emplotment* to plot because it implies an active and dynamic quality to mimesis2 that stresses its mediation between the ‘pre-understanding’ [already discussed](/prefiguration/prefiguration-and-narrative-competence/) and the ‘post-understanding’ that I shall address presently.^2^
+Here, the mediating function of narrative configuration leads Ricoeur to prefer the term *emplotment* to plot because it implies an active and dynamic quality to mimesis 2 that stresses its mediation between the ‘pre-understanding’ [already discussed](/prefiguration/prefiguration-and-narrative-competence/) and the ‘post-understanding’ that I shall address presently.^2^
 
 Ricoeur offers three ways in which emplotment mediates.
 
@@ -93,7 +93,7 @@ Secondly, emplotment draws together agents, events, actions, goals, results, cir
 
 Mediating between these diverse elements enables initially simple plot configurations to be subsequently extended and embellished. Emplotment also includes features such as sudden reversals of fortune (known as ‘peripeteia’), recognitions and such like within the complexities of a plot, and consequently narrative is able to move the paradigmatic prefigured world (i.e. the language and narrative elements in isolation, familiar to writers and readers from the previous narrative experience, their ‘[narrative competence](/prefiguration/prefiguration-and-narrative-competence/)’, as previously discussed) into the syntagmatic order of a story (i.e. the language and narrative elements working together in *this* specific narrative).
 
-> Emplotment ‘constitutes the transition from mimesis1 to mimesis2. It is the work of the configurating [sic] activity.’^6^
+> Emplotment ‘constitutes the transition from mimesis 1 to mimesis 2. It is the work of the configurating [sic] activity.’^6^
 > {.bq-alt}
 
 ## 3. Mediating through temporality: judging and selecting
@@ -116,13 +116,13 @@ The result of this multiplicity of mediation is that the act of emplotment ‘re
 
 The degree to which a story’s progression to its conclusion is ‘acceptable’ is of course an expression of how ‘believable’ a listener or reader finds a story. The writer’s plot in a given story sits amongst all the plotted stories the reader has previously read.
 
-Ricoeur’s notion of the mediating interaction of mimesis2, configuration, with mimesis1, prefiguration, expresses that a reader’s prefiguration (both in terms of narrative competence *and* the narratives that have been prefigurative for the reader) is *every bit as significant* in the reader’s capacity to follow the story as the story’s own configuration.
+Ricoeur’s notion of the mediating interaction of mimesis 2, configuration, with mimesis 1, prefiguration, expresses that a reader’s prefiguration (both in terms of narrative competence *and* the narratives that have been prefigurative for the reader) is *every bit as significant* in the reader’s capacity to follow the story as the story’s own configuration.
 
 Further, the fact that the story can be followed allows the dichotomy of (individual) event and (unified) story to be resolved by converting the paradox into a poetic ‘living dialectic.’^11^
 
 A story’s capacity to be followed means that an entire plot can be brought together under one ‘thought,’ the narrative’s ‘theme.’ It also means that in following a story the end is always in mind, and, especially with a well-known story, the way in which the events lead towards the ending gives a fresh quality to time.
 
-So much for the interaction of mimesis1, prefiguration, into mimesis2, configuration. What about the relation of mimesis2 to mimesis3, refiguration? Here, Ricoeur offers two features: *schematism* and *tradition*.
+So much for the interaction of mimesis 1, prefiguration, into mimesis 2, configuration. What about the relation of mimesis 2 to mimesis 3, refiguration? Here, Ricoeur offers two features: *schematism* and *tradition*.
 
 # Schematism, and the productive imagination
 

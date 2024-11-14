@@ -69,7 +69,7 @@ Ricoeur argues that the human urge to construct *plots* from disjointed events i
 
 This site is a detailed examination and exploration of Ricoeur's understanding of mimetic narrative, so a full explanation is not needed at this point.
 
-For now, it is enough to say that Ricoeur notes three mimetic moments in the process of interpreting narratives, which he refers to in shorthand as *mimesis1*, *mimesis2* and *mimesis3* in order to indicate their distinctive-yet-mutual identity, but describes rather more poetically as *prefiguration*, *configuration* and *refiguration* respectively.^6^
+For now, it is enough to say that Ricoeur notes three mimetic moments in the process of interpreting narratives, which he refers to in shorthand as *mimesis 1*, *mimesis 2* and *mimesis 3* in order to indicate their distinctive-yet-mutual identity, but describes rather more poetically as *prefiguration*, *configuration* and *refiguration* respectively.^6^
 
 [**Prefiguration**](/prefiguration/) has to do with the narrative competence we develop through our exposure to stories. We bring that pre-existing experience and expectation with us to each story we encounter.
 

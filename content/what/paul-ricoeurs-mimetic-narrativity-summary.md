@@ -36,9 +36,9 @@ In the last few posts I have [introduced Paul Ricoeur’s philosophy of narrativ
 
 I’ve also set out the details of Ricoeur’s narratology, describing the three moments of narrative:
 
-- I first looked at [prefiguration (mimesis1) and narrative competence](/prefiguration-and-narrative-competence/), and the pre-existing experience and expectations of stories we bring with us when reading.
-- Next, I described [configuration (mimesis2) and narrative emplotment](/configuration-and-narrative-emplotment/), about characters, events and the point of a story as a whole, about following the rules and transgressing them too.
-- And thirdly, I talked about [refiguration (mimesis3), understanding and transformation](/refiguration-understanding-and-transformation/), as readers complete a writer’s story in restoring it to the real world of action and suffering.
+- I first looked at [prefiguration (mimesis 1) and narrative competence](/prefiguration-and-narrative-competence/), and the pre-existing experience and expectations of stories we bring with us when reading.
+- Next, I described [configuration (mimesis 2) and narrative emplotment](/configuration-and-narrative-emplotment/), about characters, events and the point of a story as a whole, about following the rules and transgressing them too.
+- And thirdly, I talked about [refiguration (mimesis 3), understanding and transformation](/refiguration-understanding-and-transformation/), as readers complete a writer’s story in restoring it to the real world of action and suffering.
 
 A brief summary is helpful at this point.
 
@@ -46,7 +46,7 @@ A brief summary is helpful at this point.
 
 The distinctive characteristic of Ricoeur’s philosophy of narrative is that it approaches the subject with a *significantly wider view* than the structuralist models that had previously dominated.^1^
 
-Structuralist narratology is solely concerned with the closed system of the story being narrated and as such it is directed almost exclusively at mimesis2, the **configuration** of the narrative, and even then it is a *sub-set* of Ricoeur’s full proposition for mimesis2. The fixation on *deep-level* structure in the structuralist models — that all stories ever told conform to set of patterns and rules, have a defined set of character types and roles, follow a systematic sequence of emotional ‘beats’, and so on — miss out on surface-level facets like characterisation, reversals of fortune, the temporality of events and the like.^2^ It certainly has no conception of the act of emplotment or the notion of narrative tradition.^3^
+Structuralist narratology is solely concerned with the closed system of the story being narrated and as such it is directed almost exclusively at mimesis 2, the **configuration** of the narrative, and even then it is a *sub-set* of Ricoeur’s full proposition for mimesis 2. The fixation on *deep-level* structure in the structuralist models — that all stories ever told conform to set of patterns and rules, have a defined set of character types and roles, follow a systematic sequence of emotional ‘beats’, and so on — miss out on surface-level facets like characterisation, reversals of fortune, the temporality of events and the like.^2^ It certainly has no conception of the act of emplotment or the notion of narrative tradition.^3^
 
 Ricoeur’s *wider* view incorporates two vital extra domains discussed in those earlier posts.
 
