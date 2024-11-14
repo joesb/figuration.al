@@ -1,5 +1,6 @@
 ---
-title: Home
+title: Narrative Figuration after Ricoeur
+excerpt: "Narrative figuration after Ricoeur — how stories work and how they affect us"
 layout: home.njk
 primary: true
 eleventyNavigation:
@@ -13,4 +14,4 @@ image:
   social: ./content/public/images/fig-social-card.jpg
 ---
 
-Narrative figuration and how stories affect who we are.
+Narrative figuration after Ricoeur — how stories work and how they affect us.
