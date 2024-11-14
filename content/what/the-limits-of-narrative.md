@@ -16,6 +16,8 @@ image:
   path: "./content/public/images/pages/1_nT8VmJ7BkGi8ac0zgiBq5g.webp"
   alt: "Pier into a calm sea that almost reaches the horizon, with a person standing on the end"
   class: "image-obj-cover"
+  pictureClass:
+    list: "index-list__item__picture"
   widths: [300, 600, 1000, 1980, "auto"]
   caption: 'At the very end, there’s something else. Photo by <a href="https://unsplash.com/photos/muxykzQtu1I?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener ugc nofollow" target="_blank">Sweet Ice Cream Photography</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener ugc nofollow" target="_blank">Unsplash</a>.'
   page:

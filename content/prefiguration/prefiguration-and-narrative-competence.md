@@ -20,6 +20,8 @@ image:
   path: "./content/public/images/pages/1_r2gAtcb7wz9PrvCGx_ZPVA.webp"
   alt: "Crowd of people looking up"
   class: "image-obj-cover image-darken-50"
+  pictureClass:
+    list: "index-list__item__picture"
   widths: [300, 600, 1000, 1980]
   caption: 'Photo by <a href="https://unsplash.com/photos/0zBJmvRpYMM?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener ugc nofollow" target="_blank">Benny Jackson</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener ugc nofollow" target="_blank">Unsplash</a>'
   page:

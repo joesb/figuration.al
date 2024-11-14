@@ -14,6 +14,8 @@ image:
   path: "./content/public/images/pages/nathan-anderson-c1bshOfP_IA-unsplash.jpg"
   alt: "person holding round gray device"
   class: "image-obj-cover"
+  pictureClass:
+    list: "index-list__item__picture"
   widths: [300, 600, 1000, 1980]
   caption: 'Photo by <a href="https://unsplash.com/@nathananderson?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank" rel="noopener ugc nofollow">Nathan Anderson</a> on <a href="https://unsplash.com/photos/person-holding-round-gray-device-c1bshOfP_IA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank" rel="noopener ugc nofollow">Unsplash</a>'
   page:

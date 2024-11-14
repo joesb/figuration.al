@@ -17,6 +17,8 @@ image:
   path: "https://images.unsplash.com/photo-1464274582105-6b442eadde5e?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   alt: "Grayscale photograph of child beside tree"
   class: "image-obj-cover image-darken-20"
+  pictureClass:
+    list: "index-list__item__picture"
   widths: [300, 600, 1000, 1980]
   caption: 'Photo by <a href="https://unsplash.com/@thekatiemchase?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Katherine Chase</a> on <a href="https://unsplash.com/photos/grayscale-photography-of-child-beside-tree-uNNvGTSwFtw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>'
   page:

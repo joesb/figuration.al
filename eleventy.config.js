@@ -136,7 +136,7 @@ export default async function(eleventyConfig) {
   }
 
   // Images
-  eleventyConfig.addShortcode("image", async function (src, alt, cls, widths = [300, 600], sizes = "100vh") {
+  eleventyConfig.addShortcode("image", async function (src, alt, cls, widths = [300, 600], sizes = "100vh", picCls = "") {
 		let metadata = await Image(src, {
 			widths,
 			formats: ["webp", "jpeg"],
@@ -152,8 +152,14 @@ export default async function(eleventyConfig) {
 			decoding: "async",
 		};
 
+    let options = {
+      pictureAttributes: {
+        class: picCls
+      }
+    }
+
 		// You bet we throw an error on a missing alt (alt="" works okay)
-		return Image.generateHTML(metadata, imageAttributes);
+		return Image.generateHTML(metadata, imageAttributes, options);
 	});
 
   // Add the dev server middleware manually

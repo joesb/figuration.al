@@ -16,6 +16,8 @@ image:
   path: "./content/public/images/pages/1_THwLoeqaLjU3IRE83n8TAA.webp"
   alt: "Wooden pigeon hole drawers"
   class: "image-obj-cover image-darken-10"
+  pictureClass:
+    list: "index-list__item__picture"
   widths: [300, 600, 1000, 1980]
   caption: 'We love to categories things, to put things in pigeon holes. We love a system. Photo by <a href="https://unsplash.com/photos/GJCWj-n3h4E?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener ugc nofollow" target="_blank">Sanwal Deen</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener ugc nofollow" target="_blank">Unsplash</a>'
   page:
