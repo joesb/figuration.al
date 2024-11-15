@@ -14,6 +14,6 @@ image:
   social: ./content/public/images/fig-social-card.jpg
 ---
 
-## Narrative figuration after Paul Ricoeur{.primary-font .h3-style .hide-permalink}
+## Narrative figuration after Paul Ricoeur{.primary-font .h3-style .heading-wide .hide-permalink}
 
 — how stories work and how they affect us.
