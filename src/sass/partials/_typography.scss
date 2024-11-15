@@ -63,6 +63,12 @@ h6,
     }
   }
 
+  &.hide-permalink {
+    .direct-link {
+      @include mixins.do-not-display;
+    }
+  }
+
   &.warning,
   &.info {
     padding-left: var(--size-8);
@@ -89,8 +95,9 @@ h6,
 
 :where(h1,h2,h3,h4,h5,h6) {
   line-height: var(--font-lineheight-0);
+
   &.heading-wide {
-    max-inline-size: var(--size-header-2);
+    max-inline-size: var(--size-header-3);
   }
 }
 
