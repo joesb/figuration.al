@@ -91,6 +91,11 @@ export default async function(eleventyConfig) {
     return str.startsWith(prefix) !== not;
   });
 
+  // Encode a URL string
+  eleventyConfig.addFilter('encodeUri', (text) => {
+    return encodeURI(text);
+  });
+
   /* COLLECTIONS */
 
   // Promoted Content collection
