@@ -2,6 +2,7 @@
 title: "The Surface and the Depths: Characters, Character and Stories"
 excerpt: "Along with plot, characters are essential elements of stories. Seems straightforward, right?"
 layout: page.njk
+date: 2019-02-18
 promoted: true
 order: 0
 page:
