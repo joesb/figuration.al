@@ -8,6 +8,7 @@ pagination:
     - promotedContent
     - all
 permalink: /tagged/{{ tag | slugify }}/
+eleventyExcludeFromCollections: true
 ---
 
 <h1>Posts tagged ‘{{ tag | toTitleCase }}’</h1>

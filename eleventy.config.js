@@ -98,6 +98,12 @@ export default async function(eleventyConfig) {
     );
   });
 
+  eleventyConfig.addFilter('maxDate', (list) => {
+    return list.reduce((a, b) => {
+      return new Date(a.date) > new Date(b.date) ? a : b;
+    });
+  });
+
   // Readable Date filter
   eleventyConfig.addFilter("readableDate", (dateObj, format, zone) => {
 		// Formatting tokens for Luxon: https://moment.github.io/luxon/#/formatting?id=table-of-tokens
