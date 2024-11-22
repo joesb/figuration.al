@@ -13,6 +13,7 @@ html {
 
   --color-raising-black-lighter: #{var.$raisin-black-lighter};
   --color-white-transparent: #{var.$white-transparent};
+  --color-platinum-darker: #{var.$platinum-darker};
 
   --color-brand-primary: var(--color-blue-yonder);
   --color-brand-secondary: var(--color-light-blue-steel);
@@ -56,6 +57,10 @@ html {
 
   --size-header-4: 45ch;
   --size-header-5: 55ch;
+
+  // Sizes
+  --size-fluid-00: clamp(0.25rem, 0.67vw, 0.5rem);
+  --size-fluid-0: clamp(0.25rem, 0.75vw, 0.75rem);
 }
 
 // :where(p,ul,ol,dl,h6) {

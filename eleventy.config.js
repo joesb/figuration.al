@@ -80,6 +80,24 @@ export default async function(eleventyConfig) {
     return typeof obj == 'string'
   });
 
+  // String to lowercase
+  eleventyConfig.addFilter('toLowerCase', (str) => {
+    return str.toLowerCase();
+  });
+
+  // String to uppercase
+  eleventyConfig.addFilter('toUpperCase', (str) => {
+    return str.toUpperCase();
+  });
+
+  // String to Title Case
+  eleventyConfig.addFilter('toTitleCase', (str) => {
+    return str.replace(
+      /\w\S*/g,
+      text => text.charAt(0).toUpperCase() + text.substring(1).toLowerCase()
+    );
+  });
+
   // Readable Date filter
   eleventyConfig.addFilter("readableDate", (dateObj, format, zone) => {
 		// Formatting tokens for Luxon: https://moment.github.io/luxon/#/formatting?id=table-of-tokens

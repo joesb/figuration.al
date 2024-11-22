@@ -48,6 +48,10 @@ page:
     {% include "layouts/components/page-footnotes.njk" %}
   {% endif %}
 
+  {% if tags.length %}
+    {% include "layouts/components/page-tags.njk" %}
+  {% endif %}
+
   {% if pageLinks %}
     {% include "layouts/components/page-pagelinks.njk" %}
   {% endif %}

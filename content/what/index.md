@@ -8,6 +8,12 @@ eleventyNavigation:
   order: 0
 promoted: true
 order: 50
+tags:
+  - Philosophy
+  - Paul Ricoeur
+  - Narrative
+  - Narratology
+  - Figuration
 page:
   classes:
     - "page--with-hero"

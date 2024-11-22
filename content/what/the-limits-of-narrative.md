@@ -12,6 +12,12 @@ page:
     - "content-canvas-item-wide-left-more"
 tags:
   - configuration
+  - Philosophy
+  - Narrative
+  - Reading
+  - Postmodernism
+  - Paul Ricoeur
+  - refiguration
 image:
   path: "./content/public/images/pages/1_nT8VmJ7BkGi8ac0zgiBq5g.webp"
   alt: "Pier into a calm sea that almost reaches the horizon, with a person standing on the end"

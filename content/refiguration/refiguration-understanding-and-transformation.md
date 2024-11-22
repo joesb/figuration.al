@@ -10,6 +10,10 @@ eleventyNavigation:
   parent: Refiguration
 tags:
   - refiguration
+  - Literature
+  - Philosophy
+  - Narrative
+  - Paul Ricoeur
 page:
   classes:
     - "page--with-hero"

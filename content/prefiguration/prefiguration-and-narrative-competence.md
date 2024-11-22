@@ -16,6 +16,10 @@ page:
     - "content-canvas-item-wide-left"
 tags:
   - prefiguration
+  - Storytelling
+  - Narrative
+  - Philosophy
+  - Paul Ricoeur
 image:
   path: "./content/public/images/pages/1_r2gAtcb7wz9PrvCGx_ZPVA.webp"
   alt: "Crowd of people looking up"

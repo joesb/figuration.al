@@ -12,6 +12,11 @@ page:
     - "content-canvas-item-wide-left-more"
 tags:
   - configuration
+  - Narrative
+  - Star Wars
+  - Storytelling
+  - Reading
+  - Philosophy
 image:
   path: "./content/public/images/pages/1_THwLoeqaLjU3IRE83n8TAA.webp"
   alt: "Wooden pigeon hole drawers"

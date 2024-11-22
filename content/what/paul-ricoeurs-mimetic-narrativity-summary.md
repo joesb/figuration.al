@@ -14,6 +14,9 @@ tags:
   - prefiguration
   - configuration
   - refiguration
+  - Narrative
+  - Philosophy
+  - Paul Ricoeur
 image:
   path: "./content/public/images/pages/markus-spiske-BYL0-7AP8-c-unsplash.jpg"
   alt: "Bald head with eyeliner"

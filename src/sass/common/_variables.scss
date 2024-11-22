@@ -34,6 +34,8 @@ $grey-light: color.adjust($grey, $lightness: 20%);
 
 $raisin-black-lighter: color.adjust($raisin-black-hsl, $lightness: 25%);
 
+$platinum-darker: color.adjust($platinum-hsl, $lightness: -10%);
+
 // Custom media queries
 $break-very-small: 26rem; // >= 416px @ 16px
 $break-small: 36rem; // >= 576px @ 16px

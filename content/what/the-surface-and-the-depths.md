@@ -12,6 +12,10 @@ page:
     - "content-canvas-item-wide-left-more"
 tags:
   - configuration
+  - Storytelling
+  - Writing
+  - Character
+  - Narrative
 image:
   path: "./content/public/images/pages/grandfather-2391461_1920.jpg"
   alt: "Grandfather and granddaughter looking at the sea"

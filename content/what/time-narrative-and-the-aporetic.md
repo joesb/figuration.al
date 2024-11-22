@@ -5,6 +5,13 @@ layout: page.njk
 promoted: true
 date: 2017-11-05
 order: 9
+tags:
+  - configuration
+  - Philosophy
+  - Narrative
+  - Time
+  - Paul Ricoeur
+  - Storytelling
 page:
   classes:
     - "page--with-hero"

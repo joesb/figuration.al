@@ -1,0 +1,31 @@
+---
+layout: base.njk
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+  filter:
+    - promotedContent
+    - all
+permalink: /tagged/{{ tag | slugify }}/
+---
+
+<h1>Posts tagged ‘{{ tag | toTitleCase }}’</h1>
+
+<ol class="bare-list tagged-posts">{% set taglist = collections[ tag ] %}
+  {% for post in taglist | reverse %}
+  <li class="tagged-posts--item">
+    <h2 class="h3-style"><a href="{{ post.url }}">{{ post.data.title }}</a></h2>
+    {% if post.data.metadata.show !== false %}
+      <div class="metadata page__metadata">
+        <div class="metadata__info">
+          <time class="metadata__date" datetime="{{ post.data.date | readableDate("yyyy-LL-dd") }}">{{ post.data.date | readableDate("LLLL yyyy") }}</time>
+          <span class="metadata__divider divider"></span>
+          <span class="metadata__reading-time">{{ post.content | timeToRead }} read</span>
+        </div>
+      </div>
+    {% endif %}
+    {{ post.data.excerpt | markdown | safe }}
+  </li>
+  {% endfor %}
+</ol>
