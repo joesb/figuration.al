@@ -34,6 +34,8 @@ footnotes:
   - "Ricoeur, *Time* 3, 272."
   - "Ricoeur, *Time* 3, 272. Indeed, he notes the Hebrew Bible ‘can be read as the testament about time in its relations to divine eternity,’ given his previous reservations about the ‘equivocity of the word “eternity”’ (272)."
   - "Ricoeur, *Time* 3, 272–73."
+redirect_from:
+  - /the-limits-of-narrative-9d60f74661b4
 ---
 One final aspect of Ricoeur’s approach to narrative is important to highlight.
 
