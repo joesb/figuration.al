@@ -11,6 +11,8 @@ pagination:
   size: 11
   alias: items
 showTags: false
+redirect_from:
+  - /prefiguration/home
 ---
 
 Prefiguration is the first moment of mimetic narrative, all about our pre-existing experience and our expectations.

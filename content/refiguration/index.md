@@ -11,6 +11,8 @@ pagination:
   size: 11
   alias: items
 showTags: false
+redirect_from:
+  - /refiguration/home
 ---
 
 Refiguration is the third movement of narrative, the stage in which a story is restored to the real world of action and suffering. It is in the reader that the story reaches its conclusion.
