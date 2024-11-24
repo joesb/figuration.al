@@ -62,6 +62,7 @@ footnotes:
   - "Ricoeur, *Time* 1, 64."
 redirect_from:
   - /prefiguration-and-narrative-competence-e8d324278357
+  - /prefiguration-and-narrative-competence/
 ---
 
 How can a story-teller start to tell a story?
