@@ -13,7 +13,7 @@
 // const markdownIt11tyImage = require('markdown-it-eleventy-img');
 // const inspect = require("util").inspect;
 // const embedEverything = require("eleventy-plugin-embed-everything");
-import { IdAttributePlugin, InputPathToUrlTransformPlugin, HtmlBasePlugin } from "@11ty/eleventy";
+import { IdAttributePlugin, InputPathToUrlTransformPlugin, EleventyHtmlBasePlugin } from "@11ty/eleventy";
 import pluginRss from "@11ty/eleventy-plugin-rss";
 import pluginNavigation from "@11ty/eleventy-navigation";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
@@ -39,6 +39,7 @@ import { eleventyImageOnRequestDuringServePlugin } from "@11ty/eleventy-img";
 export default async function(eleventyConfig) {
 
   eleventyConfig.addPlugin(pluginRss);
+  eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
   eleventyConfig.addPlugin(timeToRead, {
     speed: '850 characters per minute',
