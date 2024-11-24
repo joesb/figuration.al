@@ -38,6 +38,7 @@ footnotes:
   - "Paul Ricoeur, ‘Manifestation and Proclamation’ in Fig*uring the Sacred: Religion, Narrative, and Imagination* (ed. Mark I Wallace; trans. David Pellauer; Minneapolis: Fortress, 1995), 59 [48–69]."
 redirect_from:
   - /how-not-to-understand-a-story-b1f7437419c1
+  - /how-not-to-understand-a-story/
 ---
 Narrative is everywhere. Whether reading overt stories, both fictional and factual, or reading texts that are not explicitly narrative, such as a scientific paper, say, narratives pervade.
 

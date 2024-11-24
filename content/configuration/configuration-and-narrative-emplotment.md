@@ -55,6 +55,7 @@ footnotes:
   - "Ricoeur, *Time* 1, 70."
 redirect_from:
   - /configuration-and-narrative-emplotment-649c1500f317
+  - /configuration-and-narrative-emplotment/
 ---
 
 The second stage of mimesis, mimesis 2, but which Ricoeur rather more floridly calls **configuration**, corresponds to narrative in its most commonly-understood sense: that act of telling or receiving a story, the actual configuration of a given plot — the story as told, or as read.
