@@ -15,6 +15,7 @@ image:
 redirect_from:
   - /latest
   - /trending
+  - /archive
 ---
 
 ## Narrative figuration after Paul Ricoeur{.primary-font .h3-style .heading-wide .hide-permalink}
