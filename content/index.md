@@ -12,6 +12,9 @@ pagination:
 showTags: false
 image:
   social: ./content/public/images/fig-social-card.jpg
+redirect_from:
+  - /latest
+  - /trending
 ---
 
 ## Narrative figuration after Paul Ricoeur{.primary-font .h3-style .heading-wide .hide-permalink}
