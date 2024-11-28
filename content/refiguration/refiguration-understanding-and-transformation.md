@@ -25,7 +25,7 @@ image:
   class: "image-obj-cover image-darken-25"
   pictureClass:
     list: "index-list__item__picture"
-  widths: [300, 600, 1000, 1980]
+  widths: [300, 620, 1000, 1980]
   caption: 'Photo by <a href="https://unsplash.com/photos/iNsKPCS-Z5g?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener ugc nofollow">Lily Lvnatikk</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener ugc nofollow">Unsplash</a>'
   page:
     hero: true

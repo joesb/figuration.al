@@ -22,7 +22,7 @@ image:
   class: "image-obj-cover image-darken-20"
   pictureClass:
     list: "index-list__item__picture"
-  widths: [300, 600, 1000, 1980]
+  widths: [300, 620, 1000, 1980]
   caption: 'Image by <a href="https://pixabay.com/users/tortugamediaservices-5195555/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2391461" target="_blank" rel="noopener ugc nofollow">Varun Kulkarni</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2391461" target="_blank" rel="noopener ugc nofollow">Pixabay</a>'
   page:
     hero: true

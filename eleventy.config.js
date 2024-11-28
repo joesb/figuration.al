@@ -192,7 +192,7 @@ export default async function(eleventyConfig) {
   }
 
   // Images
-  eleventyConfig.addShortcode("image", async function (src, alt, cls, widths = [300, 600], sizes = "100vh", picCls = "") {
+  eleventyConfig.addShortcode("image", async function (src, alt, cls, widths = [300, 620], sizes = "100vh", picCls = "") {
 		let metadata = await Image(src, {
 			widths,
 			formats: ["webp", "jpeg"],
@@ -254,7 +254,7 @@ export default async function(eleventyConfig) {
     return picture.jpeg[0].url;
   });
 
-  async function getPictureData(src, widths = [300, 600, 1000, 1980]) {
+  async function getPictureData(src, widths = [300, 620, 1000, 1980]) {
     let metadata = await Image(src, {
       widths: widths,
       formats: ['jpeg'],

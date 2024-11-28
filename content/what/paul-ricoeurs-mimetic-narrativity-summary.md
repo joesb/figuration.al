@@ -23,7 +23,7 @@ image:
   class: "image-obj-cover image-darken-20"
   pictureClass:
     list: "index-list__item__picture"
-  widths: [300, 600, 1000, 1980]
+  widths: [300, 620, 1000, 1980]
   caption: 'Mimesis, the imitative representation of the real world in art and literature. Photo by <a href="https://unsplash.com/@markusspiske?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank" rel="noopener ugc nofollow">Markus Spiske</a> on <a href="https://unsplash.com/photos/photo-of-eyeliner-BYL0-7AP8-c?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank" rel="noopener ugc nofollow">Unsplash</a>'
   page:
     hero: true

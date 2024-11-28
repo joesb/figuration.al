@@ -21,12 +21,12 @@ tags:
   - Philosophy
   - Paul Ricoeur
 image:
-  path: "https://images.unsplash.com/photo-1461359618866-5a5bff23c9bd?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  path: "./content/public/images/pages/mr-cup-fabien-barral-YmsmIv1IMRU-unsplash.jpg"
   alt: "lug nut lot"
   class: "image-obj-cover image-darken-25"
   pictureClass:
     list: "index-list__item__picture"
-  widths: [300, 600, 1000, 1980]
+  widths: [300, 620, 1000, 1980]
   caption: 'Photo by <a href="https://unsplash.com/@iammrcup?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank" rel="noopener ugc nofollow">Mr Cup / Fabien Barral</a> on <a href="https://unsplash.com/photos/lug-nut-lot-YmsmIv1IMRU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank" rel="noopener ugc nofollow">Unsplash</a>'
   page:
     hero: true

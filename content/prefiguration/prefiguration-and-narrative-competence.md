@@ -26,7 +26,7 @@ image:
   class: "image-obj-cover image-darken-50"
   pictureClass:
     list: "index-list__item__picture"
-  widths: [300, 600, 1000, 1980]
+  widths: [300, 620, 1000, 1980]
   caption: 'Photo by <a href="https://unsplash.com/photos/0zBJmvRpYMM?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener ugc nofollow" target="_blank">Benny Jackson</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener ugc nofollow" target="_blank">Unsplash</a>'
   page:
     hero: true

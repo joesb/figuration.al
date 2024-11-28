@@ -23,7 +23,7 @@ image:
   class: "image-obj-cover"
   pictureClass:
     list: "index-list__item__picture"
-  widths: [300, 600, 1000, 1980]
+  widths: [300, 620, 1000, 1980]
   caption: 'Photo by <a href="https://unsplash.com/@nathananderson?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank" rel="noopener ugc nofollow">Nathan Anderson</a> on <a href="https://unsplash.com/photos/person-holding-round-gray-device-c1bshOfP_IA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank" rel="noopener ugc nofollow">Unsplash</a>'
   page:
     hero: true

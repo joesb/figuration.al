@@ -24,7 +24,7 @@ image:
   class: "image-obj-cover"
   pictureClass:
     list: "index-list__item__picture"
-  widths: [300, 600, 1000, 1980, "auto"]
+  widths: [300, 620, 1000, 1980, "auto"]
   caption: 'At the very end, there’s something else. Photo by <a href="https://unsplash.com/photos/muxykzQtu1I?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener ugc nofollow" target="_blank">Sweet Ice Cream Photography</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" rel="noopener ugc nofollow" target="_blank">Unsplash</a>.'
   page:
     hero: true
