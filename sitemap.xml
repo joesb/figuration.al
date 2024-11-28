@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+      <loc>https://figuration.al/about/</loc>
+      <lastmod>2017-10-02T00:00:00.000Z</lastmod>
+  </url>
+  <url>
       <loc>https://figuration.al/prefiguration/prefiguration-and-narrative-competence/</loc>
       <lastmod>2017-10-21T00:00:00.000Z</lastmod>
   </url>
@@ -33,28 +37,32 @@
       <lastmod>2019-02-18T00:00:00.000Z</lastmod>
   </url>
   <url>
-      <loc>https://figuration.al/about/</loc>
-      <lastmod>2024-11-24T14:57:58.351Z</lastmod>
-  </url>
-  <url>
       <loc>https://figuration.al/configuration/</loc>
-      <lastmod>2024-11-24T14:57:58.351Z</lastmod>
+      <lastmod>2024-11-28T09:37:48.883Z</lastmod>
   </url>
   <url>
       <loc>https://figuration.al/</loc>
-      <lastmod>2024-11-24T14:57:58.351Z</lastmod>
+      <lastmod>2024-11-28T09:37:48.883Z</lastmod>
   </url>
   <url>
       <loc>https://figuration.al/prefiguration/</loc>
-      <lastmod>2024-11-24T14:57:58.351Z</lastmod>
+      <lastmod>2024-11-28T09:37:48.883Z</lastmod>
   </url>
   <url>
       <loc>https://figuration.al/refiguration/</loc>
-      <lastmod>2024-11-24T14:57:58.395Z</lastmod>
+      <lastmod>2024-11-28T09:37:48.927Z</lastmod>
   </url>
   <url>
       <loc>https://figuration.al/what/</loc>
-      <lastmod>2024-11-24T14:57:58.395Z</lastmod>
+      <lastmod>2024-11-28T09:37:48.927Z</lastmod>
+  </url>
+  <url>
+      <loc>https://figuration.al/feed.xml</loc>
+      <lastmod>2024-11-28T09:38:38.023Z</lastmod>
+  </url>
+  <url>
+    <loc>https://figuration.al/tagged/posts/</loc>
+    <lastmod>2024-11-28T09:37:48.927Z</lastmod>
   </url>
   <url>
     <loc>https://figuration.al/tagged/configuration/</loc>
@@ -66,15 +74,15 @@
   </url>
   <url>
     <loc>https://figuration.al/tagged/narrative/</loc>
-    <lastmod>2024-11-24T14:57:58.395Z</lastmod>
+    <lastmod>2024-11-28T09:37:48.927Z</lastmod>
   </url>
   <url>
     <loc>https://figuration.al/tagged/philosophy/</loc>
-    <lastmod>2024-11-24T14:57:58.395Z</lastmod>
+    <lastmod>2024-11-28T09:37:48.927Z</lastmod>
   </url>
   <url>
     <loc>https://figuration.al/tagged/paul-ricoeur/</loc>
-    <lastmod>2024-11-24T14:57:58.395Z</lastmod>
+    <lastmod>2024-11-28T09:37:48.927Z</lastmod>
   </url>
   <url>
     <loc>https://figuration.al/tagged/star-wars/</loc>
@@ -114,10 +122,10 @@
   </url>
   <url>
     <loc>https://figuration.al/tagged/narratology/</loc>
-    <lastmod>2024-11-24T14:57:58.395Z</lastmod>
+    <lastmod>2024-11-28T09:37:48.927Z</lastmod>
   </url>
   <url>
     <loc>https://figuration.al/tagged/figuration/</loc>
-    <lastmod>2024-11-24T14:57:58.395Z</lastmod>
+    <lastmod>2024-11-28T09:37:48.927Z</lastmod>
   </url>
 </urlset>

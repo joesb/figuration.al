@@ -21,6 +21,7 @@
 /prefiguration/home /prefiguration/ 301
 /refiguration/home /refiguration/ 301
 /what-is-figuration-c6ede08dfe21 /what/ 301
+/tag/posts/ /tagged/posts/ 301
 /tag/configuration/ /tagged/configuration/ 301
 /tag/storytelling/ /tagged/storytelling/ 301
 /tag/narrative/ /tagged/narrative/ 301
@@ -37,3 +38,5 @@
 /tag/time/ /tagged/time/ 301
 /tag/narratology/ /tagged/narratology/ 301
 /tag/figuration/ /tagged/figuration/ 301
+
+/feed /feed.xml 301
