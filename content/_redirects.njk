@@ -8,3 +8,4 @@ tagFilter:
 ---
 {% for page in collections.all %}{% if page.url and page.data.redirect_from %}{% if page.data.redirect_from | is_string %}{{ page.data.redirect_from }} {{ page.url }} {{ page.data.redirect_code or '301'}}{{ '\n' }}{% else %}{% for oldUrl in page.data.redirect_from %}{{ oldUrl }} {{ page.url }} {{ page.data.redirect_code or '301'}}{{ '\n' }}{% endfor %}{% endif %}{% endif %}{% endfor %}{% set taglist = collections %}{% for label, list in taglist %}{% if label not in tagFilter %}{% set labelSlug = label | slugify %}{% set fromUrl = ["/tag", labelSlug, "" ] | join("/") %}{{ fromUrl | htmlBaseUrl  }} {% set tagUrl = ["/tagged", labelSlug, "" ] | join("/") %}{{ tagUrl | htmlBaseUrl }} 301
 {% endif %}{% endfor %}
+/feed /feed.xml 301

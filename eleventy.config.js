@@ -15,6 +15,7 @@
 // const embedEverything = require("eleventy-plugin-embed-everything");
 import { IdAttributePlugin, InputPathToUrlTransformPlugin, EleventyHtmlBasePlugin } from "@11ty/eleventy";
 import pluginRss from "@11ty/eleventy-plugin-rss";
+import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 import pluginNavigation from "@11ty/eleventy-navigation";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
@@ -48,6 +49,25 @@ export default async function(eleventyConfig) {
   // eleventyConfig.addPlugin(embedEverything);
   eleventyConfig.addFilter("debug", (content) => `<pre>${inspect(content)}</pre>`);
   eleventyConfig.addPlugin(embedEverything);
+
+  eleventyConfig.addPlugin(feedPlugin, {
+		type: "rss", // or "atom", "json"
+		outputPath: "/feed.xml",
+		collection: {
+			name: "posts", // iterate over `collections.posts`
+			limit: 25,     // 0 means no limit
+		},
+		metadata: {
+			language: "en",
+			title: "Figurational",
+			subtitle: "Narrative figuration after Ricoeur.",
+			base: "https://figuration.al/",
+			author: {
+				name: "Joe Baker",
+				email: "", // Optional
+			}
+		}
+	});
 
   // // Return active path attributes
   eleventyConfig.addShortcode('activepath', function (itemUrl, currentUrl, currentClass = "current", prefix = '') {
@@ -146,6 +166,12 @@ export default async function(eleventyConfig) {
     var nav = collection.getFilteredByTag('configuration');
     return sortByDate(nav).reverse();
   });
+
+  // Posts content in a collection
+  eleventyConfig.addCollection('posts', (collection) => {
+    var posts = collection.getAll().filter(item => item.data.layout == 'page.njk');
+    return sortByDate(posts).reverse();
+  })
 
   function sortByOrder(collection, andSticky = false) {
     return collection.sort((a, b) => {
