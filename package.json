@@ -13,7 +13,7 @@
   },
   "scripts": {
     "build": "(yarn sass:build) && npx @11ty/eleventy",
-    "build:full": "(yarn clean) && (yarn sass:build) && (npx @11ty/eleventy --dryrun) && (npx @11ty/eleventy)",
+    "build:full": "(yarn install --frozen-lockfile) && (yarn sass:build) && (npx @11ty/eleventy --dryrun) && (npx @11ty/eleventy)",
     "build:dryrun": "(npm run sass:build) && npx @11ty/eleventy --dryrun",
     "clean": "npx rimraf -v _site/* content/public/img/*",
     "watch": "npx eleventy --watch",
