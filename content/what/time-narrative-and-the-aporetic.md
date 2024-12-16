@@ -12,6 +12,7 @@ tags:
   - Time
   - Paul Ricoeur
   - Storytelling
+canonical: https://figuration.al/what/time-narrative-and-the-aporetic/
 page:
   classes:
     - "page--with-hero"

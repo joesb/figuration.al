@@ -5,6 +5,7 @@ layout: page.njk
 date: 2017-11-27
 promoted: true
 order: 3
+canonical: https://figuration.al/what/the-limits-of-narrative/
 page:
   classes:
     - "page--with-hero"

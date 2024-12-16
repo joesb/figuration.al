@@ -6,6 +6,7 @@ promoted: true
 order: 30
 sticky: true
 date: 2017-10-23
+canonical: https://figuration.al/configuration/configuration-and-narrative-emplotment/
 page:
   classes:
     - "page--with-hero"

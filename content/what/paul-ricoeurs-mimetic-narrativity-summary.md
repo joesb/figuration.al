@@ -5,6 +5,7 @@ layout: page.njk
 promoted: true
 date: 2017-11-04
 order: 10
+canonical: https://figuration.al/what/paul-ricoeurs-mimetic-narrativity-summary/
 page:
   classes:
     - "page--with-hero"

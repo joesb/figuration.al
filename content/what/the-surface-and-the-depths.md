@@ -5,6 +5,7 @@ layout: page.njk
 date: 2019-02-18
 promoted: true
 order: 0
+canonical: https://figuration.al/what/the-surface-and-the-depths/
 page:
   classes:
     - "page--with-hero"

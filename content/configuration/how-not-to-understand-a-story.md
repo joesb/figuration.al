@@ -17,6 +17,7 @@ tags:
   - Storytelling
   - Reading
   - Philosophy
+canonical: https://figuration.al/configuration/how-not-to-understand-a-story/
 image:
   path: "./content/public/images/pages/1_THwLoeqaLjU3IRE83n8TAA.webp"
   alt: "Wooden pigeon hole drawers"

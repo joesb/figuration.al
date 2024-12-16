@@ -14,6 +14,7 @@ tags:
   - Philosophy
   - Narrative
   - Paul Ricoeur
+canonical: https://figuration.al/refiguration/refiguration-understanding-and-transformation/
 page:
   classes:
     - "page--with-hero"

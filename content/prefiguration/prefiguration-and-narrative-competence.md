@@ -9,6 +9,7 @@ date: 2017-10-21
 eleventyNavigation:
   key: Prefiguration and Narrative Competence
   parent: Prefiguration
+canonical: https://figuration.al/prefiguration/prefiguration-and-narrative-competence/
 page:
   classes:
     - "page--with-hero"
