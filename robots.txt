@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /cdn-cgi/
+
+
+Host: https://figuration.al/
+
+Sitemap: https://figuration.al/sitemap.xml
