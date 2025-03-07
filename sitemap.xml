@@ -38,35 +38,35 @@
   </url>
   <url>
       <loc>https://figuration.al/configuration/</loc>
-      <lastmod>2025-02-24T18:36:28.151Z</lastmod>
+      <lastmod>2025-03-07T17:07:53.219Z</lastmod>
   </url>
   <url>
       <loc>https://figuration.al/</loc>
-      <lastmod>2025-02-24T18:36:28.151Z</lastmod>
+      <lastmod>2025-03-07T17:07:53.219Z</lastmod>
   </url>
   <url>
       <loc>https://figuration.al/prefiguration/</loc>
-      <lastmod>2025-02-24T18:36:28.151Z</lastmod>
+      <lastmod>2025-03-07T17:07:53.219Z</lastmod>
   </url>
   <url>
       <loc>https://figuration.al/refiguration/</loc>
-      <lastmod>2025-02-24T18:36:28.194Z</lastmod>
+      <lastmod>2025-03-07T17:07:53.262Z</lastmod>
   </url>
   <url>
       <loc>https://figuration.al/what/</loc>
-      <lastmod>2025-02-24T18:36:28.195Z</lastmod>
+      <lastmod>2025-03-07T17:07:53.263Z</lastmod>
   </url>
   <url>
       <loc>https://figuration.al/feed.xml</loc>
-      <lastmod>2025-02-24T18:37:17.381Z</lastmod>
+      <lastmod>2025-03-07T17:08:43.067Z</lastmod>
   </url>
   <url>
     <loc>https://figuration.al/tagged/posts/</loc>
-    <lastmod>2025-02-24T18:36:28.195Z</lastmod>
+    <lastmod>2025-03-07T17:07:53.263Z</lastmod>
   </url>
   <url>
-    <loc>https://figuration.al/tagged/configuration/</loc>
-    <lastmod>2019-02-18T00:00:00.000Z</lastmod>
+    <loc>https://figuration.al/tagged/prefiguration/</loc>
+    <lastmod>2017-11-04T00:00:00.000Z</lastmod>
   </url>
   <url>
     <loc>https://figuration.al/tagged/storytelling/</loc>
@@ -74,15 +74,19 @@
   </url>
   <url>
     <loc>https://figuration.al/tagged/narrative/</loc>
-    <lastmod>2025-02-24T18:36:28.195Z</lastmod>
+    <lastmod>2025-03-07T17:07:53.263Z</lastmod>
   </url>
   <url>
     <loc>https://figuration.al/tagged/philosophy/</loc>
-    <lastmod>2025-02-24T18:36:28.195Z</lastmod>
+    <lastmod>2025-03-07T17:07:53.263Z</lastmod>
   </url>
   <url>
     <loc>https://figuration.al/tagged/paul-ricoeur/</loc>
-    <lastmod>2025-02-24T18:36:28.195Z</lastmod>
+    <lastmod>2025-03-07T17:07:53.263Z</lastmod>
+  </url>
+  <url>
+    <loc>https://figuration.al/tagged/configuration/</loc>
+    <lastmod>2019-02-18T00:00:00.000Z</lastmod>
   </url>
   <url>
     <loc>https://figuration.al/tagged/star-wars/</loc>
@@ -91,10 +95,6 @@
   <url>
     <loc>https://figuration.al/tagged/reading/</loc>
     <lastmod>2017-11-27T00:00:00.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://figuration.al/tagged/prefiguration/</loc>
-    <lastmod>2017-11-04T00:00:00.000Z</lastmod>
   </url>
   <url>
     <loc>https://figuration.al/tagged/refiguration/</loc>
@@ -122,10 +122,10 @@
   </url>
   <url>
     <loc>https://figuration.al/tagged/narratology/</loc>
-    <lastmod>2025-02-24T18:36:28.195Z</lastmod>
+    <lastmod>2025-03-07T17:07:53.263Z</lastmod>
   </url>
   <url>
     <loc>https://figuration.al/tagged/figuration/</loc>
-    <lastmod>2025-02-24T18:36:28.195Z</lastmod>
+    <lastmod>2025-03-07T17:07:53.263Z</lastmod>
   </url>
 </urlset>
