@@ -55,7 +55,7 @@ It is a postulate — the assumed existence as a fact of universal underlying na
 
 As a consequence, it is very easy to confuse and even conflate structuralism’s postulate of deep-level structure with pervasive deep-level story. Greimas’s actantial model that [I described in my previous post](/configuration/how-not-to-understand-a-story/) asserts that there is a patterned relationship between defined actants universally present at a deep level in all stories. Other structural approaches do similar, as I said previously.
 
-{% socialCard "/configuration/how-not-to-understand-a-story/?referrer=figuration.al", "How (not) to Understand a Story", "When reading and writing stories, it is tempting to use a system to reduce the story to a structure. It’s beguiling, but it is fundamentally problematic. Beware!", "figuration.al", "/public/img/MjXtRihm8l-800.jpeg", "Wooden pigeon hole drawers" %}
+{% socialCard "/configuration/how-not-to-understand-a-story/", "How (not) to Understand a Story", "When reading and writing stories, it is tempting to use a system to reduce the story to a structure. It’s beguiling, but it is fundamentally problematic. Beware!", "figuration.al", "/public/img/MjXtRihm8l-800.jpeg", "Wooden pigeon hole drawers" %}
 
 They assert that there is only 6 or 9 or 35 basic character types, or always 5 acts, or a defined rhythm or pattern of story ‘beats’, the flow of conflicts and climaxes, towards the final crescendo, or whatever. Writers, sensing a shortcut to assured success, base their writing on these models … and, lo! The mighty narrative god has commanded it, and it is so: there’s a matching cache of stories that obey the structural rules of narrative. But of course, that’s merely self-fulfilling.
 
