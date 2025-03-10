@@ -13,15 +13,15 @@
   },
   "scripts": {
     "build": "(yarn sass:build) && npx @11ty/eleventy",
-    "build:full": "(yarn install --frozen-lockfile) && (yarn sass:build) && (npx @11ty/eleventy --dryrun) && (npx @11ty/eleventy)",
+    "build:full": "(yarn install --immutable-cache) && (yarn sass:build) && (npx @11ty/eleventy --dryrun) && (npx @11ty/eleventy)",
     "build:dryrun": "(npm run sass:build) && npx @11ty/eleventy --dryrun",
     "clean": "npx rimraf -v _site/* content/public/img/*",
     "watch": "npx eleventy --watch",
-    "serve": "(yarn clean) && (yarn sass:build) && (npx eleventy --dryrun) && npx @11ty/eleventy --serve & sass --watch --style=expanded src/sass/:src/_includes/assets/css/",
-    "up": "yarn serve",
+    "go": "yarn serve",
+    "serve": "(yarn clean) && (yarn sass:build) && (npx @11ty/eleventy --dryrun) & npx @11ty/eleventy --serve & sass --watch --style=expanded ./src/_sass/:./src/_includes/assets/css/",
     "debug": "DEBUG=* npx eleventy",
     "wdebug": "set DEBUG=Eleventy* & eleventy",
-    "sass:build": "sass --style=expanded src/sass/:src/_includes/assets/css/ & npx postcss src/_includes/assets/css/*.css --use autoprefixer -d src/_includes/assets/css",
+    "sass:build": "sass --style=expanded ./src/_sass/:./src/_includes/assets/css/ && npx postcss ./src/_includes/assets/css/*.css --use autoprefixer -d ./src/_includes/assets/css",
     "sass:dev": "sass --watch --update --style=expanded src/sass/:src/_includes/assets/css/",
     "lint:scss": "stylelint \"src/sass/**/*.scss\"",
     "npf": "npx postcss src/_includes/assets/css/styles.css --use autoprefixer -d src/_includes/assets/css/build"
@@ -46,8 +46,10 @@
     "markdown-it-sup": "^2.0.0",
     "postcss": "^8.4.47",
     "postcss-cli": "^11.0.0",
+    "posthtml": "^0.16.6",
+    "prettier": "^3.5.3",
     "rimraf": "^6.0.1",
-    "sass": "^1.80.6",
+    "sass": "^1.85.1",
     "sass-autoprefixer": "^1.0.1",
     "stylelint": "^16.10.0",
     "stylelint-config-standard": "^36.0.1",
@@ -56,9 +58,10 @@
     "stylelint-scss": "^6.8.1"
   },
   "dependencies": {
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
+    "@types/markdown-it": "^14.1.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
     "resend": "^4.0.1"
   },
-  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
+  "packageManager": "yarn@3.8.7"
 }
