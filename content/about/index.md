@@ -23,6 +23,6 @@ I write more about stories, writing, narratology and narrative figuration over o
 
 For my day job, I am a delivery principal and fractional Chief Delivery Officer for creative agencies and SaaS product businesses with 25 years' experience in service delivery.
 
-Find out more on [Helios360.co.uk](https://helios360.co.uk/){target=_blank}, where I am authoring *[The Chief Delivery Officer's Handbook](https://helios360.co.uk/handbook/){target=_blank}*, an essential guide to leading delivery projects, teams and programs.
+Find out more on [Helios360.co.uk](https://helios360.co.uk/){target=_blank rel="noopener ugc nofollow"}, where I am authoring *[The Chief Delivery Officer's Handbook](https://helios360.co.uk/handbook/){target=_blank rel="noopener ugc nofollow"}*, an essential guide to leading delivery projects, teams and programs.
 
 {% socialCard "https://helios360.co.uk/", "Specialist Consulting for Service Delivery | Helios360", "Specialist consulting for service delivery. Fractional Chief Delivery Officer. Delivery leadership for creative agencies and SaaS businesses.", "helios360.co.uk", "https://helios360.co.uk/public/img/_zeTBS41PK-800.jpeg", "Helios360" %}
