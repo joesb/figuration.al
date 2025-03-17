@@ -2,7 +2,7 @@
 title: About Figuration.al
 excerpt: "A narratological exploration of narrative figuration and how stories affect who we are."
 layout: page.njk
-date: 2017-10-02
+date: 2025-03-17T14:54:32Z
 eleventyNavigation:
   key: About
   parent: Home
