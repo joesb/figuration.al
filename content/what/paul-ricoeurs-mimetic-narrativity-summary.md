@@ -32,6 +32,7 @@ image:
 redirect_from: 
   - /paul-ricoeurs-mimetic-narrativity-in-summary-ef006a539ae6
   - /paul-ricoeurs-mimetic-narrativity-in-summary/
+  - /paul-ricoeurs-mimetic-narrativity-in-summary-
 footnotes:
   - "Ricoeur, *Time* 2, 31–61; Blundell, *Paul Ricoeur*, 70–72."
   - "Blundell, *Paul Ricoeur*, 78; Stiver, *Theology after Ricoeur*, 62."

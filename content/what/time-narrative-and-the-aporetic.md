@@ -32,6 +32,7 @@ image:
 redirect_from: 
   - /time-narrative-and-the-aporetic-b21841a04795
   - /time-narrative-and-the-aporetic/
+  - /time-narrative-and-the-aporetic-
 footnotes:
   - "Ricoeur, *Time* 1, 7."
   - "Ricoeur, *Time* 1, 7."

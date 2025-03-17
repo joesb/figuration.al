@@ -34,6 +34,7 @@ footnotes:
 redirect_from:
   - /all-surface-and-little-depth-characters-character-and-stories-3c8c75ff9037
   - /all-surface-and-little-depth-characters-character-and-stories/
+  - /all-surface-and-little-depth-characters-character-and-stories-
 ---
 
 Characters are at the core of stories. The events in characters’ lives, and the reasons those events are connected, unfurl the patterned cloth of the plot. Without characters in whatever form they take, animal, vegetable or mineral, events happen without meaning. Characters have a point of view; characters are able to make meaning; characters have and express feelings; characters can and do suffer. Characters allow writers and readers to express their creative imagination in perceiving another’s life, to transgress the limitations of their own life and to realise the finite quality of their life.^1^ Characters allow us to see life from someone else’s perspective, to live in another’s shoes.

@@ -79,6 +79,7 @@ footnotes:
 redirect_from:
   - /refiguration-understanding-and-transformation-2492d2b40212
   - /refiguration-understanding-and-transformation/
+  - /refiguration-understanding-and-transformation-
 ---
 
 Mimesis 2, emplotment, or configuration, is the most common concern for discussion on narrative but Ricoeur is insistent that in order for mimesis 2 to become intelligible there is a requirement for a third stage to complete the cycle of mimesis.^1^

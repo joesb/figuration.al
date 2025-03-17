@@ -44,6 +44,7 @@ footnotes:
 redirect_from:
   - /the-limits-of-narrative-9d60f74661b4
   - /the-limits-of-narrative/
+  - /the-limits-of-narrative-
 ---
 One final aspect of Ricoeur’s approach to narrative is important to highlight.
 
