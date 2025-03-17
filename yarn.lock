@@ -61,6 +61,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@11ty/eleventy-fetch@npm:^5.0.2":
+  version: 5.0.2
+  resolution: "@11ty/eleventy-fetch@npm:5.0.2"
+  dependencies:
+    "@rgrove/parse-xml": ^4.2.0
+    debug: ^4.3.7
+    flat-cache: ^6.1.1
+    graceful-fs: ^4.2.11
+    p-queue: 6.6.2
+  checksum: c6fa41b2d4383b1fad560ee6f9b65e346dde44cb5fd8321308d0ea989e8679258c43dfabab82348e72fcaf6738251e7cae18e376d1d5bc2dacb3e14a540f0e99
+  languageName: node
+  linkType: hard
+
 "@11ty/eleventy-img@npm:^4.0.2":
   version: 4.0.2
   resolution: "@11ty/eleventy-img@npm:4.0.2"
@@ -76,19 +89,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@11ty/eleventy-img@npm:^5.0.0":
-  version: 5.0.0
-  resolution: "@11ty/eleventy-img@npm:5.0.0"
+"@11ty/eleventy-img@npm:^6.0.1":
+  version: 6.0.1
+  resolution: "@11ty/eleventy-img@npm:6.0.1"
   dependencies:
-    "@11ty/eleventy-fetch": ^4.0.1
-    "@11ty/eleventy-utils": ^1.0.3
+    "@11ty/eleventy-fetch": ^5.0.2
+    "@11ty/eleventy-utils": ^2.0.0
     brotli-size: ^4.0.0
-    debug: ^4.3.7
-    entities: ^5.0.0
-    image-size: ^1.1.1
+    debug: ^4.4.0
+    entities: ^6.0.0
+    image-size: ^1.2.0
     p-queue: ^6.6.2
     sharp: ^0.33.5
-  checksum: 2365575d17a9a12610645ab82717c37af65ccd4b3d461fda3079e427d56a15f108090dab5ec26ae85bc0147ebf1abf0ec449f7586667a83ee9d2caa9ff9f98ea
+  checksum: 9184391383d3c389249760aff4f9bade4c4c775001e752e8e5d612f88e160e70b982a629f9f3c7b76d78e89c2bd1d785d5a7a686711594c7b922aa909ed0458a
   languageName: node
   linkType: hard
 
@@ -111,7 +124,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@11ty/eleventy-plugin-rss@npm:^2.0.2":
+"@11ty/eleventy-plugin-rss@npm:^2.0.3":
   version: 2.0.3
   resolution: "@11ty/eleventy-plugin-rss@npm:2.0.3"
   dependencies:
@@ -720,6 +733,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@rgrove/parse-xml@npm:^4.2.0":
+  version: 4.2.0
+  resolution: "@rgrove/parse-xml@npm:4.2.0"
+  checksum: 4f746303386bdf3b07af4703c4212653f7d8b24158f3b5647b8d9646753517e55cfc64f6aa952b8e1ed9ce82b344eb73ce56f467d527bfe41ca4a2bdd8e34193
+  languageName: node
+  linkType: hard
+
 "@selderee/plugin-htmlparser2@npm:^0.11.0":
   version: 0.11.0
   resolution: "@selderee/plugin-htmlparser2@npm:0.11.0"
@@ -727,13 +747,6 @@ __metadata:
     domhandler: ^5.0.3
     selderee: ^0.11.0
   checksum: 6deafedd153e492359f8f0407d20903d82f2ef4950e420f4b2ee6ffbb955753524631aac7d6a5fe61dc7c7893e6928b4d8409e886157ad64a60ab37bc08b17c4
-  languageName: node
-  linkType: hard
-
-"@sindresorhus/merge-streams@npm:^2.1.0":
-  version: 2.3.0
-  resolution: "@sindresorhus/merge-streams@npm:2.3.0"
-  checksum: e989d53dee68d7e49b4ac02ae49178d561c461144cea83f66fa91ff012d981ad0ad2340cbd13f2fdb57989197f5c987ca22a74eb56478626f04e79df84291159
   languageName: node
   linkType: hard
 
@@ -945,7 +958,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"autoprefixer@npm:^10.4.20":
+"autoprefixer@npm:^10.4.21":
   version: 10.4.21
   resolution: "autoprefixer@npm:10.4.21"
   dependencies:
@@ -1499,7 +1512,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dotenv@npm:^16.4.5":
+"dotenv@npm:^16.4.7":
   version: 16.4.7
   resolution: "dotenv@npm:16.4.7"
   checksum: c27419b5875a44addcc56cc69b7dc5b0e6587826ca85d5b355da9303c6fc317fc9989f1f18366a16378c9fdd9532d14117a1abe6029cc719cdbbef6eaef2cea4
@@ -1548,7 +1561,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eleventy-plugin-embed-everything@npm:^1.19.0":
+"eleventy-plugin-embed-everything@npm:^1.20.0":
   version: 1.20.0
   resolution: "eleventy-plugin-embed-everything@npm:1.20.0"
   dependencies:
@@ -1732,6 +1745,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"entities@npm:^6.0.0":
+  version: 6.0.0
+  resolution: "entities@npm:6.0.0"
+  checksum: 4e964b5549b0f1e7a88836527d38181aa7b2f87222ed2424e78309781b17212de684c84094435f53bea69a7e7e2505268fd96772af166adb686d086d64361435
+  languageName: node
+  linkType: hard
+
 "env-paths@npm:^2.2.0, env-paths@npm:^2.2.1":
   version: 2.2.1
   resolution: "env-paths@npm:2.2.1"
@@ -1900,47 +1920,59 @@ __metadata:
   languageName: node
   linkType: hard
 
+"fdir@npm:^6.4.3":
+  version: 6.4.3
+  resolution: "fdir@npm:6.4.3"
+  peerDependencies:
+    picomatch: ^3 || ^4
+  peerDependenciesMeta:
+    picomatch:
+      optional: true
+  checksum: fa53e13c63e8c14add5b70fd47e28267dd5481ebbba4b47720ec25aae7d10a800ef0f2e33de350faaf63c10b3d7b64138925718832220d593f75e724846c736d
+  languageName: node
+  linkType: hard
+
 "figuration.al@workspace:.":
   version: 0.0.0-use.local
   resolution: "figuration.al@workspace:."
   dependencies:
     "@11ty/eleventy": ^3.0.0
-    "@11ty/eleventy-img": ^5.0.0
+    "@11ty/eleventy-img": ^6.0.1
     "@11ty/eleventy-navigation": ^0.3.5
-    "@11ty/eleventy-plugin-rss": ^2.0.2
+    "@11ty/eleventy-plugin-rss": ^2.0.3
     "@types/markdown-it": ^14.1.2
-    autoprefixer: ^10.4.20
+    autoprefixer: ^10.4.21
     clean-css: ^5.3.3
-    dotenv: ^16.4.5
-    eleventy-plugin-embed-everything: ^1.19.0
+    dotenv: ^16.4.7
+    eleventy-plugin-embed-everything: ^1.20.0
     eleventy-plugin-time-to-read: ^1.3.0
     html-minifier: ^4.0.0
     luxon: ^3.5.0
     markdown-it: ^14.1.0
     markdown-it-anchor: ^9.2.0
-    markdown-it-attrs: ^4.2.0
+    markdown-it-attrs: ^4.3.1
     markdown-it-eleventy-img: ^0.10.2
     markdown-it-small: ^1.0.0
     markdown-it-sup: ^2.0.0
-    postcss: ^8.4.47
-    postcss-cli: ^11.0.0
+    postcss: ^8.5.3
+    postcss-cli: ^11.0.1
     posthtml: ^0.16.6
     prettier: ^3.5.3
     react: ^19.0.0
     react-dom: ^19.0.0
-    resend: ^4.0.1
+    resend: ^4.1.2
     rimraf: ^6.0.1
     sass: ^1.85.1
     sass-autoprefixer: ^1.0.1
-    stylelint: ^16.10.0
-    stylelint-config-standard: ^36.0.1
-    stylelint-config-standard-scss: ^13.1.0
-    stylelint-prettier: ^5.0.2
-    stylelint-scss: ^6.8.1
+    stylelint: ^16.16.0
+    stylelint-config-standard: ^37.0.0
+    stylelint-config-standard-scss: ^14.0.0
+    stylelint-prettier: ^5.0.3
+    stylelint-scss: ^6.11.1
   languageName: unknown
   linkType: soft
 
-"file-entry-cache@npm:^10.0.6":
+"file-entry-cache@npm:^10.0.7":
   version: 10.0.7
   resolution: "file-entry-cache@npm:10.0.7"
   dependencies:
@@ -1991,7 +2023,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"flat-cache@npm:^6.1.7":
+"flat-cache@npm:^6.1.1, flat-cache@npm:^6.1.7":
   version: 6.1.7
   resolution: "flat-cache@npm:6.1.7"
   dependencies:
@@ -2086,13 +2118,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"get-stdin@npm:^9.0.0":
-  version: 9.0.0
-  resolution: "get-stdin@npm:9.0.0"
-  checksum: 5972bc34d05932b45512c8e2d67b040f1c1ca8afb95c56cbc480985f2d761b7e37fe90dc8abd22527f062cc5639a6930ff346e9952ae4c11a2d4275869459594
-  languageName: node
-  linkType: hard
-
 "glob-parent@npm:^5.1.2, glob-parent@npm:~5.1.2":
   version: 5.1.2
   resolution: "glob-parent@npm:5.1.2"
@@ -2179,20 +2204,6 @@ __metadata:
     merge2: ^1.4.1
     slash: ^3.0.0
   checksum: b4be8885e0cfa018fc783792942d53926c35c50b3aefd3fdcfb9d22c627639dc26bd2327a40a0b74b074100ce95bb7187bfeae2f236856aa3de183af7a02aea6
-  languageName: node
-  linkType: hard
-
-"globby@npm:^14.0.0":
-  version: 14.1.0
-  resolution: "globby@npm:14.1.0"
-  dependencies:
-    "@sindresorhus/merge-streams": ^2.1.0
-    fast-glob: ^3.3.3
-    ignore: ^7.0.3
-    path-type: ^6.0.0
-    slash: ^5.1.0
-    unicorn-magic: ^0.3.0
-  checksum: b1f27dccc999c010ee7e0ce7c6581fd2326ac86cf0508474d526d699a029b66b35d6fa4361c8b4ad8e80809582af71d5e2080e671cf03c26e98ca67aba8834bd
   languageName: node
   linkType: hard
 
@@ -2383,7 +2394,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"image-size@npm:^1.1.1":
+"image-size@npm:^1.1.1, image-size@npm:^1.2.0":
   version: 1.2.0
   resolution: "image-size@npm:1.2.0"
   dependencies:
@@ -2854,7 +2865,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"markdown-it-attrs@npm:^4.2.0":
+"markdown-it-attrs@npm:^4.3.1":
   version: 4.3.1
   resolution: "markdown-it-attrs@npm:4.3.1"
   peerDependencies:
@@ -3323,7 +3334,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"p-queue@npm:^6.6.2":
+"p-queue@npm:6.6.2, p-queue@npm:^6.6.2":
   version: 6.6.2
   resolution: "p-queue@npm:6.6.2"
   dependencies:
@@ -3444,13 +3455,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"path-type@npm:^6.0.0":
-  version: 6.0.0
-  resolution: "path-type@npm:6.0.0"
-  checksum: b9f6eaf7795c48d5c9bc4c6bc3ac61315b8d36975a73497ab2e02b764c0836b71fb267ea541863153f633a069a1c2ed3c247cb781633842fc571c655ac57c00e
-  languageName: node
-  linkType: hard
-
 "peberminta@npm:^0.9.0":
   version: 0.9.0
   resolution: "peberminta@npm:0.9.0"
@@ -3472,6 +3476,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"picomatch@npm:^4.0.2":
+  version: 4.0.2
+  resolution: "picomatch@npm:4.0.2"
+  checksum: a7a5188c954f82c6585720e9143297ccd0e35ad8072231608086ca950bee672d51b0ef676254af0788205e59bd4e4deb4e7708769226bed725bf13370a7d1464
+  languageName: node
+  linkType: hard
+
 "pify@npm:^2.3.0":
   version: 2.3.0
   resolution: "pify@npm:2.3.0"
@@ -3488,27 +3499,26 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-cli@npm:^11.0.0":
-  version: 11.0.0
-  resolution: "postcss-cli@npm:11.0.0"
+"postcss-cli@npm:^11.0.1":
+  version: 11.0.1
+  resolution: "postcss-cli@npm:11.0.1"
   dependencies:
     chokidar: ^3.3.0
-    dependency-graph: ^0.11.0
+    dependency-graph: ^1.0.0
     fs-extra: ^11.0.0
-    get-stdin: ^9.0.0
-    globby: ^14.0.0
     picocolors: ^1.0.0
     postcss-load-config: ^5.0.0
     postcss-reporter: ^7.0.0
     pretty-hrtime: ^1.0.3
     read-cache: ^1.0.0
     slash: ^5.0.0
+    tinyglobby: ^0.2.12
     yargs: ^17.0.0
   peerDependencies:
     postcss: ^8.0.0
   bin:
     postcss: index.js
-  checksum: 93f49c45988d02375a7eec593e99576bfc3cea9180ba5b3a42efe850954112d91afa0c2bc65b3102b99b5b871650250040c88ada6d97e2708b160fced2efb369
+  checksum: 5cda7642b6bc7454aef9c33b292d5cc44ae44c0a746b19cf4c3c23e2fee190764551085efdafa065c5fca4d8a0bf40d64a034334032a2519798d1394afda2a53
   languageName: node
   linkType: hard
 
@@ -3594,7 +3604,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:^8.4.47, postcss@npm:^8.5.3":
+"postcss@npm:^8.5.3":
   version: 8.5.3
   resolution: "postcss@npm:8.5.3"
   dependencies:
@@ -3826,7 +3836,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"resend@npm:^4.0.1":
+"resend@npm:^4.1.2":
   version: 4.1.2
   resolution: "resend@npm:4.1.2"
   dependencies:
@@ -4121,7 +4131,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"slash@npm:^5.0.0, slash@npm:^5.1.0":
+"slash@npm:^5.0.0":
   version: 5.1.0
   resolution: "slash@npm:5.1.0"
   checksum: 70434b34c50eb21b741d37d455110258c42d2cf18c01e6518aeb7299f3c6e626330c889c0c552b5ca2ef54a8f5a74213ab48895f0640717cacefeef6830a1ba4
@@ -4281,7 +4291,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stylelint-config-recommended-scss@npm:^14.0.0":
+"stylelint-config-recommended-scss@npm:^14.1.0":
   version: 14.1.0
   resolution: "stylelint-config-recommended-scss@npm:14.1.0"
   dependencies:
@@ -4307,23 +4317,32 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stylelint-config-standard-scss@npm:^13.1.0":
-  version: 13.1.0
-  resolution: "stylelint-config-standard-scss@npm:13.1.0"
-  dependencies:
-    stylelint-config-recommended-scss: ^14.0.0
-    stylelint-config-standard: ^36.0.0
+"stylelint-config-recommended@npm:^15.0.0":
+  version: 15.0.0
+  resolution: "stylelint-config-recommended@npm:15.0.0"
   peerDependencies:
-    postcss: ^8.3.3
-    stylelint: ^16.3.1
-  peerDependenciesMeta:
-    postcss:
-      optional: true
-  checksum: c5105e3b3390c9d0aa95e252abdf1850fa50d82e1a25a1fcc11a88b111038e00c8033a4b34905405f2203c84c0fa26ce1d40248df2172c83c76cc3baa552db07
+    stylelint: ^16.13.0
+  checksum: 11f35fb433c9ea1cb68d3140c116bbd20fafafc01d6a90d8dafb9820d7697df51c3e28ff5d5c98a576282179168d11b65b50cbbbc6d20fa35f5ef9dff6e2c8e1
   languageName: node
   linkType: hard
 
-"stylelint-config-standard@npm:^36.0.0, stylelint-config-standard@npm:^36.0.1":
+"stylelint-config-standard-scss@npm:^14.0.0":
+  version: 14.0.0
+  resolution: "stylelint-config-standard-scss@npm:14.0.0"
+  dependencies:
+    stylelint-config-recommended-scss: ^14.1.0
+    stylelint-config-standard: ^36.0.1
+  peerDependencies:
+    postcss: ^8.3.3
+    stylelint: ^16.11.0
+  peerDependenciesMeta:
+    postcss:
+      optional: true
+  checksum: 5193b61f78f40d88828eb7565adc7b67af65e3e2f6ec52d4482214778269276495b5b5ac7ad7b0a9185ebe42a281f674e190b2ddb9673bd72b1eac5c767006a4
+  languageName: node
+  linkType: hard
+
+"stylelint-config-standard@npm:^36.0.1":
   version: 36.0.1
   resolution: "stylelint-config-standard@npm:36.0.1"
   dependencies:
@@ -4334,7 +4353,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stylelint-prettier@npm:^5.0.2":
+"stylelint-config-standard@npm:^37.0.0":
+  version: 37.0.0
+  resolution: "stylelint-config-standard@npm:37.0.0"
+  dependencies:
+    stylelint-config-recommended: ^15.0.0
+  peerDependencies:
+    stylelint: ^16.13.0
+  checksum: 2fe112448a82a59d39d66f7365a55af4092dc9fef9c31503156c8f281c7e62bd1413029b816d0e516df84316018ea69eee84d0b300f6e6e5f4c2cd083717e6c9
+  languageName: node
+  linkType: hard
+
+"stylelint-prettier@npm:^5.0.3":
   version: 5.0.3
   resolution: "stylelint-prettier@npm:5.0.3"
   dependencies:
@@ -4346,7 +4376,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stylelint-scss@npm:^6.4.0, stylelint-scss@npm:^6.8.1":
+"stylelint-scss@npm:^6.11.1, stylelint-scss@npm:^6.4.0":
   version: 6.11.1
   resolution: "stylelint-scss@npm:6.11.1"
   dependencies:
@@ -4364,9 +4394,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stylelint@npm:^16.10.0":
-  version: 16.15.0
-  resolution: "stylelint@npm:16.15.0"
+"stylelint@npm:^16.16.0":
+  version: 16.16.0
+  resolution: "stylelint@npm:16.16.0"
   dependencies:
     "@csstools/css-parser-algorithms": ^3.0.4
     "@csstools/css-tokenizer": ^3.0.3
@@ -4381,7 +4411,7 @@ __metadata:
     debug: ^4.3.7
     fast-glob: ^3.3.3
     fastest-levenshtein: ^1.0.16
-    file-entry-cache: ^10.0.6
+    file-entry-cache: ^10.0.7
     global-modules: ^2.0.0
     globby: ^11.1.0
     globjoin: ^0.1.4
@@ -4408,7 +4438,7 @@ __metadata:
     write-file-atomic: ^5.0.1
   bin:
     stylelint: bin/stylelint.mjs
-  checksum: 61fcda3f5d7d3c5597b0d7cba86e70e30c377d53eebf3d938e6cc0788c37185333774aefb7f1b8d416bfa7e84be1131df2c19005939b7ffde26968b6abb8c00a
+  checksum: 2261cdaf4283859535020078e15b5b9f726c36c864e2f8dbd62a78df70d6b551bb7c60bdf4557aa78d539364835f952a09b952eb04a09fd9fda00cd2e67010fd
   languageName: node
   linkType: hard
 
@@ -4472,6 +4502,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"tinyglobby@npm:^0.2.12":
+  version: 0.2.12
+  resolution: "tinyglobby@npm:0.2.12"
+  dependencies:
+    fdir: ^6.4.3
+    picomatch: ^4.0.2
+  checksum: ef9357fa1b2b661afdccd315cb4995f5f36bce948faaace68aae85fe57bdd8f837883045c88efc50d3186bac6586e4ae2f31026b9a3aac061b884217e6092e23
+  languageName: node
+  linkType: hard
+
 "to-regex-range@npm:^5.0.1":
   version: 5.0.1
   resolution: "to-regex-range@npm:5.0.1"
@@ -4515,13 +4555,6 @@ __metadata:
   bin:
     uglifyjs: bin/uglifyjs
   checksum: 7ed6272fba562eb6a3149cfd13cda662f115847865c03099e3995a0e7a910eba37b82d4fccf9e88271bb2bcbe505bb374967450f433c17fa27aa36d94a8d0553
-  languageName: node
-  linkType: hard
-
-"unicorn-magic@npm:^0.3.0":
-  version: 0.3.0
-  resolution: "unicorn-magic@npm:0.3.0"
-  checksum: bdd7d7c522f9456f32a0b77af23f8854f9a7db846088c3868ec213f9550683ab6a2bdf3803577eacbafddb4e06900974385841ccb75338d17346ccef45f9cb01
   languageName: node
   linkType: hard
 
