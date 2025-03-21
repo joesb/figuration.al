@@ -21,7 +21,7 @@ I write more about stories, writing, narratology and narrative figuration over o
 
 ---
 
-For my day job, I am a [delivery principal](https://helios360.co.uk/){target=_blank rel="noopener ugc"} and [fractional Chief Delivery Officer](https://helios360.co.uk/fractional/){target=_blank rel="noopener ugc"} for creative agencies and SaaS product businesses, with 25 years' experience in professional services delivery.
+For my day job, I am a [delivery principal](https://helios360.co.uk/){target=_blank rel="noopener ugc"} and [fractional Chief Delivery Officer](https://helios360.co.uk/fractional/){target=_blank rel="noopener ugc"} for creative agencies and SaaS product businesses, with 25 years' experience in professional services and technical delivery.
 
 Find out more on [Helios360.co.uk](https://helios360.co.uk/){target=_blank rel="noopener ugc"}, where I am authoring *[The Chief Delivery Officer's Handbook](https://helios360.co.uk/handbook/){target=_blank rel="noopener ugc"}*, an essential guide to leading delivery projects, teams and programs.
 
