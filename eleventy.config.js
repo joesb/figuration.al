@@ -51,7 +51,7 @@ export default async function(eleventyConfig) {
   eleventyConfig.addPlugin(embedEverything);
 
   eleventyConfig.addPlugin(feedPlugin, {
-		type: "rss", // or "atom", "json"
+		type: "atom", // or "rss", "json"
 		outputPath: "/feed.xml",
 		collection: {
 			name: "posts", // iterate over `collections.posts`
@@ -190,6 +190,10 @@ export default async function(eleventyConfig) {
       else return 0;
     });
   }
+
+  eleventyConfig.addFilter('sort_by_date', function (collection, andSticky = false) {
+    return sortByDate(collection, andSticky);
+  });
 
   // Images
   eleventyConfig.addShortcode("image", async function (src, alt, cls, widths = [300, 620], sizes = "100vh", picCls = "") {
