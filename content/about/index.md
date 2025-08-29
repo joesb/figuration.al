@@ -25,6 +25,6 @@ For my day job, I am a [delivery principal](https://helios360.co.uk/){target=_bl
 
 Find out more on [Helios360.co.uk](https://helios360.co.uk/){target=_blank rel="noopener ugc"}, where I am authoring *[The Chief Delivery Officer's Handbook](https://helios360.co.uk/handbook/){target=_blank rel="noopener ugc"}*, an essential guide to leading delivery projects, teams and programs.
 
-{% socialCard "https://helios360.co.uk/", "Specialist Consulting for Service Delivery | Helios360", "Specialist consulting for service delivery. Fractional Chief Delivery Officer. Delivery leadership for creative agencies and SaaS businesses.", "helios360.co.uk", "https://helios360.co.uk/public/img/_zeTBS41PK-800.jpeg", "Helios360" %}
+{% socialCard "https://helios360.co.uk/", "Delivery leadership consultancy for ambitious businesses | Helios360", "Fractional Chief Delivery Officer. Delivery leadership for creative agencies and SaaS businesses.", "helios360.co.uk", "https://helios360.co.uk/public/img/uQ1uGyfRgT-164.jpeg", "Helios360" %}
 
 See [my Linktree](https://linktr.ee/joesb){target=_blank rel="noopener ugc"} for more.
