@@ -61,16 +61,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@11ty/eleventy-fetch@npm:^5.0.2":
-  version: 5.0.2
-  resolution: "@11ty/eleventy-fetch@npm:5.0.2"
+"@11ty/eleventy-fetch@npm:^5.1.0":
+  version: 5.1.0
+  resolution: "@11ty/eleventy-fetch@npm:5.1.0"
   dependencies:
+    "@11ty/eleventy-utils": ^2.0.7
     "@rgrove/parse-xml": ^4.2.0
-    debug: ^4.3.7
-    flat-cache: ^6.1.1
-    graceful-fs: ^4.2.11
+    debug: ^4.4.0
+    flatted: ^3.3.3
     p-queue: 6.6.2
-  checksum: c6fa41b2d4383b1fad560ee6f9b65e346dde44cb5fd8321308d0ea989e8679258c43dfabab82348e72fcaf6738251e7cae18e376d1d5bc2dacb3e14a540f0e99
+  checksum: 528c874d5b55973cf9cf96abc716481570bf3a6a1ca3001b6e2e1d4cf45771c2deb9476ca1dc10c504795cfd05d130a97343a176b972109ac1f0c6e5e14b8989
   languageName: node
   linkType: hard
 
@@ -89,19 +89,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@11ty/eleventy-img@npm:^6.0.1":
-  version: 6.0.1
-  resolution: "@11ty/eleventy-img@npm:6.0.1"
+"@11ty/eleventy-img@npm:^6.0.4":
+  version: 6.0.4
+  resolution: "@11ty/eleventy-img@npm:6.0.4"
   dependencies:
-    "@11ty/eleventy-fetch": ^5.0.2
-    "@11ty/eleventy-utils": ^2.0.0
+    "@11ty/eleventy-fetch": ^5.1.0
+    "@11ty/eleventy-utils": ^2.0.7
     brotli-size: ^4.0.0
     debug: ^4.4.0
     entities: ^6.0.0
-    image-size: ^1.2.0
+    image-size: ^1.2.1
     p-queue: ^6.6.2
     sharp: ^0.33.5
-  checksum: 9184391383d3c389249760aff4f9bade4c4c775001e752e8e5d612f88e160e70b982a629f9f3c7b76d78e89c2bd1d785d5a7a686711594c7b922aa909ed0458a
+  checksum: 803f676b16ab688184b1f0727447860984b310b03fa78eba66d9cf754555e01e5dfa796cf3fb2fbc4be066b63db822c94874c2f9943043800f762fd827d6228c
   languageName: node
   linkType: hard
 
@@ -149,6 +149,13 @@ __metadata:
   version: 2.0.1
   resolution: "@11ty/eleventy-utils@npm:2.0.1"
   checksum: 7a6880cc3f80d47c9414385ad13ab8e5765cbaf0425b0a80a71b93d557997dc615973390a9151cb5bc2ca7ca17be2b23a999831b9218534bbd04ce154e9532df
+  languageName: node
+  linkType: hard
+
+"@11ty/eleventy-utils@npm:^2.0.7":
+  version: 2.0.7
+  resolution: "@11ty/eleventy-utils@npm:2.0.7"
+  checksum: 2cf84336be1f30ee26ed1014fe4900b97b115ff1affa893acdd6d77fa95c38efafb6c06f4d38e8a919d99ffa7219d38ba46d265dd84a6db1726124cf5bf5d4a5
   languageName: node
   linkType: hard
 
@@ -1937,7 +1944,7 @@ __metadata:
   resolution: "figuration.al@workspace:."
   dependencies:
     "@11ty/eleventy": ^3.0.0
-    "@11ty/eleventy-img": ^6.0.1
+    "@11ty/eleventy-img": ^6.0.4
     "@11ty/eleventy-navigation": ^0.3.5
     "@11ty/eleventy-plugin-rss": ^2.0.3
     "@types/markdown-it": ^14.1.2
@@ -2023,7 +2030,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"flat-cache@npm:^6.1.1, flat-cache@npm:^6.1.7":
+"flat-cache@npm:^6.1.7":
   version: 6.1.7
   resolution: "flat-cache@npm:6.1.7"
   dependencies:
@@ -2394,7 +2401,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"image-size@npm:^1.1.1, image-size@npm:^1.2.0":
+"image-size@npm:^1.1.1":
   version: 1.2.0
   resolution: "image-size@npm:1.2.0"
   dependencies:
@@ -2402,6 +2409,17 @@ __metadata:
   bin:
     image-size: bin/image-size.js
   checksum: 6264ae22ea6f349480c5305f84cd1e64f9757442abf4baac79e29519cba38f7ccab90488996e5e4d0c232b2f44dc720576fdf3e7e63c161e49eb1d099e563f82
+  languageName: node
+  linkType: hard
+
+"image-size@npm:^1.2.1":
+  version: 1.2.1
+  resolution: "image-size@npm:1.2.1"
+  dependencies:
+    queue: 6.0.2
+  bin:
+    image-size: bin/image-size.js
+  checksum: 8601ddd4edc1db16f097f5cf585c23214e29c3b8f4d8a8f8d59b8e3bae2338c8a5073236bfff421d8541091a98a38b802ed049203c745286a69d1aac4e5bc4c7
   languageName: node
   linkType: hard
 
