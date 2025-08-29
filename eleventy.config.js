@@ -238,7 +238,7 @@ export default async function(eleventyConfig) {
   rel="noopener ugc nofollow" target="_blank">
   <div class="social-card--inner">
     <div class="social-card-caption">
-      <h2 class="social-card-caption-title h5-style text-black">${ title }</h2>
+      <h2 class="heading-wide social-card-caption-title h5-style text-black">${ title }</h2>
       <div class="social-card-caption-description">
         <h3 class="h6-style not-bold primary-font text-grey-dark social-card-caption-description--description">${ description }</h3>
       </div>
