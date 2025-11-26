@@ -80,7 +80,7 @@ Ricoeur offers three ways in which emplotment mediates.
 ## 1. Mediating between individual events or actions and the plot as a whole
 
 {% figure 'Mediating between the parts and the whole: a deconstructed typewriter. Photo by <a href="https://unsplash.com/@florianklauer?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank" rel="noopener ugc nofollow">Florian Klauer</a> on <a href="https://unsplash.com/photos/aligned-black-and-gray-metal-equipment-part-high-angle-photo--K6JMRMj4x4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank" rel="noopener ugc nofollow">Unsplash</a>', "content-canvas-item-wide" %}
-{% image "https://images.unsplash.com/27/type-set.jpg?q=80&w=2968&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "Aligned black and gray metal components of a typewriter part, high-angle photo", "image-obj-cover", image.widths %}
+{% image "content/public/images/pages/florian-klauer--K6JMRMj4x4-unsplash.jpg", "Aligned black and gray metal components of a typewriter part, high-angle photo", "image-obj-cover", image.widths %}
 {% endfigure %}
 
 Firstly, it mediates between individual events or actions and the plot as a whole. It makes a meaningful narrative *from* an assortment of events.^3^ Or, conversely, emplotment draws together a set of diverse events into a meaningful whole to create a story.^4^
@@ -95,7 +95,7 @@ At the same time, the whole story cannot be just a collection of events put in a
 ## 2. Mediating between characters, events and actions to develop the plot
 
 {% figure 'Mediating between the characters and the plot: young people at a festival. Photo by <a href="https://unsplash.com/@aranxa_esteve?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank" rel="noopener ugc nofollow">Aranxa Esteve</a> on <a href="https://unsplash.com/photos/group-of-people-on-grass-field-under-sunny-day-pOXHU0UEDcg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank" rel="noopener ugc nofollow">Unsplash</a>', "content-canvas-item-wide" %}
-{% image "https://images.unsplash.com/photo-1472653816316-3ad6f10a6592?q=80&w=2740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "Group of people on a grassy field on a sunny day", "image-obj-cover", image.widths %}
+{% image "content/public/images/pages/aranxa-esteve-pOXHU0UEDcg-unsplash.jpg", "Group of people on a grassy field on a sunny day", "image-obj-cover", image.widths %}
 {% endfigure %}
 
 Secondly, emplotment draws together agents, events, actions, goals, results, circumstances, and so on such that they work in synchrony to develop the plot.
@@ -108,7 +108,7 @@ Mediating between these diverse elements enables initially simple plot configura
 ## 3. Mediating through temporality: judging and selecting
 
 {% figure 'Mediating through temporality: which events are meaningful? Photo by <a href="https://unsplash.com/@airputihsehat?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank" rel="noopener ugc nofollow">Nataniel Susantoputra</a> on <a href="https://unsplash.com/photos/man-and-woman-walking-while-holding-hands-during-daytime-rJctOLt1CAQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank" rel="noopener ugc nofollow">Unsplash</a>', "content-canvas-item-wide" %}
-{% image "https://images.unsplash.com/photo-1505426101273-b50e6f3ff9a7?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "Man and woman walking while holding hands during daytime", "image-obj-cover", image.widths %}
+{% image "content/public/images/pages/nataniel-susantoputra-rJctOLt1CAQ-unsplash.jpg", "Man and woman walking while holding hands during daytime", "image-obj-cover", image.widths %}
 {% endfigure %}
 
 Thirdly, emplotment is able to mediate through its temporal characteristics. Emplotment includes ‘in variable proportions’ two temporal qualities, ‘one chronological and the other not.’^7^
@@ -136,7 +136,7 @@ So much for the interaction of mimesis 1, prefiguration, into mimesis 2, configu
 # Schematism, and the productive imagination
 
 {% figure 'Photo by <a href="https://unsplash.com/@cuellar?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank" rel="noopener ugc nofollow">Jose Maria Cuellar</a> on <a href="https://unsplash.com/photos/shallow-focus-photography-of-white-and-teal-die-cast-volkswagen-samba-with-sunlight-BsZiWWqI5As?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank" rel="noopener ugc nofollow">Unsplash</a>', "content-canvas-item-wide" %}
-{% image "https://images.unsplash.com/photo-1470479111431-ad67d645dd70?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "Shallow focus photography of white and teal die-cast Volkswagen Samba with sunlight", "image-obj-cover", image.widths %}
+{% image "content/public/images/pages/jose-maria-cuellar-BsZiWWqI5As-unsplash.jpg", "Shallow focus photography of white and teal die-cast Volkswagen Samba with sunlight", "image-obj-cover", image.widths %}
 {% endfigure %}
 
 The first feature, *schematism*, illustrates the close relation of metaphor and narrative in hermeneutics, in particular because the act of grasping together diverse events into a meaningful and intelligible whole engages the *productive imagination* in a profoundly synthetic manner.

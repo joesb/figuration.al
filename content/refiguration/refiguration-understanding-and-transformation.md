@@ -127,7 +127,7 @@ By developing this discussion it is then possible to extrapolate from Ricoeur’
 ## Mimetic Circularity
 
 {% figure 'Photo by <a href="https://unsplash.com/@nhoizey?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" rel="noopener ugc nofollow" target="_blank">Nicolas Hoizey</a> on <a href="https://unsplash.com/photos/aerial-view-of-spiral-stairway-building-z3v__zzp22U?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" rel="noopener ugc nofollow" target="_blank">Unsplash</a>', "content-canvas-item-wide" %}
-{% image "https://images.unsplash.com/photo-1507671135563-4ef600e03179?q=80&w=4140&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "Aerial view of the Bramante Staircase, a double-helix spiral staircase in the Vatican Museums", "image-obj-cover", image.widths %}
+{% image "content/public/images/pages/nicolas-hoizey-z3v__zzp22U-unsplash.jpg", "Aerial view of the Bramante Staircase, a double-helix spiral staircase in the Vatican Museums", "image-obj-cover", image.widths %}
 {% endfigure %}
 
 With the movement from *prefiguration* to *refiguration* via *configuration* there is an inevitable concern over circularity, that the ending point is no further from the starting point, or worse still that the end point is already present at the beginning in some way.^7^ If this were so then all that would exist is a vicious circle of words, no use to anyone.^8^
@@ -152,7 +152,7 @@ The circularity of the mimetic arc is not problematic. Rather it is *immensely p
 ## Configuration, Refiguration and Reading
 
 {% figure 'Photo by <a href="https://unsplash.com/@jilburr?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" rel="noopener ugc nofollow" target="_blank">Jilbert Ebrahimi</a> on <a href="https://unsplash.com/photos/man-reading-a-books-HAwA1N2gjo8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" rel="noopener ugc nofollow" target="_blank">Unsplash</a>', "content-canvas-item-wide" %}
-{% image "https://images.unsplash.com/photo-1456315138460-858d1089ddba?q=80&w=4140&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "Old man reading a book", "image-obj-cover", image.widths %}
+{% image "content/public/images/pages/jilbert-ebrahimi-HAwA1N2gjo8-unsplash.jpg", "Old man reading a book", "image-obj-cover", image.widths %}
 {% endfigure %}
 
 I described previously that, for Ricoeur, [emplotment is the transition between mimesis 1 and mimesis 2](/configuration/configuration-and-narrative-emplotment/). In a similar way, he argues that *reading* is the transition between mimesis 2 and mimesis 3.
@@ -175,7 +175,7 @@ And in reading the reader ‘completes’ the work, since the text provides a �
 ## Reference
 
 {% figure 'Photo by <a href="https://unsplash.com/@prasannasnap?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" rel="noopener ugc nofollow" target="_blank">Prasanna Kumar</a> on <a href="https://unsplash.com/photos/person-holding-book-Bv48XbNtXX4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" rel="noopener ugc nofollow" target="_blank">Unsplash</a>', "content-canvas-item-wide" %}
-{% image "https://images.unsplash.com/photo-1488868783914-7948d1e61670?q=80&w=4034&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "Close-up of a hand holding a book whilst a person is reading", "image-obj-cover", image.widths %}
+{% image "content/public/images/pages/prasanna-kumar-Bv48XbNtXX4-unsplash.jpg", "Close-up of a hand holding a book whilst a person is reading", "image-obj-cover", image.widths %}
 {% endfigure %}
 
 The notion of reading is the beginning of a fully-fledged description of mimesis 3, as far as Ricoeur is concerned. The interaction between the reader and the text demands that both have their feet under the table. A theory of reception (i.e. the ways that stories have been read throughout their history) must, however, also incorporate an understanding of reference if it is to have any merit, for ‘[i]f narrative did not have this *referential* function, its purpose would be lost, and we would not “understand” it in any deep sense.’^22^
@@ -206,7 +206,7 @@ In my field of Biblical Studies, in the [Parable of the Unforgiving Servant (Mat
 Kevin Vanhoozer is wary of the notion of ‘being as,’ concerned that its ambiguity allows Ricoeur to fall down the slippery slope to ‘as if’ that privileges the poetic over the actual and fiction over history.^33^ As a theologically motivated reader, this makes Vanhoozer nervous because he perceives that it would allow the Gospels to be read as fictions not as histories, even to the point of destabilising a historical root or claims to literality in the canonical narratives of Jesus.^34^ I shall explore this in further depth in future posts on criticisms of Ricoeur’s theory of narrative, but for now it raises a question about whether Ricoeur privileges fiction over history.
 
 {% figure 'Photo by <a href="https://unsplash.com/@nickkarvounis?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" rel="noopener ugc nofollow" target="_blank">Nick Karvounis</a> on <a href="https://unsplash.com/photos/woman-wearing-red-and-white-fur-coat-fXGssuqcQbs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" rel="noopener ugc nofollow" target="_blank">Unsplash</a>' %}
-{% image "https://images.unsplash.com/photo-1508326099804-190c33bd8274?q=80&w=3370&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "Woman in historical costume of Elizabethan England, wearing red and white fur coat", "image-obj-cover", image.widths %}
+{% image "content/public/images/pages/nick-karvounis-fXGssuqcQbs-unsplash.jpg", "Woman in historical costume of Elizabethan England, wearing red and white fur coat", "image-obj-cover", image.widths %}
 {% endfigure %}
 
 The metaphoric quality of poetic works, including narratives, means that the world of the text includes descriptive and non-descriptive references. The point of this is not that hermeneutics should expose the author’s intention behind the text but that it exposes the ‘movement by which the text unfolds, as it were, a world in front of itself.’^35^
@@ -227,7 +227,7 @@ Fictional narratives, on the other hand, share the notion of the trace, written 
 ## Narrated Time
 
 {% figure 'The drip of a tap takes a moment. The poetic, narrative description of a drip can takes pages. Photo by <a href="https://unsplash.com/@luis_tosta?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" rel="noopener ugc nofollow" target="_blank">Luis Tosta</a> on <a href="https://unsplash.com/photos/tilt-shift-lens-photography-of-black-steel-faucet-SVeCm5KF_ho?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" rel="noopener ugc nofollow" target="_blank">Unsplash</a>' %}
-{% image "https://images.unsplash.com/photo-1495647688236-ed6ef40cb28b?q=80&w=3500&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "Tilt shift lens photography of black steel faucet dripping water", "image-obj-cover", image.widths %}
+{% image "content/public/images/pages/luis-tosta-SVeCm5KF_ho-unsplash.jpg", "Tilt shift lens photography of black steel faucet dripping water", "image-obj-cover", image.widths %}
 {% endfigure %}
 
 To speak of the intermingling of historical and fictional narrative in the realm of human action requires that the *temporal* dimension is properly understood, Ricoeur argues. And in order to understand the temporal dimension of narrative it is necessary to discuss the *aporetic* character of a pure phenomenology of time.^39^
