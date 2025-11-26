@@ -60,7 +60,7 @@ Indeed, Paul Ricoeur suggests even more strongly that literary engagements with 
 ## Narrative and figuration
 
 {% figure 'Photo by <a href="https://unsplash.com/@matthewhenry?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank" rel="noopener ugc nofollow">Matthew Henry</a> on <a href="https://unsplash.com/photos/person-holding-dog-collar-beside-wall-v41pwp_RRJU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank" rel="noopener ugc nofollow">Unsplash</a>', "content-canvas-item-wide" %}
-{% image "https://images.unsplash.com/reserve/de9uL9L7RSmzV4SAoAO5_Lauren%20and%20Winona%20Under%20a%20pass-1.jpg?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "Person holding dog collar beside wall", "image-obj-cover", image.widths %}
+{% image "content/public/images/pages/matthew-henry-v41pwp_RRJU-unsplash.jpg", "Person holding dog collar beside wall", "image-obj-cover", image.widths %}
 {% endfigure %}
 
 My particular interest in narrative studies has been Paul Ricoeur's theory of narrative, set out largely in his seminal work, *Time and Narrative*.^5^ *Time and Narrative* is Ricoeur's investigation of the philosophical 'problem' of time — what actually is it, and how do we human beings come to terms with it? — and he argues that stories are the things that we use to understand time.
