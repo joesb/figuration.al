@@ -60,7 +60,7 @@
   "dependencies": {
     "@types/markdown-it": "^14.1.2",
     "react": "^19.2.1",
-    "react-dom": "^19.2.1",
+    "react-dom": "^19.2.3",
     "resend": "^6.6.0"
   },
   "packageManager": "yarn@3.8.7"
