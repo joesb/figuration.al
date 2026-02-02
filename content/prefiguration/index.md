@@ -1,5 +1,6 @@
 ---
 title: "Prefiguration: Narrative Growth"
+excerpt: "Prefiguration is the first moment of mimetic narrative, all about our pre-existing experience and our expectations."
 layout: section.njk
 section: prefiguration
 eleventyNavigation:

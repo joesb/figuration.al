@@ -1,5 +1,6 @@
 ---
 title: "Configuration: Emplotment"
+excerpt: "Configuration is the third moment of narrative, all about emplotment — characters, events and the point of a story"
 layout: section.njk
 eleventyNavigation:
   key: Configuration

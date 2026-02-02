@@ -1,6 +1,6 @@
 ---
 title: "Refiguration: Restored to the Real World"
-excerpt: ""
+excerpt: "Refiguration is the third movement of narrative — the story is restored to the real world of action and suffering"
 layout: section.njk
 eleventyNavigation:
   key: Refiguration

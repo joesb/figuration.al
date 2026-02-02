@@ -12,7 +12,7 @@ page:
 
       {% if excerpt %}
       <div class="page-subtitle{% if page.classes.length and 'page--with-hero' in page.classes %} content-canvas-item-full content-canvas {% else %} content-canvas-item-wide-left{% endif %}">
-        <h2 class="page-subtitle--subtitle{% if page.classes.length and 'page--with-hero' in page.classes %} content-canvas-item-wide-left{% endif %}{% if subtitleStyle %} {{ subtitleStyle }}{% endif %}">{{ excerpt | safe }}</h2>
+        <h2 class="page-subtitle--subtitle{% if page.classes.length and 'page--with-hero' in page.classes %} content-canvas-item-wide-left{% endif %}{% if subtitleStyle %} {{ subtitleStyle }}{% endif %}">{{ excerpt | markdown | safe }}</h2>
       </div>
       {% endif %}
 

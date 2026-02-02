@@ -1,6 +1,7 @@
 ---
 title: What is figuration?
-excerpt: What's in a story?
+excerpt: |
+  What's a story? Configuring events into a meaningful whole through emplotment — shaping elements into a complete unit that mediates between the reader’s pre- and post-understanding
 layout: page.njk
 eleventyNavigation:
   key: What is figuration?
