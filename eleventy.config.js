@@ -191,8 +191,14 @@ export default async function(eleventyConfig) {
     });
   }
 
-  eleventyConfig.addFilter('sort_by_date', function (collection, andSticky = false) {
+  eleventyConfig.addFilter('sortByDate', function (collection, andSticky = false) {
     return sortByDate(collection, andSticky);
+  });
+
+  eleventyConfig.addFilter('excludePages', (collection, excludedURLs = []) => {
+    return collection.filter((item) => {
+      return excludedURLs.includes(item.url) ? 0 : 1;
+    });
   });
 
   // Images
@@ -296,6 +302,13 @@ export default async function(eleventyConfig) {
   eleventyConfig.addWatchTarget('./src/sass/');
   // Put robots.txt in root
   eleventyConfig.addPassthroughCopy({ 'content/robots.txt': '/robots.txt' });
+
+  // IndexNow key
+  eleventyConfig.addPassthroughCopy('content/8ed92b6a34034a64a0955ce19ecc6962.txt');
+
+  if (process.env.ELEVENTY_ENV !== 'local') {
+    eleventyConfig.ignores.add('content/indexnow.njk');
+  }
 };
 
 export const config = {

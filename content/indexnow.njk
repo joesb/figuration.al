@@ -1,0 +1,17 @@
+---
+permalink: /indexnow.sh
+layout:
+eleventyExcludeFromCollections: true
+excludeURLs:
+  - /podcast/hire/
+---
+curl -i -X POST https://api.indexnow.org/IndexNow \
+  -H "Content-Type: application/json; charset=utf-8" \
+  -d '{
+    "host": "{{ metadata.host }}",
+    "key":"8ed92b6a34034a64a0955ce19ecc6962",
+    "keyLocation": "{{ "8ed92b6a34034a64a0955ce19ecc6962.txt" | url | absoluteUrl(metadata.url) }}",
+    "urlList": [{% for page in collections.all | excludePages(excludeURLs) | sortByDate(false) | reverse %}{% if page.data.pending !== true %}
+      "{{ page.url | url | absoluteUrl(metadata.url) }}"{% if not loop.last %},{% endif %}{% endif %}{% endfor %}
+    ]
+  }'
