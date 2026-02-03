@@ -34,7 +34,7 @@ import autoprefixer from "autoprefixer";
 import UglifyJS from "uglify-js";
 import Image from "@11ty/eleventy-img";
 import { eleventyImageOnRequestDuringServePlugin } from "@11ty/eleventy-img";
-
+import dotenv from "dotenv/config";
 
 /** @param {import("@11ty/eleventy").UserConfig} eleventyConfig */
 export default async function(eleventyConfig) {
