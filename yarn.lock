@@ -1829,7 +1829,7 @@ __metadata:
     prettier: "npm:^3.8.1"
     react: "npm:^19.2.4"
     react-dom: "npm:^19.2.4"
-    resend: "npm:^6.9.2"
+    resend: "npm:^6.9.4"
     rimraf: "npm:^6.1.3"
     sass: "npm:^1.97.3"
     sass-autoprefixer: "npm:^1.0.1"
@@ -3552,18 +3552,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"resend@npm:^6.9.2":
-  version: 6.9.2
-  resolution: "resend@npm:6.9.2"
+"resend@npm:^6.9.4":
+  version: 6.9.4
+  resolution: "resend@npm:6.9.4"
   dependencies:
     postal-mime: "npm:2.7.3"
-    svix: "npm:1.84.1"
+    svix: "npm:1.86.0"
   peerDependencies:
     "@react-email/render": "*"
   peerDependenciesMeta:
     "@react-email/render":
       optional: true
-  checksum: 10/a54c9a9f916c01fdbe5b2f55abb9be06b7aa93664b8322940b31c541ba648cb91902e46d26801f3a7d4a23efb8a4a6bc2ca51e71e7ec081d2d5e0093521defb0
+  checksum: 10/6a55a2670d21c194a2a9371e4dd7886194bf27ac17706e21c5f831e7bff12a58664492f6e00258c556526cb3e46a678513d8c06ceb0bf4e7ebcf2e40c6763917
   languageName: node
   linkType: hard
 
@@ -4118,13 +4118,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"svix@npm:1.84.1":
-  version: 1.84.1
-  resolution: "svix@npm:1.84.1"
+"svix@npm:1.86.0":
+  version: 1.86.0
+  resolution: "svix@npm:1.86.0"
   dependencies:
     standardwebhooks: "npm:1.0.0"
     uuid: "npm:^10.0.0"
-  checksum: 10/2d50888d7131add81ea4d23ec90cc2b4866247826f5ebdb21614951f60117791b1d335269296a889758c0261b9bbeebe25b0d5d881fac2c072b75cb0b24187e6
+  checksum: 10/ed32f202987b3ce221d9ad9a1d23e1aaa0575bd0e04ba552f0facdc98319b0118a6b60451079e187e862585acb271182d8fcd6c550dc33c85448eb7938999742
   languageName: node
   linkType: hard
 
