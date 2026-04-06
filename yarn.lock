@@ -1400,10 +1400,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dotenv@npm:^17.3.1":
-  version: 17.3.1
-  resolution: "dotenv@npm:17.3.1"
-  checksum: 10/4dde6571dff22c2323a3e33ac25e1e7d51c4b6d60dc884f59e3efe85c8fd3cc8800d6b3925d05c46b19dca08cba821a0a24e22f75a1b9b768c859b98bb927b04
+"dotenv@npm:^17.4.1":
+  version: 17.4.1
+  resolution: "dotenv@npm:17.4.1"
+  checksum: 10/addbff54aed55b80b5d4527ba0a221a63718835c10a2ed7d949f5caeab96995796a4c88f30263724aa71014aa4e3092a1ef551559ddef44d68c429494e13ff68
   languageName: node
   linkType: hard
 
@@ -1810,7 +1810,7 @@ __metadata:
     "@types/markdown-it": "npm:^14.1.2"
     autoprefixer: "npm:^10.4.27"
     clean-css: "npm:^5.3.3"
-    dotenv: "npm:^17.3.1"
+    dotenv: "npm:^17.4.1"
     eleventy-plugin-embed-everything: "npm:^1.21.2"
     eleventy-plugin-time-to-read: "npm:^1.3.0"
     html-minifier: "npm:^4.0.0"
