@@ -2491,14 +2491,14 @@ __metadata:
   linkType: hard
 
 "liquidjs@npm:^10.25.0":
-  version: 10.25.5
-  resolution: "liquidjs@npm:10.25.5"
+  version: 10.27.0
+  resolution: "liquidjs@npm:10.27.0"
   dependencies:
     commander: "npm:^10.0.0"
   bin:
     liquid: bin/liquid.js
     liquidjs: bin/liquid.js
-  checksum: 10/9a33dff0f1a170d1aa90147acf07b6cbb6e814d1ce5a02c72a59044c939541ab2fe2b7f553098dca0c95a9e5bc247bf1d221afd6172becce3b9abeeeaedb1b08
+  checksum: 10/3ba49163156d944be80b255c0cb5c43d7058af914b66f9f83ae5d51a219a3dd985e594f39d354b30c5e9723fa9a69dfac4e8be8432bf9ab2151b677fae030651
   languageName: node
   linkType: hard
 
@@ -3221,18 +3221,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:^8.5.14":
-  version: 8.5.14
-  resolution: "postcss@npm:8.5.14"
-  dependencies:
-    nanoid: "npm:^3.3.11"
-    picocolors: "npm:^1.1.1"
-    source-map-js: "npm:^1.2.1"
-  checksum: 10/2e3f4dea69692918fe9df5402beb0e54df84499995a094f2fbf63d1a9e38bc1b7a42854df47f09e02593213e01a5eb0627b1d1bd6d1b0ea90767b2e072f7167c
-  languageName: node
-  linkType: hard
-
-"postcss@npm:^8.5.13":
+"postcss@npm:^8.5.13, postcss@npm:^8.5.14":
   version: 8.5.14
   resolution: "postcss@npm:8.5.14"
   dependencies:
