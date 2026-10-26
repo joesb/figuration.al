@@ -1787,7 +1787,7 @@ __metadata:
     html-minifier: "npm:^4.0.0"
     luxon: "npm:^3.7.2"
     markdown-it: "npm:^14.3.3"
-    markdown-it-anchor: "npm:^9.2.0"
+    markdown-it-anchor: "npm:^10.0.0"
     markdown-it-attrs: "npm:^4.3.1"
     markdown-it-eleventy-img: "npm:^0.10.2"
     markdown-it-small: "npm:^1.0.0"
@@ -2580,13 +2580,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"markdown-it-anchor@npm:^9.2.0":
-  version: 9.2.0
-  resolution: "markdown-it-anchor@npm:9.2.0"
+"markdown-it-anchor@npm:^10.0.0":
+  version: 10.0.0
+  resolution: "markdown-it-anchor@npm:10.0.0"
   peerDependencies:
     "@types/markdown-it": "*"
     markdown-it: "*"
-  checksum: 10/ececb857a621946be9da08a9abdec98b954fa2f14493261293bf1868146f840d419042be7028317851940ecb7f6d2db318916d13bd38c9d398507c7802d6f70f
+  checksum: 10/557c7e307b02399eb54a6b044c06780d4c67cc14e7e45f9d1f875b95b242c634b5e45e90fdf70785908640c4dc9ce27edd28da3f9e3faa3d0c27a2c5c26900eb
   languageName: node
   linkType: hard
 
