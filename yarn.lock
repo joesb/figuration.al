@@ -1798,7 +1798,7 @@ __metadata:
     prettier: "npm:^3.9.10"
     react: "npm:^19.2.6"
     react-dom: "npm:^19.3.1"
-    resend: "npm:^6.12.3"
+    resend: "npm:^6.34.1"
     rimraf: "npm:^6.1.3"
     sass: "npm:^1.99.0"
     sass-autoprefixer: "npm:^1.0.1"
@@ -3132,10 +3132,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postal-mime@npm:2.7.4":
-  version: 2.7.4
-  resolution: "postal-mime@npm:2.7.4"
-  checksum: 10/ba75fd12ab05dd44de5d87f3a7865078d94a41ea2ad22f028ee0aa7f934dd6a339db4c7877fae7abe5eefdfd7728d52d22b9d981adc465bebaca0a30481bd948
+"postal-mime@npm:2.7.6":
+  version: 2.7.6
+  resolution: "postal-mime@npm:2.7.6"
+  checksum: 10/192001ce0b6256c15e67840651a9a032ccfecf4071800e03d9f3517e4b4e5a1cc9cdacdbc6711c5e4ed184f4791061e5232b3a1f6c278b3e97b889d6a24a9686
   languageName: node
   linkType: hard
 
@@ -3450,18 +3450,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"resend@npm:^6.12.3":
-  version: 6.12.3
-  resolution: "resend@npm:6.12.3"
+"resend@npm:^6.34.1":
+  version: 6.34.1
+  resolution: "resend@npm:6.34.1"
   dependencies:
-    postal-mime: "npm:2.7.4"
-    svix: "npm:1.92.2"
+    postal-mime: "npm:2.7.6"
+    standardwebhooks: "npm:1.1.1"
   peerDependencies:
     "@react-email/render": "*"
   peerDependenciesMeta:
     "@react-email/render":
       optional: true
-  checksum: 10/4448f2e258fcc87aec66735e62bb69987bccab24f2edfaf1375c864bb9acddf1c3a7877cd5ad4f1fc3753f38dea87fe30e2e5f210fec09b1f4a6bae4119ed215
+  checksum: 10/d812a1863901369b38e9458c0b18dbd4a2d643321f6748e90110954a266179c6dc8cf2c112fb19f7f6c6537ce6ce25456634687aae2c2aa759ac931996c1f11c
   languageName: node
   linkType: hard
 
@@ -3787,13 +3787,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"standardwebhooks@npm:1.0.0":
-  version: 1.0.0
-  resolution: "standardwebhooks@npm:1.0.0"
+"standardwebhooks@npm:1.1.1":
+  version: 1.1.1
+  resolution: "standardwebhooks@npm:1.1.1"
   dependencies:
     "@stablelib/base64": "npm:^1.0.0"
     fast-sha256: "npm:^1.3.0"
-  checksum: 10/02b74a3e4cd131affe8bf18945360747a5a0bf81c1d62a7bbbea3d40976b4fef4bb37de71a35cdc0fdc4d6f0d951a3b6031052e78bd086dc9b09b629b82d3919
+  checksum: 10/50d1f5b923eacfc7a78ad45c3364f3879d47a6f2231c96c7d8efec8153f5405f847ee3d7b990fa22c1c0ed208beadba8777688c34b5c9a88b4004bb81a512400
   languageName: node
   linkType: hard
 
@@ -4027,15 +4027,6 @@ __metadata:
   version: 1.0.0
   resolution: "svg-tags@npm:1.0.0"
   checksum: 10/407e5ef87cfa2fb81c61d738081c2decd022ce13b922d035b214b49810630bf5d1409255a4beb3a940b77b32f6957806deff16f1bf0ce1ab11c7a184115a0b7f
-  languageName: node
-  linkType: hard
-
-"svix@npm:1.92.2":
-  version: 1.92.2
-  resolution: "svix@npm:1.92.2"
-  dependencies:
-    standardwebhooks: "npm:1.0.0"
-  checksum: 10/5509f3380de4e411390027b16d414ea6224255004a71967d4ca0a1927ef629539839136da38d22a1811e9ae2714e08e162bb675ea21294e068db22c12a0e02f5
   languageName: node
   linkType: hard
 
